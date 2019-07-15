@@ -12,14 +12,13 @@
    <nav class="header__menu"></nav>
    <h1 class="header__title">Попутчики</h1>
  </header>
- <main  class="main__wrapper">
+ <main  class="wrapper">
   <section class="countries-filter">
     <h2 class="countries-filter__title">Фильтрация по странам</h2>
     <div class="countries-filter__menu"></div>
     <form class="countries-filter__form" method="get" action="https://echo.htmlacademy.ru">
       <h3 class="countries-filter__form--title">Подберите идеального попутчика</h3>
       <h4 class="countries-filter__form--header">хобби</h4>
-
       <h4 class="countries-filter__form--header">музыка</h4>
       <p class="countries-filter__form--music">
         <label class="countries-filter__form--label">Тяжелый рок
@@ -34,19 +33,19 @@
       </p>
       <h4 class="countries-filter__form--header">еда</h4>
       <h4 class="countries-filter__form--header">транспорт</h4>
-      <div class="countries-filter--transport">
-        <img class="countries-filter--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
-        <img class="countries-filter--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
-        <img class="countries-filter--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+      <div class="countries-filter__transport">
+        <img class="countries-filter__transport--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+        <img class="countries-filter__transport--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+        <img class="countries-filter__transport--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
         Велосипед">
-        <img class="countries-filter--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+        <img class="countries-filter__transport--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
       </div>
-      <button type="submit">Показать</button>
+      <button lass="button button--show" type="submit">Показать</button>
     </form>
   </section>
   <section class="companion">
     <h2 class="visually-hidden">Список компаньонов</h2>
-    <div class="companion__item companion__indicator-offline">
+    <div class="companion__item companion__item--offline">
       <div class="companion__item--header">
         <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
         <div class="companion__item--name">Таня Фирсова</div>
@@ -83,7 +82,7 @@
       </div>
       <button type="button">Позвать!</button>
     </div>
-    <div class="companion__item companion__indicator-offline">
+    <div class="companion__item companion__item--offline">
       <div class="companion__item--header">
         <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
         <div class="companion__item--name">Петя Демин</div>
@@ -115,7 +114,7 @@
       </div>
       <button type="button">Позвать!</button>
     </div>
-    <div class="companion__item companion__indicator-offline">
+    <div class="companion__item companion__item--offline">
       <div class="companion__item--header">
         <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
         <div class="companion__item--name">Марк Смолов</div>
@@ -152,7 +151,7 @@
       </div>
       <button type="button">Позвать!</button>
     </div>
-    <div class="companion__item companion__indicator-online">
+    <div class="companion__item companion__item--online">
       <div class="companion__item--header">
         <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
         <div class="companion__item--name">Лариса Роговая</div>
@@ -192,7 +191,6 @@
       <a class="pagination__arrow--left" href="">left</a>
       <a class="pagination__arrow--right" href="">right</a>
     </div>
-
   </section>
 </main>
 <footer class="footer">
