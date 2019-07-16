@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Погнали? Каталог</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+   <img class="header__logo" src="http://placehold.it/100x19" width="100" height="19" alt="Logo">
+   <nav class="header__menu"></nav>
+   <h1 class="header__title">Попутчики</h1>
+ </header>
+ <main  class="wrapper">
+  <section class="countries-filter">
+    <h2 class="countries-filter__title">Фильтрация по странам</h2>
+    <div class="countries-filter__menu"></div>
+    <form class="countries-filter__form" method="get" action="https://echo.htmlacademy.ru">
+      <h3 class="countries-filter__form--title">Подберите идеального попутчика</h3>
+      <h4 class="countries-filter__form--header">хобби</h4>
+      <h4 class="countries-filter__form--header">музыка</h4>
+      <p class="countries-filter__form--music">
+        <label class="countries-filter__form--label">Тяжелый рок
+          <input class="countries-filter__form--input" type="radio" name="rock">
+        </label>
+        <label class="countries-filter__form--label">Русский рэп
+          <input class="countries-filter__form--input" type="radio" name="rap">
+        </label>
+        <label class="countries-filter__form--label">Евроденс
+          <input class="countries-filter__form--input" type="radio" name="evrodance">
+        </label>
+      </p>
+      <h4 class="countries-filter__form--header">еда</h4>
+      <h4 class="countries-filter__form--header">транспорт</h4>
+      <div class="countries-filter__transport">
+        <img class="countries-filter__transport--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+        <img class="countries-filter__transport--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+        <img class="countries-filter__transport--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+        Велосипед">
+        <img class="countries-filter__transport--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+      </div>
+      <button lass="button button--show" type="submit">Показать</button>
+    </form>
+  </section>
+  <section class="companion">
+    <h2 class="visually-hidden">Список компаньонов</h2>
+    <div class="companion__item companion__item--offline">
+      <div class="companion__item--header">
+        <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
+        <div class="companion__item--name">Таня Фирсова</div>
+        <div class="companion__item--likes">1.5 М</div>
+        <div class="companion__item--tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</div>
+      </div>
+      <div class="companion__item--wish">
+        <span>хочет посетить:</span>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+          <span>Шри ланка</span>
+        </p>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+          <span>Тайланд</span>
+        </p>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="
+          Велосипед">
+          <span>Сейшелы</span>
+        </p>
+      </div>
+      <div class="companion__item--transport">
+        <span>транспорт:</span>
+        <img class="companion__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+        <img class="companion__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+        <img class="companion__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+        Велосипед">
+        <img class="companion__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+      </div>
+      <div class="companion__item--levelup">
+        <span>левел:</span>
+        <span class="companion__item--number">99</span>
+      </div>
+      <button type="button">Позвать!</button>
+    </div>
+    <div class="companion__item companion__item--offline">
+      <div class="companion__item--header">
+        <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
+        <div class="companion__item--name">Петя Демин</div>
+        <div class="companion__item--likes">150</div>
+        <div class="companion__item--tags">#бургер #бар #футбол #концерт #крафт</div>
+      </div>
+      <div class="companion__item--wish">
+        <span>хочет посетить:</span>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+          <span>Бельгия</span>
+        </p>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+          <span>Чехия</span>
+        </p>
+      </div>
+      <div class="companion__item--transport">
+        <span>транспорт:</span>
+        <img class="companion__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+        <img class="companion__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+        <img class="companion__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+        Велосипед">
+        <img class="companion__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+      </div>
+      <div class="companion__item--levelup">
+        <span>левел:</span>
+        <span class="companion__item--number">80</span>
+      </div>
+      <button type="button">Позвать!</button>
+    </div>
+    <div class="companion__item companion__item--offline">
+      <div class="companion__item--header">
+        <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
+        <div class="companion__item--name">Марк Смолов</div>
+        <div class="companion__item--likes">1700</div>
+        <div class="companion__item--tags">#рэп #тату #хайпбист #кроссовки #суприм</div>
+      </div>
+      <div class="companion__item--wish">
+        <span>хочет посетить:</span>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+          <span>США</span>
+        </p>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+          <span>Австралия</span>
+        </p>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="
+          Велосипед">
+          <span>Доминикана</span>
+        </p>
+      </div>
+      <div class="companion__item--transport">
+        <span>транспорт:</span>
+        <img class="companion__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+        <img class="companion__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+        <img class="companion__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+        Велосипед">
+        <img class="companion__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+      </div>
+      <div class="companion__item--levelup">
+        <span>левел:</span>
+        <span class="companion__item--number">25</span>
+      </div>
+      <button type="button">Позвать!</button>
+    </div>
+    <div class="companion__item companion__item--online">
+      <div class="companion__item--header">
+        <img class="companion__item--photo" src="http://placehold.it/70x70" width="70" height="70" alt="Фото компаньона">
+        <div class="companion__item--name">Лариса Роговая</div>
+        <div class="companion__item--likes">23</div>
+        <div class="companion__item--tags">#образование #карьера #учеба #линкедин </div>
+      </div>
+      <div class="companion__item--wish">
+        <span>хочет посетить:</span>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+          <span>Великобритания</span>
+        </p>
+        <p>
+          <img class="companion__item--flag" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+          <span>Германия</span>
+        </p>
+      </div>
+      <div class="companion__item--transport">
+        <span>транспорт:</span>
+        <img class="companion__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+        <img class="companion__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+        <img class="companion__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+        Велосипед">
+        <img class="companion__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+      </div>
+      <div class="companion__item--levelup">
+        <span>левел:</span>
+        <span class="companion__item--number">50</span>
+      </div>
+      <button type="button">Позвать!</button>
+    </div>
+  </section>
+  <section class="pagination">
+    <h2 class="visually-hidden">Переключение старниц</h2>
+    <a class="pagination__more" href="">Показать еще</a>
+    <div class="pagination__arrow">
+      <a class="pagination__arrow--left" href="">left</a>
+      <a class="pagination__arrow--right" href="">right</a>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <img class="footer__logo" src="http://placehold.it/100x19" width="100" height="19" alt="Logo">
+  <ul class="footer__social">
+    <li><a class="footer__social--facebook" href="">Facebook</a></li>
+    <li><a class="footer__social--vk" href="">Vk</a></li>
+    <li><a class="footer__social--twitter" href="">Twitter</a></li>
+  </ul>
+  <span class="footer__dev">Разработано</span>
+  <img class="footer__logo" src="http://placehold.it/27x34" width="27" height="34" alt="Academy Logo">
+</footer>
+</body>
+</html>

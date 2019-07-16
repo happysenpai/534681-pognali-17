@@ -1,10 +1,166 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
-  </head>
-  <body>
-
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Погнали? Главная</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="intro">
+    <img class="intro__logo" src="http://placehold.it/100x19" width="100" height="19" alt="Logo">
+    <nav class="intro__menu"></nav>
+    <h1 class="intro__slogan">В путешествие с крутыми попутчиками!</h1>
+    <ul class="intro__list">
+      <li class="intro__item"><a href="">Звонок</a></li>
+      <li class="intro__item"><a href="">Почта</a></li>
+      <li class="intro__item"><a href="">Авторизация</a></li>
+    </ul>
+    <div class="intro__comment">
+      <p class="intro__quote">«Лучшее приложение,что я видел в жизни!»</p>
+      <p class="intro__autor">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
+    </div>
+    <ul class="intro__steps">
+      <li class="intro__step">Выберите направление <span>1</span></li>
+      <li class="intro__step">Изучите идеи путешественников <span>2</span></li>
+      <li class="intro__step">Находите тех, кто похож на вас <span>3</span></li>
+      <li class="intro__step">Путешествуйте вместе! <span>4</span></li>
+    </ul>
+  </header>
+  <main class="wrapper">
+    <section class="about">
+      <h2 class="about__title">О сервисе</h2>
+      <p class="about__text">«Лучшее приложение,что я видел в жизни!»</p>
+      <p class="about__text--bold">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
+    </section>
+    <section class="countries">
+      <h2 class="countries__title">Направления</h2>
+      <p class="countries__text"></p>
+      <div class="countries__item">
+        <img class="countries__background" src="http://placehold.it/270x110" width="270" height="110" alt="Тайланд">
+        <div class="countries__description">
+          <img class="countries__flag" src="http://placehold.it/35x24" width="35" height="24" alt="Флаг Тайланд">
+          <h3 class="countries__name">Тайланд</h3>
+          <p class="countries__slogan">Джугли зовут!</p>
+          <span class="countries__people-count">18321</span>
+        </div>
+      </div>
+      <div class="countries__item">
+        <img class="countries__background" src="http://placehold.it/270x110" width="270" height="110" alt="Франция">
+        <div class="countries__description">
+          <img class="countries__flag" src="http://placehold.it/35x24" width="35" height="24" alt="Флаг Франция">
+          <h3 class="countries__name">Франция</h3>
+          <p class="countries__slogan">Трэ бьен, манифик!</p>
+          <span class="countries__people-count">12518</span>
+        </div>
+      </div>
+      <div class="countries__item">
+        <img class="countries__background" src="http://placehold.it/270x110" width="270" height="110" alt="чехия">
+        <div class="countries__description">
+          <img class="countries__flag" src="http://placehold.it/35x24" width="35" height="24" alt="Флаг чехия">
+          <h3 class="countries__name">Чехия</h3>
+          <p class="countries__slogan">Джугли зовут!</p>
+          <span class="countries__people-count">5326</span>
+        </div>
+      </div>
+      <button class="button countries__button">Показать все</button>
+    </section>
+    <section class="travelmates">
+      <h2 class="travelmates__title">Попутчики</h2>
+      <p class="travelmates__text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+        <b>Теперь можно легко найти единомышленников!</b>
+      </p>
+      <div class="travelmates__item">
+        <img class="travelmates__item--bg" src="http://placehold.it/270x270" width="270" height="270" alt="Фотография попутчика">
+        <div class="travelmates__item--levelup">
+          <span class="travelmates__item--number">99</span>
+          <span class="travelmates__item--level">level</span>
+        </div>
+        <div class="travelmates__item--description">
+          <div class="travelmates__item--countries">
+            <img class="travelmates__item--countrie" src="http://placehold.it/35x24" width="35" height="24" alt="Шри-Ланка">
+            <img class="travelmates__item--countrie" src="http://placehold.it/35x24" width="35" height="24" alt="Тайланд">
+            <img class="travelmates__item--countrie" src="http://placehold.it/35x24" width="35" height="24" alt="Сейшелы">
+          </div>
+          <h3 class="travelmates__item--name">Таня Фирсова</h3>
+          <p class="travelmates__item--tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+          <div class="travelmates__item--transport">
+            <img class="travelmates__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+            <img class="travelmates__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+            <img class="travelmates__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+            Велосипед">
+            <img class="travelmates__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+          </div>
+        </div>
+      </div>
+      <div class="travelmates__item">
+        <img class="travelmates__item--bg" src="http://placehold.it/270x270" width="270" height="270" alt="Фотография попутчика">
+        <div class="travelmates__item--levelup">
+          <span class="travelmates__item--number">80</span>
+          <span class="travelmates__item--level">level</span>
+        </div>
+        <div class="travelmates__item--description">
+          <div class="travelmates__item--countries">
+            <img class="travelmates__item--countrie" src="http://placehold.it/35x24" width="35" height="24" alt="Бельгия">
+            <img class="travelmates__item--countrie" src="http://placehold.it/35x24" width="35" height="24" alt="Чехия">
+          </div>
+          <h3 class="travelmates__item--name">Петя Демин</h3>
+          <p class="travelmates__item--tags">#бургер #бар #футбол #концерт #крафт</p>
+          <div class="travelmates__item--transport">
+            <img class="travelmates__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+            <img class="travelmates__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+            <img class="travelmates__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+            Велосипед">
+            <img class="travelmates__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+          </div>
+        </div>
+      </div>
+      <button class="button travelmates--button" type="button">Показать всеx</button>
+    </section>
+    <section class="rates">
+      <h2 class="rates__title">Добавтьте свой профиль</h2>
+      <ul>
+        <li><p class="rates__text">Базовое размещение <span class="rates__number">1</span></p> Бесплатно </li>
+        <li><p class="rates__text">Вывод на первых позициях <span class="rates__number">2</span></p> 99 руб./мес </li>
+        <li><p class="rates__text">Кастомный цвет карточки <span class="rates__number">3</span></p> 59 руб./мес </li>
+      </ul>
+      <a href="">Показать тарифы для бизнеса</a>
+    </section>
+    <section class="cta__form">
+      <h2 class="cta__form--title">Заинтересовались?</h2>
+      <p class="cta__form--reg">Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистриованы? Тогда скорее <a class="cta__form--auth" href="">авторизуйтесь.</a>
+      </p>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <input type="email" name="email" placeholder="E-mail">
+        <button type="submit">send</button>
+      </form>
+      <p class="cta__form--text">Остались вопросы? Мы с радостью на них ответим!</p>
+      <a class="cta__form--tel" href="tel:88005558628">8 800 555-86-28</a>
+      <a class="cta__form--mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts__address">ул. Большая Конюшенная, 19/8</h2>
+      <button type="submit">Проложить маршрут</button>
+      <div class="contacts__map">
+        <img src="http://placehold.it/320x346" width="320" height="346" alt="Карта">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="footer__logo" src="http://placehold.it/100x19" width="100" height="19" alt="Logo">
+    <ul class="footer__social">
+      <li>
+        <a class="footer__social--facebook" href="">Facebook</a>
+      </li>
+      <li>
+        <a class="footer__social--vk" href="">Vk</a>
+      </li>
+      <li>
+        <a class="footer__social--twitter" href="">Twitter</a>
+      </li>
+    </ul>
+    <span class="footer__dev">Разработано</span>
+    <img class="footer__logo" src="http://placehold.it/27x34" width="27" height="34" alt="Academy Logo">
+  </footer>
+</body>
 </html>
