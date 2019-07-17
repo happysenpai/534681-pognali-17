@@ -15,24 +15,24 @@
  <main class="wrapper">
   <section class="user-info">
     <h2 class="visually-hidden">карточка пользователя</h2>
-    <div class="user-info--levelup">
-      <span class="user-info--number">80</span>
-      <span class="user-info--level">level</span>
+    <div class="user-info__levelup">
+      <span class="user-info__number">80</span>
+      <span class="user-info__level">level</span>
     </div>
     <img class="user-info__user-img" src="http://placehold.it/100x100" width="100" height="100" alt="Фото пользователя">
-    <button type="button" class="user-info__button">Сменить фото</button>
+    <button class="button button--change-foto" type="button">Сменить фото</button>
     <fieldset class="user-info__fieldset">
-      <legend class="user-info--legend">Тэги</legend>
-      <p class="user-info--tegs">#бургер #бар #футбол #концерт #крафт</p>
+      <legend class="user-info__legend">Тэги</legend>
+      <p class="user-info__tegs">#бургер #бар #футбол #концерт #крафт</p>
     </fieldset>
     <fieldset class="user-info__fieldset">
-      <legend class="user-info--legend">Транспорт</legend>
-      <div class="travelmates__item--transport">
-        <img class="travelmates__item--plane" src="http://placehold.it/33x33" width="33" height="33" alt="Самолёт">
-        <img class="travelmates__item--bus" src="http://placehold.it/33x33" width="33" height="33" alt="Автобус">
-        <img class="travelmates__item--bike" src="http://placehold.it/33x33" width="33" height="33" alt="Велосипед">
-        <img class="travelmates__item--run" src="http://placehold.it/33x33" width="33" height="33" alt="Бег">
-      </div>
+      <legend class="user-info__legend">Транспорт</legend>
+      <ul class="user-info__icons icons">
+        <li class="icon__item icon__item--plane"></li>
+        <li class="icon__item icon__item--bus"></li>
+        <li class="icon__item icon__item--bike"></li>
+        <li class="icon__item icon__item--on-foot"></li>
+      </ul>
     </fieldset>
   </section>
   <section class="plans">
@@ -54,12 +54,12 @@
     <section class="steps-1">
       <h3 class="steps-1__title">Шаг 1. Даты пребывания</h3>
       <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
-      <div class="steps-1__input--wrapper">
+      <div class="steps-1__input-wrapper">
         <h4 class="steps-1__title-input">ищу попутчиков:</h4>
         <span class="steps-1__people">Чел.</span>
         <input class="steps-1__input" type="text" name="people" placeholder="2">
       </div>
-      <div class="steps-1__input--wrapper">
+      <div class="steps-1__input-wrapper">
         <h4 class="steps-1__title-input">длительность:</h4>
         <span class="steps-days">дн.</span>
         <input class="steps-1__input" type="text" name="people" placeholder="2">
@@ -74,7 +74,7 @@
       <p class="steps-2__text">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
       <div class="steps-2__wrapper">
         <div>
-          <img class="" src="http://placehold.it/35x24" width="35" height="24" alt="Флаг страны">
+          <img class="steps-2__flag" src="http://placehold.it/35x24" width="35" height="24" alt="Флаг страны">
         </div>
         <select class="steps-2__select">
           <option>Босния и герцегов</option>
@@ -96,9 +96,9 @@
           <option>Выберите страну</option>
         </select>
       </div>
-      <button class="button steps-2__button--add" type="button">Добавить страну</button>
-      <button class="button steps-2__button--orange" type="button">Следующий шаг</button>
-      <button class="button steps-2__button--transparent" type="button">На шаг назад</button>
+      <button class="button button--add" type="button">Добавить страну</button>
+      <button class="button button--next" type="button">Следующий шаг</button>
+      <button class="button button--back" type="button">На шаг назад</button>
     </section>
     <section class="steps-3">
       <h3 class="steps-3__title">Шаг 3. Развлечения</h3>
@@ -111,14 +111,14 @@
         </textarea>
         <div>
         </div>
-        <h3>Чехословакия</h3>
+        <h3 class="steps-3-country-name">Чехословакия</h3>
         <img class="steps-3__flag" src="http://placehold.it/35x24" width="35" height="24" alt="Флаг страны">
         <textarea class="steps-3__texarea" placeholder="План действий">
           Пить пиво и лазить по старым замкам, наслаждаться аритектурой и вот это все.
         </textarea>
       </div>
-      <button class="button steps-3__button--orange" type="submit">Отправить</button>
-      <button class="button steps-3__button--transparent" type="button">На шаг назад</button>
+      <button class="button button--submit" type="submit">Отправить</button>
+      <button class="button button--back" type="button">На шаг назад</button>
     </section>
   </section>
 </main>
