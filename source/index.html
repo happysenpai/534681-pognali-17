@@ -21,21 +21,22 @@
       <p class="intro__autor">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
     </div>
     <ul class="intro__steps">
-      <li class="intro__step">Выберите направление <span>1</span></li>
-      <li class="intro__step">Изучите идеи путешественников <span>2</span></li>
-      <li class="intro__step">Находите тех, кто похож на вас <span>3</span></li>
-      <li class="intro__step">Путешествуйте вместе! <span>4</span></li>
+      <li class="intro__item">Выберите направление <span class="intro__item--number">1</span></li>
+      <li class="intro__item">Изучите идеи путешественников <span class="intro__item--number">2</span></li>
+      <li class="intro__item">Находите тех, кто похож на вас <span class="intro__item--number">3</span></li>
+      <li class="intro__item">Путешествуйте вместе! <span class="intro__item--number">4</span></li>
     </ul>
   </header>
   <main class="wrapper">
     <section class="about">
       <h2 class="about__title">О сервисе</h2>
       <p class="about__text">«Лучшее приложение,что я видел в жизни!»</p>
-      <p class="about__text--bold">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
+      <p class="about__text about__text--bold">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
     </section>
     <section class="countries">
       <h2 class="countries__title">Направления</h2>
-      <p class="countries__text"></p>
+      <p class="countries__text">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.
+      </p>
       <div class="countries__item">
         <img class="countries__background" src="http://placehold.it/270x110" width="270" height="110" alt="Тайланд">
         <div class="countries__description">
@@ -63,7 +64,7 @@
           <span class="countries__people-count">5326</span>
         </div>
       </div>
-      <button class="button countries__button">Показать все</button>
+      <a class="button button__show-all" href="form.html">Показать все</a>
     </section>
     <section class="travelmates">
       <h2 class="travelmates__title">Попутчики</h2>
@@ -84,12 +85,12 @@
           </div>
           <h3 class="travelmates__item--name">Таня Фирсова</h3>
           <p class="travelmates__item--tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
-          <div class="travelmates__item--transport">
-            <img class="travelmates__item--plane" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
-            <img class="travelmates__item--bus" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
-            <img class="travelmates__item--bike" src="http://placehold.it/24x24" width="24" height="24" alt="
+          <div class="travelmates__item-transport">
+            <img class="travelmates__item--icons" src="http://placehold.it/24x24" width="24" height="24" alt="Самолёт">
+            <img class="travelmates__item--icons" src="http://placehold.it/24x24" width="24" height="24" alt="Автобус">
+            <img class="travelmates__item--icons" src="http://placehold.it/24x24" width="24" height="24" alt="
             Велосипед">
-            <img class="travelmates__item--run" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
+            <img class="travelmates__item--icons" src="http://placehold.it/24x24" width="24" height="24" alt="Бег">
           </div>
         </div>
       </div>
@@ -115,7 +116,7 @@
           </div>
         </div>
       </div>
-      <button class="button travelmates--button" type="button">Показать всеx</button>
+      <a class="button button__show-all" href="catalog.html">Показать всеx</a>
     </section>
     <section class="rates">
       <h2 class="rates__title">Добавтьте свой профиль</h2>
@@ -124,23 +125,23 @@
         <li><p class="rates__text">Вывод на первых позициях <span class="rates__number">2</span></p> 99 руб./мес </li>
         <li><p class="rates__text">Кастомный цвет карточки <span class="rates__number">3</span></p> 59 руб./мес </li>
       </ul>
-      <a href="">Показать тарифы для бизнеса</a>
+      <a class="rates__link" href="">Показать тарифы для бизнеса</a>
     </section>
-    <section class="cta__form">
-      <h2 class="cta__form--title">Заинтересовались?</h2>
-      <p class="cta__form--reg">Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистриованы? Тогда скорее <a class="cta__form--auth" href="">авторизуйтесь.</a>
+    <section class="cta-form">
+      <h2 class="cta-form__title">Заинтересовались?</h2>
+      <p class="cta-form__reg">Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистриованы? Тогда скорее <a class="cta-form__auth" href="">авторизуйтесь.</a>
       </p>
-      <form method="get" action="https://echo.htmlacademy.ru">
-        <input type="email" name="email" placeholder="E-mail">
-        <button type="submit">send</button>
+      <form class="cta-form__email" method="get" action="https://echo.htmlacademy.ru">
+        <input  class="cta-form__input" type="email" name="email" placeholder="E-mail">
+        <button class="button button--email" type="submit">send</button>
       </form>
-      <p class="cta__form--text">Остались вопросы? Мы с радостью на них ответим!</p>
-      <a class="cta__form--tel" href="tel:88005558628">8 800 555-86-28</a>
-      <a class="cta__form--mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      <p class="cta-form__text">Остались вопросы? Мы с радостью на них ответим!</p>
+      <a class="cta-form__tel" href="tel:88005558628">8 800 555-86-28</a>
+      <a class="ct-form__mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
     </section>
     <section class="contacts">
       <h2 class="contacts__address">ул. Большая Конюшенная, 19/8</h2>
-      <button type="submit">Проложить маршрут</button>
+      <button class="button button--route"type="submit">Проложить маршрут</button>
       <div class="contacts__map">
         <img src="http://placehold.it/320x346" width="320" height="346" alt="Карта">
       </div>
