@@ -2,7 +2,7 @@
   "name": "pognali-17",
   "version": "17.0.0",
   "private": true,
-  "description": "Личный проект «Погнали» от HTML Academy",
+  "description": "Личный проект «Погнали» от HTML Academy",
   "devDependencies": {
     "autoprefixer": "9.5.x",
     "browser-sync": "2.26.x",
