@@ -1,7 +1,10 @@
-body {
-  font-size: 10px;
-}
-
-a {
-  text-decoration: none;
-}
+@import "global.scss";
+@import "intro.scss";
+@import "wrapper.scss";
+@import "about.scss";
+@import "countries.scss";
+@import "travelmates.scss";
+@import "rates.scss";
+@import "cta.scss";
+@import "contacts.scss";
+@import "footer.scss";
