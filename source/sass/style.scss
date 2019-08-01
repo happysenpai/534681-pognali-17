@@ -1,7 +1,18 @@
-body {
-  font-size: 10px;
-}
-
-a {
-  text-decoration: none;
-}
+@import "fonts.scss";
+@import "global.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/wrapper.scss";
+@import "./blocks/about.scss";
+@import "./blocks/countries.scss";
+@import "./blocks/travelmates.scss";
+@import "./blocks/rates.scss";
+@import "./blocks/cta.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/header.scss";
+@import "./blocks/countries-filter.scss";
+@import "./blocks/companion.scss";
+@import "./blocks/pagination.scss";
+@import "./blocks/user-info.scss";
+@import "./blocks/user-plans.scss";
+@import "./blocks/user-steps.scss";
+@import "./blocks/footer.scss";
