@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 0 25px;
 }
+@media (min-width: $tablet-width) {
+  .footer {
+    width: 768px;
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer {
+    width: 1440px;
+    padding: 0 60px;
+  }
+}

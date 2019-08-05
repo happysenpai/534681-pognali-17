@@ -9,3 +9,17 @@
 .header__title {
   margin-bottom: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .header {
+    width: 688px;
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+  width: 1320px;
+  padding: 0 60px;
+  }
+}
