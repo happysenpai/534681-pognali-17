@@ -76,7 +76,7 @@
 }
 
 .intro__steps {
-  margin-bottom: 0;
+  margin-bottom: -1px;
   list-style-type: none;
   padding: 0;
 }
@@ -95,7 +95,6 @@
   .intro {
     width: 688px;
     padding: 0 40px;
-    min-height: 1094px;
     background-image:
     url("../img/traveller-illustration-tablet@1x.png"),
     url("../img/globe-back-tablet@1x.jpg");
@@ -149,6 +148,8 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 245px;
+    margin-bottom: 122px;
+
   }
 
   .intro__step {
@@ -158,7 +159,7 @@
   }
 }
 
-@media (min-width: $desktop-width) {
+ @media (min-width: $desktop-width) {
   .intro {
     width: 1360px;
     background-image:
@@ -229,9 +230,12 @@
     flex-wrap: nowrap;
     padding-top: 85px;
     padding-left: 20px;
+    padding-bottom: 122px;
   }
+
   .intro__step {
-   width: 330px;
-   height: 107px;
- }
+    width: 330px;
+    height: 108px;
+  }
 }
+
