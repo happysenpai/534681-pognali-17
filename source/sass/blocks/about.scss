@@ -1,8 +1,92 @@
 .about {
   padding: 0 25px;
+  margin: 0 auto;
   min-height: 390px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
   background-color: #192144;
   background-image: url("../img/about-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: 9px 50px;
 }
+
+@media (min-width: $tablet-width) {
+  .about {
+    width: 688px;
+    padding: 0 40px;
+    margin-top: -123px;
+    background-image: url("../img/about-tablet@1x.png");
+    background-position: 384px 144px;
+  }
+
+  .about__title {
+    padding-top: 113px;
+    padding-left: 35px;
+    font-size: 44px;
+
+  }
+
+  .about__text {
+    margin-top: 19px;
+    padding-left: 36px;
+    font-size: 26px;
+    width: 227px;
+  }
+
+  .about__text--bold {
+    margin-top: 14px;
+    padding-left: 34px;
+    font-size: 24px;
+    width: 272px;
+  }
+
+  .button__about {
+    margin-top: 65px;
+    margin-left: 68px;
+    font-size: 25px;
+    margin-bottom: 116px;
+    text-decoration: none;
+  }
+
+  .button__about:visited {
+    color:#ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about {
+    width: 1320px;
+    padding: 0 60px;
+    background-image: url("../img/about-desktop@1x.png");
+    background-position: 750px 85px;
+  }
+
+  .about__title {
+    padding-top: 107px;
+    padding-left: 70px;
+    font-size: 44px;
+  }
+
+  .about__text {
+    margin-top: 37px;
+    padding-left: 72px;
+    font-size: 26px;
+    width: 575px;
+  }
+
+  .about__text--bold {
+    margin-top: 43px;
+    padding-left: 71px;
+    font-size: 21px;
+    width: 361px;
+  }
+
+  .button__about {
+    margin-top: 99px;
+    margin-left: 104px;
+    font-size: 25px;
+    margin-bottom: 190px;
+  }
+}
+
