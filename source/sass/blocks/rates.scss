@@ -1,4 +1,165 @@
 .rates {
   padding: 0 25px;
+  margin: 0 auto;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/rates@1x.png");
+  background-size: 99px 99px;
+  background-position: 196px 38px;
+  background-repeat: no-repeat;
   background-color: #edeff6;
+}
+
+.rates__title {
+  width: 100px;
+  padding-top: 35px;
+  padding-left: 26px;
+}
+
+.rates__list {
+  list-style: none;
+}
+
+.rates__item {
+  position: relative;
+}
+
+.rates__text {
+  position: relative;
+  color: #444444;
+  width: 184px;
+  margin-left: -14px;
+  margin-top: 24px;
+  line-height: 21px;
+}
+
+.rates__number {
+  position: absolute;
+  top: -7px;
+  right: 0px;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #ffa530;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.button--show-tarif {
+  color: #192144;
+  font-weight: 700;
+  margin-top: 9px;
+  margin-left: 26px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .rates {
+    background-image: url("../img/rates@1x.png");
+    background-size: 99px 99px;
+    background-position: 583px 409px;
+    width: 688px;
+    padding: 0 40px;
+  }
+
+  .rates__title {
+    width: 573px;
+    padding-top: 49px;
+    padding-left: 99px;
+    font-size: 44px;
+    color: #ff8d30;
+  }
+
+  .rates__item {
+    margin-left: 50px;
+    margin-top: 49px;
+  }
+
+  .rates__text {
+   width: 520px;
+   line-height: 6px;
+   font-size: 27px;
+   margin-top: 61px;
+   margin-left: 1px;
+ }
+
+ .rates__text span {
+  position: absolute;
+  right: -39px;
+  top: 1px;
+  font-size: 27px;
+}
+
+.rates__number {
+  top: -30px;
+  left: -89px;
+  display: flex;
+  width: 67px;
+  height: 67px;
+  font-size: 27px;
+}
+
+.button--show-tarif {
+  color: #132576;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 44px;
+  margin-left: 89px;
+  margin-bottom: 66px;
+}
+}
+
+@media (min-width: $desktop-width) {
+  .rates {
+    position: relative;
+    width: 1320px;
+    padding: 0 60px;
+    background-size: 198px 198px;
+    background-position: 1110px 286px;
+  }
+
+  .rates__title {
+    padding-top: 83px;
+    padding-left: 418px;
+  }
+
+  .rates__list {
+    margin-left: 73px;
+    margin-top: 77px;
+  }
+
+  .rates__list {
+    margin-left: 72px;
+    margin-top: 76px;
+
+  }
+
+  .rates__text {
+   width: 520px;
+   line-height: 6px;
+   font-size: 27px;
+   margin-top: 61px;
+   margin-left: 1px;
+ }
+
+ .rates__text span {
+  right: -290px;
+}
+
+.rates__number {
+  top: -30px;
+  left: -89px;
+  display: flex;
+  width: 67px;
+  height: 67px;
+  font-size: 27px;
+}
+
+.button--show-tarif {
+  margin-left: 162px;
+  margin-bottom: 186px;
+}
 }
