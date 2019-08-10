@@ -1,7 +1,71 @@
 .footer {
+  position: relative;
   width: 270px;
   margin: 0 auto;
   padding: 0 25px;
+}
+
+.footer__logo {
+  position: absolute;
+  top: -69px;
+  left: 111px;
+  width: 200px;
+  height: 19px;
+  background-image: url("../img/logo-mobile-blue@1x.png");
+  background-repeat: no-repeat;
+}
+
+.footer__social {
+  display: flex;
+  margin-top: 107px;
+  margin-left: 56px;
+  width: 200px;
+}
+
+.footer__social-item {
+  display: flex;
+  margin-right: 43px;
+  justify-content: space-around;
+}
+
+.footer__social-facebook {
+  position: absolute;
+  background-image: url("../img/facebook.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social-vk {
+  position: absolute;
+  background-image: url("../img/vk.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social-instagram {
+  position: absolute;
+  background-image: url("../img/instagram.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__dev {
+  display: block;
+  margin-top: 89px;
+  margin-left: 3px;
+  color: #444444;
+  margin-bottom: 22px;
+}
+
+.footer__logo-academy {
+  position: absolute;
+  top: 80px;
+  right: 17px;
+  width: 42px;
+  height: auto;
 }
 
 @media (min-width: $tablet-width) {
@@ -9,11 +73,83 @@
     width: 768px;
     padding: 0 40px;
   }
+
+  .footer__logo {
+    top: -18px;
+    left: 80px;
+    height: 40px;
+    background-image: url("../img/logo-tablet-blue@1x.png");
+  }
+
+  .footer__social {
+    margin-top: 72px;
+    margin-left: 299px;
+  }
+
+  .footer__social-item {
+    display: flex;
+    margin-right: 43px;
+    justify-content: space-around;
+  }
+
+  .footer__social-facebook {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer__social-vk {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer__social-instagram {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer__dev {
+    display: block;
+    margin-top: -24px;
+    margin-left: 574px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 64px;
+  }
+
+  .footer__logo-academy {
+    position: absolute;
+    top: -15px;
+    right: 72px;
+    height: auto;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .footer {
     width: 1440px;
     padding: 0 60px;
+  }
+
+  .footer__logo {
+    top: -20px;
+    left: 120px;
+    height: 47px;
+    background-image: url("../img/logo-desktop-blue@1x.png");
+  }
+
+  .footer__social {
+    margin-top: 72px;
+    margin-left: 637px;
+  }
+
+  .footer__dev {
+    margin-top: -24px;
+    margin-left: 1226px;
+  }
+
+  .footer__logo-academy {
+    right: 113px;
   }
 }
