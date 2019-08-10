@@ -8,9 +8,9 @@
 }
 
 .travelmates__title {
- padding-top: 51px;
- padding-left: 24px;
- font-size: 24px;
+  padding-top: 51px;
+  padding-left: 24px;
+  font-size: 24px;
 }
 
 .travelmates__text {
@@ -25,7 +25,7 @@
   margin-bottom: 53px;
 }
 
-.travelmates__item{
+.travelmates__item {
   position: relative;
   margin-top: 1px;
 }
@@ -56,13 +56,13 @@
 }
 
 .travelmates__item--countries {
- position: absolute;
- display: flex;
- padding-right: 18px;
- justify-content: center;
- width: 143px;
- top: -14px;
- left: 52px;
+  position: absolute;
+  display: flex;
+  padding-right: 18px;
+  justify-content: center;
+  width: 143px;
+  top: -14px;
+  left: 52px;
 }
 
 .travelmates__item--countrie {
@@ -132,114 +132,114 @@
 
 @media (min-width: $tablet-width) {
   .travelmates {
-   width: 688px;
-   padding: 0 40px;
- }
+    width: 688px;
+    padding: 0 40px;
+  }
 
- .travelmates__title {
-  padding-top: 117px;
-  padding-left: 34px;
-  font-size: 43px;
-}
+  .travelmates__title {
+    padding-top: 117px;
+    padding-left: 34px;
+    font-size: 43px;
+  }
 
-.travelmates__item--bg {
-  width: 285px;
-  height: 285px;
-}
+  .travelmates__item--bg {
+    width: 285px;
+    height: 285px;
+  }
 
-.travelmates__text {
-  width: 387px;
-  margin-top: 39px;
-  margin-left: 36px;
-  font-size: 25px;
-  line-height: 31px;
-}
+  .travelmates__text {
+    width: 387px;
+    margin-top: 39px;
+    margin-left: 36px;
+    font-size: 25px;
+    line-height: 31px;
+  }
 
-.travelmates__text--bold {
-  margin-top: 17px;
-  margin-bottom: 42px;
-  font-size: 22px;
-  line-height: 24px;
-}
+  .travelmates__text--bold {
+    margin-top: 17px;
+    margin-bottom: 42px;
+    font-size: 22px;
+    line-height: 24px;
+  }
 
-.travelmates__item--levelup {
-  position: absolute;
-  top: 33px;
-  left: 38px;
-  width: 32px;
-}
+  .travelmates__item--levelup {
+    position: absolute;
+    top: 33px;
+    left: 38px;
+    width: 32px;
+  }
 
-.travelmates__item--number {
-  margin-top: 1px;
-  margin-left: 1px;
-}
+  .travelmates__item--number {
+    margin-top: 1px;
+    margin-left: 1px;
+  }
 
-.travelmates__item--level {
-  margin-top: 1px;
-  margin-left: 1px;
-}
+  .travelmates__item--level {
+    margin-top: 1px;
+    margin-left: 1px;
+  }
 
-.travelmates__item--description {
-  width: 285px;
-  height: 198px;
-  margin-top: -8px;
-  margin-bottom: 8px;
-  background-color: #ffffff;
-}
+  .travelmates__item--description {
+    width: 285px;
+    height: 198px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+  }
 
-.travelmates__item--countries {
- position: absolute;
- padding-right: 18px;
- justify-content: center;
- width: 143px;
- left: 60px;
-}
+  .travelmates__item--countries {
+    position: absolute;
+    padding-right: 18px;
+    justify-content: center;
+    width: 143px;
+    left: 60px;
+  }
 
-.travelmates__item--countrie {
-  margin-left: 19px;
-}
+  .travelmates__item--countrie {
+    margin-left: 19px;
+  }
 
-.travelmates__item--name {
-  color: #1d2e5b;
-  padding-top: 31px;
-  text-align: center;
-  font-size: 24px;
-}
+  .travelmates__item--name {
+    color: #1d2e5b;
+    padding-top: 31px;
+    text-align: center;
+    font-size: 24px;
+  }
 
-.travelmates__item--tags {
-  width: 255px;
-  text-align: center;
-  margin-top: -1px;
-  margin-left: 15px;
-  font-size: 20px;
-}
+  .travelmates__item--tags {
+    width: 255px;
+    text-align: center;
+    margin-top: -1px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
 
-.travelmates__item--tags a {
-  color: #444444;
-  text-decoration: none;
-}
+  .travelmates__item--tags a {
+    color: #444444;
+    text-decoration: none;
+  }
 
-.travelmates__icons--width {
-  width: 179px;
-  margin-left: 29px;
-  margin-top: 22px;
-}
+  .travelmates__icons--width {
+    width: 179px;
+    margin-left: 29px;
+    margin-top: 22px;
+  }
 
-.travelmates__item-wrapper {
- display: flex;
- justify-content: space-around;
- margin-top: 17px;
- margin-left: 8px;
-}
+  .travelmates__item-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+    margin-left: 8px;
+  }
 
-.button--show-all {
-  padding-top: 103px;
-  padding-bottom: 115px;
-  padding-left: 69px;
-  font-size: 23px;
-  text-decoration: none;
-  color: #ffffff;
-}
+  .button--show-all {
+    padding-top: 103px;
+    padding-bottom: 115px;
+    padding-left: 69px;
+    font-size: 23px;
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 
 
@@ -251,30 +251,30 @@
   }
 
   .travelmates__title {
-   padding-top: 104px;
-   padding-left: 71px;
- }
+    padding-top: 104px;
+    padding-left: 71px;
+  }
 
- .travelmates__text {
-  margin-top: 32px;
-  margin-left: 74px;
-  font-size: 25px;
-  line-height: 33px;
-}
+  .travelmates__text {
+    margin-top: 32px;
+    margin-left: 74px;
+    font-size: 25px;
+    line-height: 33px;
+  }
 
-.travelmates__item-wrapper {
-  position: absolute;
-  top: 115px;
-  right: 59px;
-}
+  .travelmates__item-wrapper {
+    position: absolute;
+    top: 115px;
+    right: 59px;
+  }
 
-.button--show-all {
-  padding-top: 39px;
-  padding-bottom: 161px;
-  padding-left: 107px;
-}
-.travelmates__item--space {
-  margin-right: 59px;
-}
+  .button--show-all {
+    padding-top: 39px;
+    padding-bottom: 161px;
+    padding-left: 107px;
+  }
 
+  .travelmates__item--space {
+    margin-right: 59px;
+  }
 }

@@ -37,7 +37,7 @@
 .rates__number {
   position: absolute;
   top: -7px;
-  right: 0px;
+  right: 0;
   display: flex;
   width: 34px;
   height: 34px;
@@ -79,37 +79,37 @@
   }
 
   .rates__text {
-   width: 520px;
-   line-height: 6px;
-   font-size: 27px;
-   margin-top: 61px;
-   margin-left: 1px;
- }
+    width: 520px;
+    line-height: 6px;
+    font-size: 27px;
+    margin-top: 61px;
+    margin-left: 1px;
+  }
 
- .rates__text span {
-  position: absolute;
-  right: -39px;
-  top: 1px;
-  font-size: 27px;
-}
+  .rates__text span {
+    position: absolute;
+    right: -39px;
+    top: 1px;
+    font-size: 27px;
+  }
 
-.rates__number {
-  top: -30px;
-  left: -89px;
-  display: flex;
-  width: 67px;
-  height: 67px;
-  font-size: 27px;
-}
+  .rates__number {
+    top: -30px;
+    left: -89px;
+    display: flex;
+    width: 67px;
+    height: 67px;
+    font-size: 27px;
+  }
 
-.button--show-tarif {
-  color: #132576;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 44px;
-  margin-left: 89px;
-  margin-bottom: 66px;
-}
+  .button--show-tarif {
+    color: #132576;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 44px;
+    margin-left: 89px;
+    margin-bottom: 66px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -127,39 +127,33 @@
   }
 
   .rates__list {
-    margin-left: 73px;
-    margin-top: 77px;
-  }
-
-  .rates__list {
     margin-left: 72px;
     margin-top: 76px;
-
   }
 
   .rates__text {
-   width: 520px;
-   line-height: 6px;
-   font-size: 27px;
-   margin-top: 61px;
-   margin-left: 1px;
- }
+    width: 520px;
+    line-height: 6px;
+    font-size: 27px;
+    margin-top: 61px;
+    margin-left: 1px;
+  }
 
- .rates__text span {
-  right: -290px;
-}
+  .rates__text span {
+    right: -290px;
+  }
 
-.rates__number {
-  top: -30px;
-  left: -89px;
-  display: flex;
-  width: 67px;
-  height: 67px;
-  font-size: 27px;
-}
+  .rates__number {
+    top: -30px;
+    left: -89px;
+    display: flex;
+    width: 67px;
+    height: 67px;
+    font-size: 27px;
+  }
 
-.button--show-tarif {
-  margin-left: 162px;
-  margin-bottom: 186px;
-}
+  .button--show-tarif {
+    margin-left: 162px;
+    margin-bottom: 186px;
+  }
 }
