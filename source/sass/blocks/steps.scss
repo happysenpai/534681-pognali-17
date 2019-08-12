@@ -1,10 +1,18 @@
-.companion {
+.steps {
   padding: 0 25px;
   margin: 0 auto;
   min-height: 390px;
   display: flex;
   flex-direction: column;
-  background-color: #edeff6;
+  background-color: #d4d9eb;
+}
+
+.steps-1,
+.steps-2,
+.steps-3 {
+  color: #1d2e5b;
+  background-color: #ffffff;
+  margin-bottom: 10px;
 }
 
 @media (min-width: $tablet-width) {

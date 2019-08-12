@@ -1,10 +1,15 @@
-.companion {
+.plans {
   padding: 0 25px;
   margin: 0 auto;
   min-height: 390px;
   display: flex;
   flex-direction: column;
-  background-color: #edeff6;
+  background-color: #dfe3f0;
+}
+
+.plans__partition {
+  background-color: #ffffff;
+  color: #1d2e5b;
 }
 
 @media (min-width: $tablet-width) {

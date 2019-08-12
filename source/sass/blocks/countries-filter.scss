@@ -1,5 +1,9 @@
 .countries-filter {
   padding: 0 25px;
+  margin: 0 auto;
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
   background-color: #edeff6;
 }
 
@@ -9,4 +13,19 @@
 
 .countries-filter__form {
   background-color: #ffd74b;
+}
+
+@media (min-width: $tablet-width) {
+  .header {
+    width: 688px;
+    padding: 0 40px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .header {
+    width: 1320px;
+    padding: 0 60px;
+  }
 }
