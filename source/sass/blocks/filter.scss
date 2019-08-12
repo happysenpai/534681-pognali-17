@@ -1,26 +1,27 @@
-.pagination {
+.filter {
+  position: relative;
   padding: 0 25px;
+  padding-top: 25px;
   margin: 0 auto;
-  width: 270px;
   display: flex;
+  width: 270px;
   flex-direction: column;
   background-color: #edeff6;
 }
 
-.pagination__arrow {
-  background-color: #ffffff;
+.filter__form {
+  background-color: #ffd74b;
 }
 
 @media (min-width: $tablet-width) {
-  .header {
+  .filter {
     width: 688px;
     padding: 0 40px;
   }
 }
 
-
 @media (min-width: $desktop-width) {
-  .header {
+  .filter {
     width: 1320px;
     padding: 0 60px;
   }
