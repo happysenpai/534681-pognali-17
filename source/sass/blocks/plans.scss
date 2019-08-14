@@ -1,14 +1,15 @@
-.pagination {
+.plans {
   padding: 0 25px;
   margin: 0 auto;
-  width: 270px;
+  min-height: 390px;
   display: flex;
   flex-direction: column;
-  background-color: #edeff6;
+  background-color: #dfe3f0;
 }
 
-.pagination__arrow {
+.plans__partition {
   background-color: #ffffff;
+  color: #1d2e5b;
 }
 
 @media (min-width: $tablet-width) {

@@ -1,48 +1,61 @@
-  .intro {
-    position: relative;
-    width: 270px;
-    margin: 0 auto;
-    margin-top: -8px;
-    padding: 0 25px;
-    background-color: #161c35;
-    background-image:
-    url("../img/traveller-illustration-mobile@1x.png"),
-    url("../img/globe-back-mobile@1x.jpg");
-    background-position: 79px 223px,0px 0px;
-    background-repeat: no-repeat,no-repeat;
-    z-index: -1;
-  }
+.intro {
+  position: relative;
+  width: 270px;
+  margin: 0 auto;
+  margin-top: -8px;
+  padding: 0 25px;
+  background-color: #161c35;
+  background-image: url("../img/traveller-illustration-mobile@1x.png"), url("../img/globe-back-mobile@1x.jpg");
+  background-position: 79px 223px, 0 0;
+  background-repeat: no-repeat, no-repeat;
+  z-index: -1;
+}
 
-  .intro::before {
-    content: "";
-    position: absolute;
-    top: 478px;
-    left: 0;
-    width: 320px;
-    height: 100px;
-    background-color: #161c35;
-    z-index: -1;
-  }
+.intro::before {
+  content: "";
+  position: absolute;
+  top: 478px;
+  left: 0;
+  width: 320px;
+  height: 100px;
+  background-color: #161c35;
+  z-index: -1;
+}
 
-  .intro__logo {
-    position: absolute;
-    top: 28px;
-    left: 26px;
-    width: 200px;
-    height: 19px;
-    background-image: url("../img/logo-mobile-white@1x.png");
-    background-repeat: no-repeat;
-  }
+.intro__logo {
+  position: absolute;
+  top: 28px;
+  left: 26px;
+  width: 200px;
+  height: 19px;
+  background-image: url("../img/logo-mobile-white@1x.png");
+  background-repeat: no-repeat;
+}
 
-  .intro__menu {
-    position: relative;
-    padding-top: 50px;
-  }
+.intro__menu {
+  position: relative;
+  padding-top: 50px;
+  z-index: 1;
 
-  .intro__menu-list {
-    display: none;
-  }
+}
+.intro__menu:after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 29px;
+  width: 26px;
+  height: 16px;
+  background-image: url(../img/menu.svg);
+  background-size: 25px 15px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 1;
+}
+.intro__menu:after:hover {
+  cursor: pointer;
+}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .intro__title {
  padding-left: 20px;
@@ -60,8 +73,24 @@
    padding-top: 36px;
  }
 >>>>>>> module4-task1
+=======
+.intro__menu-list {
+  display: none;
+}
 
- .intro__list {
+.button__menu {
+  position: absolute;
+  top: 466px;
+  left: 125px;
+}
+>>>>>>> module4-task1
+
+.intro__title {
+  padding-left: 20px;
+  padding-top: 36px;
+}
+
+.intro__list {
   position: relative;
   display: flex;
   padding-top: 271px;
@@ -73,7 +102,7 @@
 }
 
 .intro__item a:visited {
- color: #ffffff;
+  color: #ffffff;
 }
 
 .intro__comment {
@@ -102,10 +131,8 @@
   .intro {
     width: 688px;
     padding: 0 40px;
-    background-image:
-    url("../img/traveller-illustration-tablet@1x.png"),
-    url("../img/globe-back-tablet@1x.jpg");
-    background-position: 284px 403px,-357px 380px;
+    background-image: url("../img/traveller-illustration-tablet@1x.png"), url("../img/globe-back-tablet@1x.jpg");
+    background-position: 284px 403px, -357px 380px;
     background-repeat: no-repeat;
     background-color: #182044;
   }
@@ -156,7 +183,6 @@
     flex-wrap: wrap;
     padding-top: 245px;
     margin-bottom: 122px;
-
   }
 
   .intro__step {
@@ -166,14 +192,12 @@
   }
 }
 
- @media (min-width: $desktop-width) {
+@media (min-width: $desktop-width) {
   .intro {
     width: 1360px;
-    background-image:
-    url("../img/traveller-illustration-desktop@1x.png"),
-    url("../img/globe-back-desktop@1x.jpg");
-    background-position: 603px 110px,-181px 0px;
-    background-repeat: no-repeat,no-repeat;
+    background-image: url("../img/traveller-illustration-desktop@1x.png"), url("../img/globe-back-desktop@1x.jpg");
+    background-position: 603px 110px, -181px 0;
+    background-repeat: no-repeat, no-repeat;
   }
 
   .intro__logo {
@@ -232,6 +256,7 @@
     margin-top: -99px;
     margin-left: 1000px;
   }
+
   .intro__steps {
     display: flex;
     flex-wrap: nowrap;
@@ -245,4 +270,3 @@
     height: 108px;
   }
 }
-
