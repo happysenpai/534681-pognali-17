@@ -1,10 +1,136 @@
 .companion {
   padding: 0 25px;
+  padding-top: 28px;
   margin: 0 auto;
   width: 270px;
   display: flex;
   flex-direction: column;
   background-color: #edeff6;
+}
+
+.companion__item {
+  width: 270px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #1d2e5b;
+  margin-bottom: 10px;
+}
+
+.companion__item--photo {
+  margin-left: 18px;
+  margin-top: 15px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.companion__item--name {
+  margin-left: 104px;
+  margin-top: -87px;
+  color: #1d2e5b;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 120px;
+}
+
+.companion__item--likes {
+  width: 50px;
+  margin-left: 104px;
+  margin-top: -3px;
+  color: #161c35;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.companion__item--tags {
+  margin-top: 17px;
+  margin-left: 25px;
+  width: 200px;
+  line-height: 19px;
+}
+
+.companion__item--tags a {
+  text-decoration: none;
+  color: #444444;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 2px;
+}
+
+.companion__item--wish {
+  margin-left: 26px;
+  margin-bottom: 36px;
+  width: 200px
+}
+
+.companion__section-title--wish-list {
+ display: block;
+ padding-bottom: 11px;
+}
+
+.companion__item--flag {
+  width: 26px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: 26px;
+  border-radius: 0;
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+.companion__item--flag-shri {
+  background-image: url("../img/sri-lanka_flag_mobile.png");
+}
+
+.companion__item--flag-thai {
+  background-image: url("../img/thailand_flag_mobile.png");
+}
+
+.companion__item--flag-seishil {
+  background-image: url("../img/seychelles_flag_mobile.png");
+}
+
+.companion__item--flag-belgium{
+  background-image: url("../img/belgium_flag_mobile.png");
+}
+
+.companion__item--flag-czech{
+  background-image: url("../img/czech_flag_mobile.png");
+}
+
+.companion__item--flag-usa{
+  background-image: url("../img/usa_flag_mobile.png");
+}
+
+.companion__item--flag-australia {
+  background-image: url("../img/australia_flag_mobile.png");
+}
+
+.companion__item--flag-dominica {
+  background-image: url("../img/dominica_flag_mobile.png");
+}
+
+.companion__item--flag-uk {
+  background-image: url("../img/uk_flag_mobile.png");
+}
+
+.companion__item--flag-ger {
+  background-image: url("../img/ger_flag_mobile.png");
+}
+
+.companion__flag-text {
+  display: block;
+  margin-top: -29px;
+  margin-left: 39px;
+}
+
+.companion__item--flag {
+  width: 26px;
+  height: 18px;
 }
 
 @media (min-width: $tablet-width) {

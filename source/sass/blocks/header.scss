@@ -191,13 +191,16 @@
   }
 
   .header__button-back {
-    right: -1081px;
+    position: relative;
+    margin-left: 605px;
+    width: 126px;
   }
 
   .header__title {
     margin-top: 118px;
     margin-left: 67px;
-    margin-bottom: 64px
+    margin-bottom: 64px;
+
   }
 }
 
