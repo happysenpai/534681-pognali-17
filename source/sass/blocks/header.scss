@@ -141,10 +141,6 @@
     list-style: none;
   }
 
-  .header__item {
-
-  }
-
   .header__link {
     font-family: "Blogger Sans";
     color: #ffffff;
@@ -161,6 +157,7 @@
     top: 50px;
   }
   .header__button-call {
+    display: block;
     position: absolute;
     right: 298px;
     top: 49px;
@@ -176,6 +173,7 @@
   }
 
   .header__button-email {
+    display: block;
     position: absolute;
     right: 247px;
     top: 49px;
