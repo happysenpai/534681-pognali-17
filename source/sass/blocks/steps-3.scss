@@ -1,0 +1,123 @@
+.steps-3 {
+  color: #1d2e5b;
+  background-color: #ffffff;
+  margin-bottom: 44px;
+  padding-bottom: 9px;
+  border-radius: 10px;
+}
+
+.steps-3__title {
+ margin-top: 24px;
+ margin-left: 24px;
+ color: #1d2e5b;
+ font-family: $ff;
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 20px;
+}
+
+.steps-3__text {
+ margin-top: -5px;
+ margin-left: 26px;
+ width: 215px;
+ color: #444444;
+ font-family: $ff;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 22px;
+}
+
+.steps-3__wraper-from {
+  position: relative;
+  display: flex;
+  margin-top: 22px;
+  margin-left: 36px;
+}
+
+.steps-3__wraper-to {
+  position: relative;
+  display: flex;
+  margin-top: 17px;
+  margin-left: 36px;
+}
+.steps-3-country-name {
+  margin-left: 10px;
+  margin: 0;
+  color: #1d2e5b;
+  font-family: $ff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.steps-3__flag {
+  position: absolute;
+  top: -3px;
+  right: 25px;
+}
+
+.steps-3__texarea {
+  margin-top: 16px;
+  margin-left: 25px;
+  padding-left: 14px;
+  padding-top: 9px;
+  width: 202px;
+  height: 210px;
+  border-radius: 4px;
+  border: 1px solid #cbced9;
+  resize: none;
+  color: #444444;
+  font-family: $ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.steps-3__texarea::placeholder{
+  opacity: 0.3;
+  color: #444444;
+  font-family: #ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+
+.steps-3__button-submit {
+  width: 230px;
+  height: 40px;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-bottom: 13px;
+  border-radius: 20px;
+  background-color: #ffd74b;
+  color: #161c35;
+  font-family: $ff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.steps-3__button-back {
+  position: relative;
+  margin-left: 78px;
+  color: #161c35;
+  font-family: $ff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+@media (min-width: $tablet-width) {
+
+}
+
+
+@media (min-width: $desktop-width) {
+
+}

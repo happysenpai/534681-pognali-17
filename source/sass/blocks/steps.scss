@@ -1,22 +1,25 @@
 .steps {
   padding: 0 25px;
   margin: 0 auto;
-  min-height: 390px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   background-color: #d4d9eb;
 }
 
-.steps-1,
-.steps-2,
-.steps-3 {
+.steps__title {
+  margin-top: 30px;
+  margin-bottom: 29px;
   color: #1d2e5b;
-  background-color: #ffffff;
-  margin-bottom: 10px;
+  font-family: $ff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+
 }
 
 @media (min-width: $tablet-width) {
-  .header {
+  .steps {
     width: 688px;
     padding: 0 40px;
   }
@@ -24,7 +27,7 @@
 
 
 @media (min-width: $desktop-width) {
-  .header {
+  .steps {
     width: 1320px;
     padding: 0 60px;
   }
