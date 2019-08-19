@@ -9,7 +9,7 @@
   background-color: #e2e5f2;
 }
 
-.countries-filter-open{
+.countries-filter-open {
   display: none;
 }
 
@@ -30,23 +30,22 @@
   top: 19px;
   width: 26px;
   height: 16px;
-  background-image: url(../img/dots.svg);
+  background-image: url("../img/dots.svg");
   background-size: 17px 15px;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 .countries-filter__menu::before {
- content: "";
- position: absolute;
- left: 16px;
- top: 22px;
- width: 30px;
- height: 30px;
- background-image: url(../img/filter.svg);
- background-size: 34px 10px;
- background-repeat: no-repeat;
-
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 22px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/filter.svg");
+  background-size: 34px 10px;
+  background-repeat: no-repeat;
 }
 
 .countries-filter__close-show {
@@ -68,7 +67,7 @@
     padding-bottom: 37px;
   }
 
-  .countries-filter__title{
+  .countries-filter__title {
     display: none;
   }
 
@@ -109,7 +108,7 @@
     text-transform: uppercase;
   }
 
-  .countries-filter-open{
+  .countries-filter-open {
     display: none;
   }
 
@@ -120,7 +119,7 @@
     top: 56px;
     width: 29px;
     height: 16px;
-    background-image: url(../img/dots.svg);
+    background-image: url("../img/dots.svg");
     background-size: 27px 23px;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -143,10 +142,9 @@
     flex-wrap: wrap;
     padding-top: 61px;
     padding-left: 66px;
-
   }
 
-  .countries-filter__alpha-link{
+  .countries-filter__alpha-link {
     color: #192144;
     font-size: 60px;
     font-weight: 700;
@@ -159,6 +157,7 @@
     width: 209px;
     margin-bottom: 87px;
   }
+
   .countries-filter__alpha-list-inner {
     list-style: none;
     padding-left: 0;
@@ -197,9 +196,10 @@
     top: 60px;
     width: 30px;
     height: 30px;
-    background-image: url(../img/filter.svg);
+    background-image: url("../img/filter.svg");
     background-size: 39px 15px;
   }
+
   .countries-filter__close-show {
     position: absolute;
     right: 210px;
@@ -212,6 +212,7 @@
     line-height: 24px;
     text-transform: uppercase;
   }
+
   .countries-filter__list-button {
     position: relative;
     display: block;
@@ -237,9 +238,8 @@
     top: 40px;
     width: 40px;
     height: 40px;
-    background-image: url(../img/menu-close.svg);
+    background-image: url("../img/menu-close.svg");
     background-repeat: no-repeat;
     background-size: 39px 18px;
-
   }
 }

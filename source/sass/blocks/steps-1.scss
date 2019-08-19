@@ -1,0 +1,247 @@
+.steps-1 {
+  color: #1d2e5b;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.steps-1__title {
+ margin-top: 24px;
+ margin-left: 24px;
+ color: #1d2e5b;
+ font-family: $ff;
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 20px;
+}
+
+.steps-1__text {
+ margin-top: -5px;
+ margin-left: 26px;
+ width: 215px;
+ color: #444444;
+ font-family: $ff;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 22px;
+}
+
+.steps-1__title-input {
+  position: relative;
+  margin-top: 21px;
+  margin-left: 24px;
+  margin-bottom: 7px;
+  color: #1d2e5b;
+  font-family: $ff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.15px
+}
+
+.steps-1__reduction {
+  position: absolute;
+  right: 24px;
+  opacity: 0.3;
+  color: #1d2e5b;
+}
+
+.steps-1__input {
+  position: relative;
+  width: 218px;
+  height: 39px;
+  margin-top: 1px;
+  margin-left: 25px;
+  border-radius: 4px;
+  border: 1px solid #cbced9;
+  text-align: center;
+}
+.steps-1__input-label {
+  position: relative;
+}
+
+.steps-1__input-label::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 29px;
+  width: 23px;
+  height: 14px;
+  background-image: url(../img/qty-minus-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 10px 10px;
+  cursor: pointer;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.steps-1__input-label::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 12px;
+  width: 17px;
+  height: 17px;
+  background-image: url(../img/qty-plus-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: 1px 1px;
+  cursor: pointer;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.steps-1__label {
+  display: block;
+  position: relative;
+  margin-top: 28px;
+  margin-left: 64px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: #444444;
+  font-family: $ff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  user-select: none;
+}
+
+.steps-1__label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: -7px;
+  left: -39px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #cbced9;
+}
+
+.steps-1__label:hover input ~ .checkmark {
+ background-color: #ffffff;
+}
+
+.steps-1__label input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.steps-1__label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.steps-1__label .checkmark:after {
+ left: 10px;
+ top: 5px;
+ width: 4px;
+ height: 8px;
+ border: solid #192144;
+ border-width: 0px 2px 2px 0;
+ transform: rotate(45deg);
+}
+
+.steps-1__calendare-date {
+  color: #1d2e5b;
+  font-family: $ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  border-top: 1px solid #cbced9;
+  border-bottom: 1px solid #cbced9;
+  margin-right: 24px;
+  margin-left: 24px;
+  padding-top: 12px;
+  padding-left: 2px;
+  padding-bottom: 10px;
+
+}
+
+.calendare {
+  position: relative;
+  border-collapse: collapse;
+  margin-left: 26px;
+  margin-top: 9px;
+}
+
+
+.steps-1__week {
+  display: flex;
+  width: 220px;
+  margin-top: 22px;
+  margin-left: 26px;
+  justify-content: space-around;
+}
+
+
+.ssteps-1__week-day{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: #444444;
+  font-family: $ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.steps-1__week-weekend {
+  color: #ff5c23;
+}
+
+.calendare__cell {
+
+  width: 29px;
+  height: 29px;
+  text-align: center;
+  outline: 1px solid #cbced9;
+  opacity: 0.3;
+  color: #444444;
+  font-family: $ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+
+
+}
+
+.steps-1__button {
+  margin-top: 17px;
+  margin-left: 20px;
+  margin-bottom: 22px;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffd74b;
+  border: none;
+  color: #161c35;
+  font-family: $ff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+@media (min-width: $tablet-width) {
+
+}
+
+
+@media (min-width: $desktop-width) {
+
+}

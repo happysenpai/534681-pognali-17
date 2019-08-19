@@ -36,22 +36,23 @@
   position: relative;
   padding-top: 50px;
   z-index: 1;
-
 }
-.intro__menu:after {
+
+.intro__menu::after {
   content: "";
   position: absolute;
   right: -1px;
   top: 29px;
   width: 26px;
   height: 16px;
-  background-image: url(../img/menu.svg);
+  background-image: url("../img/menu.svg");
   background-size: 25px 15px;
   background-repeat: no-repeat;
   cursor: pointer;
   z-index: 1;
 }
-.intro__menu:after:hover {
+
+.intro__menu::after:hover {
   cursor: pointer;
 }
 

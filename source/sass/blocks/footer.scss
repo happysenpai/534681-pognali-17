@@ -8,8 +8,8 @@
 
 .footer__logo {
   position: absolute;
-  top: -69px;
-  left: 111px;
+  top: 39px;
+  left: 110px;
   width: 200px;
   height: 19px;
   background-image: url("../img/logo-mobile-blue@1x.png");
@@ -18,53 +18,65 @@
 
 .footer__social {
   display: flex;
-  margin-top: 107px;
-  margin-left: 56px;
-  width: 200px;
+  margin-top: 95px;
+  margin-left: 52px;
+  margin-bottom: 101px;
 }
 
 .footer__social-item {
   display: flex;
-  margin-right: 43px;
+  margin-right: 45px;
   justify-content: space-around;
 }
 
 .footer__social-facebook {
   position: absolute;
   background-image: url("../img/facebook.svg");
+  background-size: 10px;
+  background-position: 16px 13px;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: #ffd74b;
 }
 
 .footer__social-vk {
   position: absolute;
   background-image: url("../img/vk.svg");
+  background-size: 25px;
+  background-position: 9px 16px;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: #ffd74b;
 }
 
 .footer__social-instagram {
   position: absolute;
   background-image: url("../img/instagram.svg");
+  background-size: 18px;
+  background-position: 13px 13px;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: #ffd74b;
 }
 
 .footer__dev {
   display: block;
   margin-top: 89px;
-  margin-left: 3px;
+  margin-left: 0;
   color: #444444;
   margin-bottom: 22px;
 }
 
 .footer__logo-academy {
   position: absolute;
-  top: 80px;
-  right: 17px;
+  top: 188px;
+  right: 18px;
   width: 42px;
   height: auto;
 }
@@ -76,42 +88,48 @@
   }
 
   .footer__logo {
-    top: -18px;
-    left: 80px;
+    top: 7px;
+    left: 79px;
     height: 40px;
     background-image: url("../img/logo-tablet-blue@1x.png");
   }
 
   .footer__social {
-    margin-top: 72px;
-    margin-left: 299px;
+    margin-top: 49px;
+    margin-left: 284px;
   }
 
   .footer__social-item {
     display: flex;
-    margin-right: 43px;
+    margin-right: 59px;
     justify-content: space-around;
   }
 
   .footer__social-facebook {
-    width: 20px;
-    height: 20px;
+    background-size: 14px;
+    background-position: 22px 16px;
+    width: 60px;
+    height: 60px;
   }
 
   .footer__social-vk {
-    width: 20px;
-    height: 20px;
+    background-size: 31px;
+    background-position: 14px 22px;
+    width: 60px;
+    height: 60px;
   }
 
   .footer__social-instagram {
-    width: 20px;
-    height: 20px;
+    background-size: 24px;
+    background-position: 19px 17px;
+    width: 60px;
+    height: 60px;
   }
 
   .footer__dev {
     display: block;
-    margin-top: -24px;
-    margin-left: 574px;
+    margin-top: -85px;
+    margin-left: 573px;
     color: #444444;
     font-size: 20px;
     font-weight: 400;
@@ -121,8 +139,8 @@
 
   .footer__logo-academy {
     position: absolute;
-    top: -15px;
-    right: 72px;
+    top: 9px;
+    right: 73px;
     height: auto;
   }
 }
@@ -134,23 +152,24 @@
   }
 
   .footer__logo {
-    top: -20px;
-    left: 120px;
+    top: 2px;
+    left: 121px;
     height: 47px;
     background-image: url("../img/logo-desktop-blue@1x.png");
   }
 
   .footer__social {
-    margin-top: 72px;
-    margin-left: 637px;
+    margin-top: 49px;
+    margin-left: 621px;
   }
 
   .footer__dev {
-    margin-top: -24px;
-    margin-left: 1226px;
+    margin-top: -85px;
+    margin-left: 1227px;
+    margin-bottom: 65px;
   }
 
   .footer__logo-academy {
-    right: 113px;
+    right: 112px;
   }
 }

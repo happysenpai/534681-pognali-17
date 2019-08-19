@@ -1,19 +1,81 @@
 .plans {
   padding: 0 25px;
+  padding-bottom: 19px;
   margin: 0 auto;
-  min-height: 390px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   background-color: #dfe3f0;
 }
 
+.plans__header {
+  margin-top: 29px;
+  margin-bottom: 29px;
+  color: #1d2e5b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .plans__partition {
   background-color: #ffffff;
   color: #1d2e5b;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.plans__country {
+  margin-top: 24px;
+  margin-left: 24px;
+  color: #1d2e5b;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.plans__traveler{
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #1d2e5b;
+  font-family: "Blogger Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.plans__date {
+  margin-top: -9px;
+  margin-left: 25px;
+  color: #1d2e5b;
+  font-family: "Blogger Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.plans__button {
+  width: 73px;
+  height: 11px;
+  margin-top: 8px;
+  margin-left: 19px;
+  margin-bottom: 28px;
+  opacity: 0.3;
+  font-family: "Blogger Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: none;
+  background-color: transparent;
 }
 
 @media (min-width: $tablet-width) {
-  .header {
+  .plans {
     width: 688px;
     padding: 0 40px;
   }
@@ -21,7 +83,7 @@
 
 
 @media (min-width: $desktop-width) {
-  .header {
+  .plans {
     width: 1320px;
     padding: 0 60px;
   }
