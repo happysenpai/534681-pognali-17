@@ -47,74 +47,75 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    width: 688px;
-    padding: 0 40px;
-    margin-bottom: -24px;
-  }
+   width: 688px;
+   padding: 0 40px;
+   margin-bottom: -25px;
 
-  .header__logo {
-    margin-top: 45px;
-    height: 42px;
-    background-image: url("../img/logo-tablet-white@1x.png");
-  }
+ }
 
-  .header__menu {
-    right: 370px;
-    top: 59px;
-  }
+ .header__logo {
+  margin-top: 45px;
+  height: 42px;
+  background-image: url("../img/logo-tablet-white@1x.png");
+}
 
-  .header__button-back {
-    display: block;
-    top: -108px;
-    right: -475px;
-    position: relative;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+.header__menu {
+  right: 370px;
+  top: 59px;
+}
 
-  .header__button-back::after {
-    content: "";
-    position: absolute;
-    left: 141px;
-    top: 1px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../img/return.svg");
-    background-size: 39px 16px;
-    background-repeat: no-repeat;
-  }
+.header__button-back {
+  display: block;
+  top: -108px;
+  right: -475px;
+  position: relative;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-  .header__button-auth {
-    display: block;
-    position: absolute;
-    right: 40px;
-    top: 40px;
-    color: #161c35;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    width: 188px;
-    height: 39px;
-    border-radius: 25px;
-    background-color: #ffd74b;
-    text-align: center;
-    padding-top: 10px;
-  }
+.header__button-back::after {
+  content: "";
+  position: absolute;
+  left: 141px;
+  top: 1px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/return.svg");
+  background-size: 39px 16px;
+  background-repeat: no-repeat;
+}
 
-  .header__title {
-    margin-top: 131px;
-    margin-left: 34px;
-    margin-bottom: 64px;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
-  }
+.header__button-auth {
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  color: #161c35;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 188px;
+  height: 39px;
+  border-radius: 25px;
+  background-color: #ffd74b;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header__title {
+  margin-top: 131px;
+  margin-left: 34px;
+  margin-bottom: 64px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
 }
 
 @media (min-width: $desktop-width) {

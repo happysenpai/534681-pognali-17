@@ -37,7 +37,7 @@
   margin-top: 20px;
   margin-left: 25px;
   color: #1d2e5b;
-  font-family: "Blogger Sans";
+  font-family: $ff;
   font-size: 14px;
   font-weight: 600;
   line-height: 14px;
@@ -49,7 +49,7 @@
   margin-top: -9px;
   margin-left: 25px;
   color: #1d2e5b;
-  font-family: "Blogger Sans";
+  font-family: $ff;
   font-size: 14px;
   font-weight: 600;
   line-height: 14px;
@@ -64,7 +64,7 @@
   margin-left: 19px;
   margin-bottom: 28px;
   opacity: 0.3;
-  font-family: "Blogger Sans";
+  font-family: $ff;
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
@@ -78,7 +78,91 @@
   .plans {
     width: 688px;
     padding: 0 40px;
+    padding-bottom: 64px;
   }
+
+  .plans__header {
+   margin-top: 51px;
+   margin-bottom: 40px;
+   margin-left: 34px;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 50px;
+ }
+
+ .plans__partition {
+  position: relative;
+  display: flex;
+  width: 618px;
+  height: 152px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.plans__country {
+ position: absolute;
+ left: 12px;
+ top: 3px;
+ color: #1d2e5b;
+ font-family: $ff;
+ font-size: 24px;
+ font-weight: 800;
+ line-height: 50px;
+ width: 100%;
+ /*  border-bottom: 1px solid #cbced9; */
+}
+
+.plans__country span {
+  position: absolute;
+  right: 63px;
+  top: 14px;
+  color: #1d2e5b;
+  font-family: $ff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.plans__traveler{
+ margin-top: 118px;
+ margin-left: 32px;
+ width: 141px;
+ color: #1d2e5b;
+ font-family: $ff;
+ font-size: 20px;
+ font-weight: 600;
+ line-height: 18px;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+}
+
+.plans__date {
+   margin-top: 118px;
+ width: 220px;
+ text-align: center;
+ color: #1d2e5b;
+ font-family: $ff;
+ font-size: 20px;
+ font-weight: 600;
+ line-height: 18px;
+ text-transform: uppercase;
+ letter-spacing: 1.7px;
+}
+
+.plans__button {
+  position: absolute;
+  width: 73px;
+  height: 11px;
+  right: 74px;
+  bottom: -4px;
+  font-family: $ff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
 }
 
 
