@@ -8,7 +8,7 @@
   background-color: #192144;
   background-image: url("../img/about-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 9px 50px;
+  background-position: 18px 50px;
 }
 
 @media (min-width: $tablet-width) {
@@ -24,6 +24,7 @@
     padding-top: 113px;
     padding-left: 35px;
     font-size: 44px;
+    font-family: $ff;
   }
 
   .about__text {
@@ -31,6 +32,7 @@
     padding-left: 36px;
     font-size: 26px;
     width: 227px;
+    font-family: $ff;
   }
 
   .about__text--bold {
@@ -38,6 +40,7 @@
     padding-left: 34px;
     font-size: 24px;
     width: 272px;
+    font-family: $ff;
   }
 
   .button__about {
@@ -45,6 +48,7 @@
     margin-left: 68px;
     font-size: 25px;
     margin-bottom: 116px;
+    font-family: $ff;
     text-decoration: none;
   }
 
@@ -63,28 +67,43 @@
 
   .about__title {
     padding-top: 107px;
-    padding-left: 70px;
+    padding-left: 71px;
     font-size: 44px;
+    color: #ff8d30;
+
   }
 
   .about__text {
-    margin-top: 37px;
-    padding-left: 72px;
-    font-size: 26px;
-    width: 575px;
-  }
+   margin-top: 33px;
+   padding-left: 72px;
+   width: 617px;
+   font-size: 28px;
+   font-weight: 300;
+   line-height: 33px;
+ }
 
-  .about__text--bold {
-    margin-top: 43px;
-    padding-left: 71px;
-    font-size: 21px;
-    width: 361px;
-  }
+ .about__text--bold {
+  margin-top: 10px;
+  padding-left: 71px;
+  width: 411px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 25px;
+}
 
-  .button__about {
-    margin-top: 99px;
-    margin-left: 104px;
-    font-size: 25px;
-    margin-bottom: 190px;
-  }
+.button__about {
+ width: 243px;
+ height: 52px;
+ border-radius: 20px;
+ background-color: #ffd74b;
+ margin-top: 63px;
+ margin-left: 71px;
+ margin-bottom: 163px;
+ padding-top: 29px;
+ padding-left: 31px;
+ color: #1d2e5b;
+ font-size: 24px;
+ font-weight: 800;
+ line-height: 24px;
+}
 }

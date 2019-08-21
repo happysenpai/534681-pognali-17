@@ -8,7 +8,7 @@
   background-image: url("../img/traveller-illustration-mobile@1x.png"), url("../img/globe-back-mobile@1x.jpg");
   background-position: 79px 223px, 0 0;
   background-repeat: no-repeat, no-repeat;
-  z-index: -1;
+  z-index:0;
 }
 
 .intro::before {
@@ -24,8 +24,8 @@
 
 .intro__logo {
   position: absolute;
-  top: 28px;
-  left: 26px;
+  top: 27px;
+  left: 25px;
   width: 200px;
   height: 19px;
   background-image: url("../img/logo-mobile-white@1x.png");
@@ -60,26 +60,77 @@
   display: none;
 }
 
-.button__menu {
+.intro__menu-button {
   position: absolute;
-  top: 466px;
-  left: 125px;
+  top: 458px;
+  left: 81px;
+  padding-top: 7px;
+  width: 189px;
+  text-align: center;
+  height: 33px;
+  border-radius: 20px;
+  background-color: #ffd74b;
+  color: #161c35;
+  font-family: $ff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.intro__item--call {
+  display: block;
+  position: absolute;
+  right: 50px;
+  top: 1px;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background-color: #ff8d30;
+  border-radius: 50%;
+  background-image: url(../img/topmenu-phone.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 50% 50%;
+}
+
+.intro__item--mail {
+  display: block;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  margin-right: 9px;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background-color: #ffbd30;
+  border-radius: 50%;
+  background-image: url(../img/topmenu-mail.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 50% 50%;
 }
 
 .intro__title {
-  padding-left: 20px;
-  padding-top: 36px;
+  margin-left: 13px;
+  margin-top: 44px;
+  color: #ffffff;
+  font-family: $ff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  width: 245px;
+
 }
 
 .intro__list {
   position: relative;
   display: flex;
-  padding-top: 271px;
+  padding-top: 7px;
+  margin-top: 243px;
+  margin-right: 179px;
   list-style-type: none;
-}
-
-.intro__item {
-  margin-right: 5px;
 }
 
 .intro__item a:visited {
@@ -89,23 +140,121 @@
 .intro__comment {
   padding-left: 26px;
   padding-top: 10px;
-  padding-bottom: 19px;
+  padding-bottom: 306px;
+}
+
+.intro__quote {
+  margin-top: 35px;
+  width: 148px;
+  color: #ffffff;
+  font-family: $ff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.intro__autor {
+  margin-top: 18px;
+  width: 156px;
+  color: #ffffff;
+  font-family: $ff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
 }
 
 .intro__steps {
+  display: flex;
   margin-bottom: -1px;
   list-style-type: none;
   padding: 0;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
 }
 
-.intro__step {
-  width: 270px;
-  height: 80px;
+.intro__step-1 {
+  position: absolute;
+  left: 25px;
+  top: 683px;
+  padding-top: 22px;
+  padding-left: 24px;
+  padding-bottom: 52px;
+  padding-right: 63px;
+  width: 183px;
+  height: 60px;
+  border-radius: 10px 10px 0 0;
   background-color: #ff8d30;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+}
+
+.intro__step-2 {
+  position: absolute;
+  left: 25px;
+  top: 763px;
+  padding-top: 22px;
+  padding-left: 24px;
+  padding-bottom: 52px;
+  padding-right: 63px;
+  width: 183px;
+  height: 60px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffa530;
+}
+
+.intro__step-3 {
+  position: absolute;
+  left: 25px;
+  top: 843px;
+  padding-top: 22px;
+  padding-left: 24px;
+  padding-bottom: 52px;
+  padding-right: 104px;
+  width: 142px;
+  height: 60px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffbd30;
+}
+
+.intro__step-4 {
+  position: absolute;
+  left: 25px;
+  top: 923px;
+  padding-top: 22px;
+  padding-left: 24px;
+  padding-bottom: 52px;
+  padding-right: 63px;
+  width: 183px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #ffd74b;
+}
+
+.intro__step-number {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  z-index: 1;
+}
+
+.intro__step-1 .intro__step-number {
+ top: 22px;
+ right: 20px;
+}
+.intro__step-2 .intro__step-number {
+  top: 22px;
+  right: 21px;
+}
+.intro__step-3 .intro__step-number {
+  top: 22px;
+  right: 21px;
+}
+.intro__step-4 .intro__step-number {
+ top: 22px;
+ right: 21px;
 }
 
 @media (min-width: $tablet-width) {
@@ -134,20 +283,35 @@
   .intro__menu {
     padding-top: 50px;
   }
+  .intro__menu::after {
+    right: 329px;
+    top: 59px;
+  }
 
   .intro__menu-list {
     display: none;
   }
 
-  .button__menu {
-    position: absolute;
-    top: 54px;
-    left: 544px;
+  .intro__menu-button {
+    left: 501px;
+    top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 188px;
+    height: 40px;
+    border-radius: 25px;
+    padding-top: 10px;
   }
 
   .intro__title {
-    margin-top: 111px;
-    margin-left: 41px;
+    width: 395px;
+    margin-top: 112px;
+    margin-left: 147px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
   }
 
   .intro__list {
@@ -155,22 +319,121 @@
   }
 
   .intro__comment {
-    margin-top: 253px;
+    margin-top: 1px;
     margin-left: 8px;
+    padding-bottom: 569px;
   }
 
-  .intro__steps {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 245px;
-    margin-bottom: 122px;
+  .intro__quote {
+    margin-top: 37px;
+    margin-left: 2px;
+    width: 262px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
   }
 
-  .intro__step {
-    width: 344px;
-    height: 140px;
-    background-color: #ff8d30;
-  }
+  .intro__autor {
+   margin-top: 43px;
+   margin-left: 2px;
+   width: 250px;
+   font-size: 21px;
+   font-weight: 800;
+   line-height: 25px;
+ }
+ .intro__steps {
+  color: #161c35;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.intro__step-1 {
+  left: 41px;
+  top: 854px;
+  width: 247px;
+  height: 66px;
+  padding-top: 31px;
+  padding-left: 33px;
+  padding-bottom: 52px;
+  padding-right: 85px;
+  border-radius: 20px 0 0 0;
+}
+
+.intro__step-2 {
+  left: 385px;
+  top: 854px;
+  width: 257px;
+  height: 66px;
+  padding-top: 31px;
+  padding-left: 33px;
+  padding-bottom: 52px;
+  padding-right: 54px;
+  border-radius: 20px 20px 0 0;
+  background-color: #ffa530;
+}
+
+.intro__step-3 {
+  left: 41px;
+  top: 994px;
+  width: 191px;
+  height: 57px;
+  padding-top: 31px;
+  padding-left: 33px;
+  padding-bottom: 52px;
+  padding-right: 146px;
+  border-radius: 0 0 0 20px;
+  background-color: #ffbd30;
+}
+
+.intro__step-4 {
+  left: 385px;
+  top: 994px;
+  width: 243px;
+  height: 66px;
+  padding-top: 31px;
+  padding-left: 34px;
+  padding-bottom: 43px;
+  padding-right: 67px;
+  border-radius: 0 0 20px 20px;
+  background-color: #ffd74b;
+}
+
+.intro__step-number {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  z-index: 1;
+}
+.intro__step-number {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 120px;
+}
+
+.intro__step-1 .intro__step-number {
+ top: 43px;
+ left: 33px;
+}
+
+.intro__step-2 .intro__step-number {
+  top: 43px;
+  left: 33px;
+}
+
+.intro__step-3 .intro__step-number {
+ top: 43px;
+ left: 33px
+}
+
+.intro__step-4 .intro__step-number {
+ top: 43px;
+ left: 33px;
+}
 }
 
 @media (min-width: $desktop-width) {
@@ -198,6 +461,7 @@
     display: flex;
     list-style-type: none;
     margin-left: 326px;
+    width: 600px;
   }
 
   .intro__menu-link {
@@ -214,40 +478,146 @@
     color: #ffffff;
     text-decoration: none;
   }
-
-  .button__menu {
-    position: absolute;
-    top: 63px;
-    left: 1188px;
+  .intro__item--call {
+    right: 50px;
+    top: 0;
+    width: 50px;
+    height: 50px;
   }
 
+  .intro__item--mail {
+    right: -9px;
+    top: -1px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .intro__menu-button {
+    position: absolute;
+    top: 50px;
+    left: 1151px;
+  }
+
+  .intro__menu::after {
+    display: none;
+  }
   .intro__title {
-    padding-top: 131px;
-    padding-left: 13px;
+    padding-top: 9px;
+    margin-left: 85px;
+    text-align: left;
   }
 
   .intro__list {
     display: flex;
     position: absolute;
-    top: -223px;
-    right: 252px;
+    top: -193px;
+    right: 69px;
+    z-index: 1;
   }
 
   .intro__comment {
-    margin-top: -99px;
-    margin-left: 1000px;
+    margin-top: -236px;
+    margin-left: 1004px;
+    padding-bottom: 95px;
+  }
+
+  .intro__quote {
+    margin-top: -13px;
+    margin-left: 24px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
+    width: 264px;
+
+  }
+
+  .intro__autor {
+    margin-top: 43px;
+    margin-left: 24px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
   }
 
   .intro__steps {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-top: 85px;
-    padding-left: 20px;
-    padding-bottom: 122px;
+    position: relative;
+    padding-top: 58px;
+    padding-left: 19px;
+    padding-bottom: 232px;
   }
 
   .intro__step {
-    width: 330px;
-    height: 108px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
   }
+
+  .intro__step-1 {
+    left: 20px;
+    top: -25px;
+    width: 233px;
+    height: 26px;
+    padding-top: 29px;
+    padding-left: 34px;
+    padding-right: 73px;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .intro__step-2 {
+    left: 335px;
+    top: -25px;
+    width: 233px;
+    height: 26px;
+    padding-top: 29px;
+    padding-left: 30px;
+    padding-right: 100px;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .intro__step-3 {
+   left: 680px;
+   top: -25px;
+   width: 186px;
+   height: 26px;
+   padding-top: 29px;
+   padding-left: 32px;
+   padding-right: 160px;
+   border-radius: 20px 0 0 20px;
+ }
+
+ .intro__step-4 {
+  left: 1025px;
+  top: -25px;
+  width: 233px;
+  height: 35px;
+  padding-top: 29px;
+  padding-left: 30px;
+  padding-right: 52px;
+  border-radius: 20px;
+}
+
+.intro__step-number {
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 120px;
+}
+
+.intro__step-1 .intro__step-number {
+ top: -19px;
+ left: 268px;
+}
+.intro__step-2 .intro__step-number {
+ top: -19px;
+ left: 299px;
+}
+.intro__step-3 .intro__step-number {
+ top: -19px;
+ left: 300px;
+}
+.intro__step-4 .intro__step-number {
+ top: -19px;
+ left: 270px;
+}
 }
