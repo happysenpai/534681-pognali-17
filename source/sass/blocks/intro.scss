@@ -136,6 +136,7 @@
   margin-top: 243px;
   margin-right: 179px;
   list-style-type: none;
+
 }
 
 .intro__item a:visited {
@@ -145,7 +146,7 @@
 .intro__comment {
   padding-left: 26px;
   padding-top: 10px;
-  padding-bottom: 306px;
+  padding-bottom: 317px;
 }
 
 .intro__quote {
@@ -176,6 +177,7 @@
   font-size: 18px;
   font-weight: 800;
   line-height: 18px;
+   z-index: 1;
 }
 
 .intro__step-1 {
@@ -552,7 +554,7 @@
       position: relative;
       padding-top: 58px;
       padding-left: 19px;
-      padding-bottom: 232px;
+      padding-bottom: 271px;
     }
 
     .intro__step {

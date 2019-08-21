@@ -1,6 +1,7 @@
 .countries {
   padding: 0 25px;
   margin: 0 auto;
+  margin-top: -25px;
   width: 270px;
   display: flex;
   flex-direction: column;
@@ -79,6 +80,7 @@
   .countries {
     width: 688px;
     padding: 0 40px;
+    margin-top: -58px;
     background-image: url("../img/flags-back@1x.png");
     background-repeat: no-repeat;
     background-position: 439px 82px;
@@ -163,26 +165,27 @@
 
 @media (min-width: $desktop-width) {
   .countries {
-    position: relative;
+
     width: 1320px;
     padding: 0 60px;
     padding-top: 78px;
+    margin-top: -118px;
     background-image: url("../img/flags-back@1x.png");
     background-repeat: no-repeat;
     background-position: 1092px 89px;
   }
 
   .countries__title {
-    position: absolute;
-    top: 95px;
-    right: 310px;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 1px;
     font-size: 44px;
   }
 
   .countries__text {
-    position: absolute;
-    top: 236px;
-    right: 328px;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 1px;
     font-size: 27px;
     width: 250px;
     color: #444444;
