@@ -20,7 +20,7 @@
     <a class="header__button-auth" href="">авторизация</a>
     <a class="header__button-call" href=""></a>
     <a class="header__button-email" href=""></a>
-    <a class="header__button-back" href="">на главную</a>
+    <a class="header__button-back header__button-off" href="">на главную</a>
   </header>
   <main >
     <section class="user-info">
@@ -29,8 +29,10 @@
         <span class="user-info__number">80</span>
         <span class="user-info__level">level</span>
       </div>
-      <img class="user-info__user-img" src="img/photo-account-mobile@1x.jpg" width="100" height="100" alt="Фото пользователя">
-      <button class="button-change" type="button">Сменить фото</button>
+      <p class="user-info__user-img-title">
+        <img class="user-info__user-img" src="img/photo-account-mobile@1x.jpg" width="100" height="100" alt="Фото пользователя">
+      </p>
+      <button class="user-info__button-change user-info__button-off" type="button">Сменить фото</button>
       <fieldset class="user-info__fieldset user-info__position-tegs">
         <legend class="user-info__legend user-info__legend-tegs">Тэги</legend>
         <div class="user-info__tegs">
@@ -69,9 +71,8 @@
     <section class="steps">
       <h2 class="steps__title">Добавить план:</h2>
       <section class="steps-1">
-        <h3 class="steps-1__title">Шаг 1.<br> Даты пребывания</h3>
-        <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
-
+        <h3 class="steps-1__title">Шаг 1. <span><br></span> Даты пребывания</h3>
+        <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых<br> вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
         <h4 class="steps-1__title-input">ищу попутчиков: <span class="steps-1__reduction">Чел.</span></h4>
         <label class="steps-1__input-label">
           <input class="steps-1__input" type="text" name="people" placeholder="2">
@@ -82,7 +83,7 @@
         </label>
         <label class="steps-1__label">Можно с детьми
           <input class="steps-1__input-child" type="checkbox" name="child" checked>
-          <span class="checkmark"></span>
+          <span tabindex="0" class="checkmark"></span>
         </label>
         <div class="steps-1__calendare-date">Март 2019</div>
         <div class="steps-1__week">
@@ -94,7 +95,7 @@
           <div class="steps-1__week-day steps-1__week-weekend">Сб</div>
           <div class="steps-1__week-day steps-1__week-weekend">Вс</div>
         </div>
-        <table class="calendare">
+        <table class="steps-1__calendare calendare">
           <tr class="calendare__row">
             <td class="calendare__cell">23</td>
             <td class="calendare__cell">24</td>
@@ -189,8 +190,8 @@
             <img class="steps-3__flag" src="img/Czech-Republic.png" width="35" height="24" alt="Флаг страны"></div>
             <textarea class="steps-3__texarea" placeholder="План действий">Пить пиво и лазить по старым замкам, наслаждаться аритектурой и вот это все.
             </textarea>
-            <button class="steps-3__button-submit" type="submit">Следующий шаг</button>
-            <a href="" class="steps-3__button-back">На шаг назад</a>
+            <button class="steps-3__button-submit" type="submit">Отправить</button>
+            <a class="steps-3__button-back" href="#">На шаг назад</a>
           </section>
         </section>
       </main>

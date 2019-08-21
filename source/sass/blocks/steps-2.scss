@@ -195,10 +195,65 @@
  font-weight: 800;
  line-height: 24px;
 }
-
 }
-
 
 @media (min-width: $desktop-width) {
+  .steps-2 {
+    width: 1320px;
+    border-radius: 60px;
+    margin-bottom: 45px;
+  }
+  .steps-2__title  br {
+    display: none;
+  }
+  .steps-2__title {
+    margin-top: 99px;
+    margin-left: 159px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+  }
+
+  .steps-2__text {
+    margin-top: -3px;
+    margin-left: 160px;
+    margin-bottom: 118px;
+    width: 436px;
+  }
+
+  .steps-2__select {
+    width: 730px;
+    height: 70px;
+    margin-top: 0;
+    margin-left: 117px;
+    padding-top: 4px;
+    font-family: $ff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  .steps-2__flag {
+    margin-left: 77px;
+  }
+
+  .steps-2__button-add {
+    margin-left: 159px;
+    margin-bottom: 31px;
+    padding-left: 26px;
+    width: 705px;
+  }
+  .steps-2__button-next {
+    margin-left: 160px;
+    margin-bottom: 96px;
+  }
+
+.steps-2__button-back {
+    margin-left: 561px;
+}
 
 }
+

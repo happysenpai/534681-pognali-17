@@ -388,5 +388,99 @@
 
 }
 @media (min-width: $desktop-width) {
+  .steps-1 {
+    position: relative;
+    width: 1320px;
+    border-radius: 60px;
+    margin-bottom: 44px;
+  }
 
+  .steps-1__title  br {
+    display: none;
+  }
+  .steps-1__title {
+    margin-top: 100px;
+    margin-left: 159px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+  }
+
+  .steps-1__text {
+    margin-top: -3px;
+    margin-bottom: 112px;
+    margin-left: 160px;
+    width: 578px;
+  }
+
+  .steps-1__title-input {
+    position: relative;
+    margin-top: 66px;
+    margin-left: 159px;
+  }
+
+  .steps-1__input {
+   position: absolute;
+   width: 179px;
+   height: 66px;
+   top: -69px;
+   left: 335px;
+
+ }
+ .steps-1__label {
+  position: absolute;
+  right: 160px;
+  top: 568px;
+}
+.steps-1__input-label::before {
+  top: -28px;
+  left: 390px;
+}
+
+.steps-1__input-label::after {
+  top: -27px;
+  left: 522px;
+  background-size: 18px;
+}
+.steps-1__reduction {
+  left: 439px;
+}
+.steps-1__calendare-date {
+  margin-top: 57px;
+  margin-right: 24px;
+  margin-left: 160px;
+  padding-top: 36px;
+  padding-left: 2px;
+  padding-bottom: 29px;
+  width: 75.4%;
+}
+.steps-1__week {
+
+ width: 66.5%;
+ margin-top: 12px;
+ margin-left: 175px;
+ justify-content: space-between;
+}
+
+.calendare {
+  margin-left: 161px;
+  margin-top: 14px;
+}
+
+.calendare__cell {
+  width: 141px;
+  height: 69px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1.8px;
+}
+
+.steps-1__button {
+  margin-top: 56px;
+  margin-left: 161px;
+  margin-bottom: 105px;
+  padding-top: 5px;
+}
 }

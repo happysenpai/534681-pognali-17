@@ -140,7 +140,7 @@
 }
 
 .plans__date {
-   margin-top: 118px;
+ margin-top: 118px;
  width: 220px;
  text-align: center;
  color: #1d2e5b;
@@ -171,4 +171,43 @@
     width: 1320px;
     padding: 0 60px;
   }
+
+  .plans__header {
+    margin-top: 50px;
+    margin-left: 71px;
+  }
+
+  .plans__partition {
+    width: 1256px;
+    height: 97px;
+    margin-left: 64px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  .plans__country {
+    left: 70px;
+    top: 0px;
+  }
+
+  .plans__country span {
+   left: -52px;
+   top: 17px;
+ }
+
+ .plans__traveler {
+   margin-top: 41px;
+   margin-left: 627px;
+
+ }
+
+ .plans__date {
+  margin-top: 41px;
+  margin-left: 14px;
+}
+
+.plans__button {
+ right: 79px;
+ bottom: 18px;
+}
 }

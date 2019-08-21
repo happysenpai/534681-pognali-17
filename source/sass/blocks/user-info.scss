@@ -44,7 +44,7 @@
  height: 100px;
 }
 
-.button-change {
+.user-info__button-change {
   width: 270px;
   height: 40px;
   margin-top: 20px;
@@ -148,13 +148,11 @@
 
 @media (min-width: $tablet-width) {
   .user-info {
-    position: relative;
     display: flex;
     width: 688px;
     padding: 0 40px;
     padding-bottom: 37px;
     z-index: 1;
-
   }
 
   .user-info__levelup {
@@ -170,7 +168,7 @@
     height: 94px;
   }
 
-  .button-change {
+  .user-info__button-change {
     width: 618px;
     height: 60px;
     margin-top: 52px;
@@ -282,7 +280,109 @@
 
 @media (min-width: $desktop-width) {
   .user-info {
+    position: relative;
     width: 1320px;
     padding: 0 60px;
   }
+
+  .user-info__levelup {
+   position: absolute;
+   top: -210px;
+   right: 385px;
+   color: #ffffff;
+ }
+
+ .user-info__number {
+  position: absolute;
+  top: 26px;
+  left: 27px;
+  color: #ffffff;
+}
+
+.user-info__level {
+ color: #ffffff;
+}
+
+.user-info__user-img {
+  position: absolute;
+  right: 95px;
+  top: -270px;
+  width: 190px;
+  height: 190px;
+  border-radius: 0;
+
+}
+.user-info__user-img-title {
+  position: relative;
+}
+.user-info__user-img-title::after {
+  content: "фото";
+  position: absolute;
+  right: 95px;
+  top: -16px;
+  width: 190px;
+  height: 31px;
+  padding-top: 16px;
+  border-radius: 0 0 10px 10px;
+  background-color: #dfe3f0;
+  text-align: center;
+  color: #1d2e5b;
+  font-family: $ff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.user-info__position-transport {
+  position: absolute;
+  right: 58px;
+  bottom: -264px;
+  width: 358px;
+  height: 76px;
+}
+
+.user-info__legend-transport {
+ bottom: -18px;
+ left: 114px;
+ width: 116px;
+ height: 25px;
+}
+
+.user-info__position-tegs {
+  position: relative;
+  margin-top: 41px;
+  margin-left: 64px;
+  margin-bottom: 65px;
+  width: 704px;
+  height: 76px;
+}
+
+.user-info__button-off {
+  display: none;
+}
+
+.user-info__position-transport {
+  position: absolute;
+  right: 58px;
+  bottom: -215px;
+  width: 358px;
+  height: 76px;
+}
+
+.user-info__position {
+  margin-left: 54px;
+  margin-top: 19px;
+}
+.user-info__icons {
+  margin-right: 0px;
+}
+
+.user-info__legend-tegs {
+  bottom: -19px;
+  left: 19px;
+
+
+}
 }
