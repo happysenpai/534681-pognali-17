@@ -108,9 +108,9 @@
   padding-top: 10px;
 }
 
-  .header__button-off {
-    display: none;
-  }
+.header__button-off {
+  display: none;
+}
 
 .header__title {
   margin-top: 131px;
@@ -196,8 +196,9 @@
   }
 
   .header__button-back {
-    position: relative;
-    margin-left: 605px;
+    position: absolute;
+    top: 243px;
+    right: 174px;
     width: 126px;
   }
   .header__button-off {
