@@ -6,28 +6,41 @@
   display: flex;
   flex-direction: column;
   background-color: #edeff6;
+  border-radius: 0 0 30px 30px;
 }
 
 .countries__title {
-  padding-top: 53px;
+  padding-top: 77px;
   padding-left: 27px;
+  color: #ff8d30;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+
 }
 
 .countries__text {
   margin-top: -2px;
-  padding-left: 27px;
+  padding-left: 25px;
   width: 200px;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
 }
 
 .countries__item {
   position: relative;
-  margin-bottom: -35px;
+  margin-bottom: -36px;
 }
 
 .countries__background {
   position: relative;
-  padding-top: 45px;
-  z-index: 0;
+  margin-top: 45px;
+  width: 270px;
+  height: 110px;
+  border-radius: 10px 10px 0 0;
+
 }
 
 .countries__description {
@@ -49,31 +62,54 @@
 
 .countries__name {
   position: absolute;
-  top: 8px;
-  left: 25px;
+  top: 5px;
+  left: 24px;
   color: #161c35;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 21px;
 }
 
 .countries__slogan {
   position: absolute;
-  top: 31px;
-  left: 27px;
+  top: 33px;
+  left: 26px;
+  opacity: 0.3;
   color: #444444;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.4px;
 }
 
 .countries__people-count {
   position: absolute;
-  top: 26px;
+  top: 29px;
   left: 205px;
+  opacity: 0.3;
   color: #444444;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
 }
 
-.button__countries {
-  padding-bottom: 50px;
-  padding-top: 80px;
-  padding-left: 25px;
+.countries__button {
+  width: 246px;
+  height: 1px;
+  margin-top: 61px;
+  margin-bottom: 29px;
+  padding-bottom: 39px;
+  padding-top: 23px;
+  padding-left: 24px;
   text-decoration: none;
+  border-radius: 10px;
+  background-color: #ffd74b;
   color: #1d2e5b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {
@@ -83,76 +119,91 @@
     margin-top: -58px;
     background-image: url("../img/flags-back@1x.png");
     background-repeat: no-repeat;
-    background-position: 439px 82px;
+    background-position: 440px 138px;
+    border-radius: 0 0 60px 60px;
   }
 
   .countries__title {
-    padding-top: 49px;
-    padding-left: 33px;
-    font-size: 44px;
+    padding-top: 95px;
+    padding-left: 34px;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 45px;
   }
 
   .countries__text {
-    margin-top: 38px;
-    padding-left: 35px;
-    font-size: 27px;
-    width: 250px;
+    margin-top: 19px;
+    padding-left: 36px;
+    width: 351px;
     color: #444444;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
   }
 
   .countries__item {
     position: relative;
-    margin-bottom: -74px;
+    margin-top: 37px;
+    margin-left: 2px;
+    margin-bottom: -66px;
   }
 
   .countries__background {
     position: relative;
     margin-top: 39px;
     margin-left: 383px;
-    z-index: 0;
+    border-radius: 0 20px 20px 0;
   }
 
   .countries__description {
     position: relative;
     margin-top: -117px;
     margin-left: 34px;
-    width: 374px;
+    width: 431px;
     height: 140px;
-    background-color: #ffffff;
-    border-radius: 0;
-    z-index: 1;
+    border-radius: 20px 0 0 20px;
+
   }
 
   .countries__flag {
     position: absolute;
-    top: 14px;
-    left: 399px;
+    top: 16px;
+    left: 398px;
     width: 70px;
     height: 47px;
   }
 
   .countries__name {
     position: absolute;
-    top: 9px;
-    left: 32px;
-    font-size: 23px;
+    top: 7px;
+    left: 30px;
     color: #161c35;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+
   }
 
   .countries__slogan {
     position: absolute;
-    top: 39px;
-    left: 31px;
-    font-size: 19px;
+    top: 40px;
+    left: 30px;
     color: #444444;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
   }
 
   .countries__people-count {
     position: absolute;
-    top: 97px;
-    left: 62px;
-    font-size: 20px;
+    top: 94px;
+    left: 60px;
     color: #444444;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: -0.9px;
   }
 
   .button__countries {
@@ -161,72 +212,96 @@
     margin-left: 43px;
     font-size: 24px;
   }
+  .countries__button {
+    width: 585px;
+    height: 12px;
+    margin-top: 113px;
+    margin-left: 36px;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-left: 33px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .countries {
-
     width: 1320px;
     padding: 0 60px;
     padding-top: 78px;
     margin-top: -118px;
     background-image: url("../img/flags-back@1x.png");
     background-repeat: no-repeat;
-    background-position: 1092px 89px;
+    background-position: 1091px 147px;
   }
-
-  .countries__title {
+     .countries__title {
     position: relative;
-    margin-top: 1px;
-    margin-left: 1px;
-    font-size: 44px;
+    margin-top: 52px;
+    margin-left: 768px;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 45px;
   }
 
   .countries__text {
     position: relative;
-    margin-top: 1px;
-    margin-left: 1px;
-    font-size: 27px;
-    width: 250px;
+    margin-top: 18px;
+    margin-left: 765px;
+    width: 343px;
     color: #444444;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
+  }
+  .countries__position {
+    margin-top: -339px;
   }
 
   .countries__item {
-    margin-bottom: -74px;
-    margin-left: 36px;
-  }
+   margin-bottom: -66px;
+   margin-left: 37px;
+ }
 
-  .countries__background {
-    margin-top: 39px;
-    margin-left: 326px;
-  }
+ .countries__background {
+  margin-top: 39px;
+  margin-left: 323px;
+}
 
-  .countries__description {
-    width: 374px;
-  }
+.countries__description {
+  width: 374px;
+}
 
-  .countries__flag {
-    top: 23px;
-    left: 339px;
-  }
+.countries__flag {
+  top: 23px;
+  left: 338px;
+}
 
-  .countries__name {
-    top: 3px;
-  }
+.countries__name {
+  top: 0;
+}
 
-  .countries__slogan {
-    top: 34px;
-    left: 33px;
-  }
+.countries__slogan {
+  top: 33px;
+  left: 32px;
 
-  .countries__people-count {
-    top: 97px;
-    left: 62px;
-  }
+}
 
-  .button__countries {
-    margin-bottom: 117px;
-    margin-top: -46px;
-    margin-left: 811px;
-  }
+.countries__people-count {
+  top: 93px;
+  left: 62px;
+}
+
+.countries__button {
+  width: 241px;
+  height: 12px;
+  margin-top: -5px;
+  margin-left: 804px;
+  margin-bottom: 139px;
+  padding-top: 30px;
+  padding-left: 33px;
+
+}
 }
