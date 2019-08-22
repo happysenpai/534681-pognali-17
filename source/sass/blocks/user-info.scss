@@ -27,21 +27,21 @@
 }
 
 .user-info__level {
- position: absolute;
- top: 64px;
- left: 32px;
- color: #444444;
- font-size: 18px;
- font-weight: 400;
- line-height: 22.17px;
+  position: absolute;
+  top: 64px;
+  left: 32px;
+  color: #444444;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.17px;
 }
 
 .user-info__user-img {
- margin-top: 21px;
- margin-left: 153px;
- border-radius: 50%;
- width: 100px;
- height: 100px;
+  margin-top: 21px;
+  margin-left: 153px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .user-info__button-change {
@@ -92,7 +92,7 @@
 }
 
 .user-info__position {
- margin-left: 14px;
+  margin-left: 14px;
 }
 
 .user-info__icons {
@@ -103,47 +103,47 @@
 }
 
 .user-info__icons--plane {
- width: 33px;
- height: 33px;
- background-image: url("../img/plane-black.svg");
- background-repeat: no-repeat;
- background-size: 14px;
- background-position: 8px 8px;
- background-color: #ffffff;
- border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background-image: url("../img/plane-black.svg");
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: 8px 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .user-info__icons--bus {
- width: 33px;
- height: 33px;
- background-image: url("../img/bus-black.svg");
- background-repeat: no-repeat;
- background-size: 13px;
- background-position: 10px 8px;
- background-color: #ffffff;
- border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background-image: url("../img/bus-black.svg");
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: 10px 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .user-info__icons--bike {
- width: 33px;
- height: 33px;
- background-image: url("../img/bike-black.svg");
- background-repeat: no-repeat;
- background-size: 20px;
- background-position: 7px 6px;
- background-color: #ffffff;
- border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background-image: url("../img/bike-black.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 7px 6px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .user-info__icons--run {
- width: 33px;
- height: 33px;
- background-image: url("../img/run-black.svg");
- background-repeat: no-repeat;
- background-size: 16px;
- background-position: 7px 7px;
- background-color: #ffffff;
- border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background-image: url("../img/run-black.svg");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 7px 7px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 @media (min-width: $tablet-width) {
@@ -183,6 +183,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
   }
+
   .user-info__tegs {
     margin-top: 28px;
     margin-left: 29px;
@@ -196,7 +197,8 @@
     font-weight: 400;
     line-height: 24px;
   }
-  .user-info__legend  {
+
+  .user-info__legend {
     position: absolute;
     color: #1d2e5b;
     font-family: $ff;
@@ -216,67 +218,67 @@
   }
 
   .user-info__legend-tegs {
-   bottom: -19px;
-   left: 264px;
-   width: 50px;
-   height: 25px;
-   background-color: #edeff6;
- }
- .user-info__position-tegs {
-  position: relative;
-  margin-top: 27px;
-  margin-left: 35px;
-  width: 592px;
-  height: 76px;
-}
+    bottom: -19px;
+    left: 264px;
+    width: 50px;
+    height: 25px;
+    background-color: #edeff6;
+  }
 
-.user-info__position-transport {
-  position: relative;
-  margin-top: -367px;
-  margin-left: 189px;
-  margin-bottom: 280px;
-  width: 282px;
-  height: 77px;
-}
+  .user-info__position-tegs {
+    position: relative;
+    margin-top: 27px;
+    margin-left: 35px;
+    width: 592px;
+    height: 76px;
+  }
 
-.user-info__icons {
-  margin-right: 8px;
-}
+  .user-info__position-transport {
+    position: relative;
+    margin-top: -367px;
+    margin-left: 189px;
+    margin-bottom: 280px;
+    width: 282px;
+    height: 77px;
+  }
 
-.user-info__position {
- margin-left: 2px;
- margin-top: 19px;
-}
+  .user-info__icons {
+    margin-right: 8px;
+  }
 
-.user-info__icons--plane {
- width: 43px;
- height: 43px;
- background-size: 19px;
- background-position: 10px 11px;
-}
+  .user-info__position {
+    margin-left: 2px;
+    margin-top: 19px;
+  }
 
-.user-info__icons--bus {
- width: 43px;
- height: 43px;
- background-size: 17px;
- background-position: 14px 11px;
-}
+  .user-info__icons--plane {
+    width: 43px;
+    height: 43px;
+    background-size: 19px;
+    background-position: 10px 11px;
+  }
 
-.user-info__icons--bike {
- width: 43px;
- height: 43px;
- background-size: 24px;
- background-position: 10px 10px;
-}
+  .user-info__icons--bus {
+    width: 43px;
+    height: 43px;
+    background-size: 17px;
+    background-position: 14px 11px;
+  }
 
-.user-info__icons--run {
- width: 43px;
- height: 43px;
- background-size: 20px;
- background-position: 12px 11px;
-}
-}
+  .user-info__icons--bike {
+    width: 43px;
+    height: 43px;
+    background-size: 24px;
+    background-position: 10px 10px;
+  }
 
+  .user-info__icons--run {
+    width: 43px;
+    height: 43px;
+    background-size: 20px;
+    background-position: 12px 11px;
+  }
+}
 
 @media (min-width: $desktop-width) {
   .user-info {
@@ -286,103 +288,95 @@
   }
 
   .user-info__levelup {
-   position: absolute;
-   top: -210px;
-   right: 385px;
-   color: #ffffff;
- }
+    position: absolute;
+    top: -210px;
+    right: 385px;
+    color: #ffffff;
+  }
 
- .user-info__number {
-  position: absolute;
-  top: 26px;
-  left: 27px;
-  color: #ffffff;
-}
+  .user-info__number {
+    position: absolute;
+    top: 26px;
+    left: 27px;
+    color: #ffffff;
+  }
 
-.user-info__level {
- color: #ffffff;
-}
+  .user-info__level {
+    color: #ffffff;
+  }
 
-.user-info__user-img {
-  position: absolute;
-  right: 95px;
-  top: -270px;
-  width: 190px;
-  height: 190px;
-  border-radius: 0;
+  .user-info__user-img {
+    position: absolute;
+    right: 95px;
+    top: -270px;
+    width: 190px;
+    height: 190px;
+    border-radius: 0;
+  }
 
-}
-.user-info__user-img-title {
-  position: relative;
-}
-.user-info__user-img-title::after {
-  content: "фото";
-  position: absolute;
-  right: 95px;
-  top: -16px;
-  width: 190px;
-  height: 31px;
-  padding-top: 16px;
-  border-radius: 0 0 10px 10px;
-  background-color: #dfe3f0;
-  text-align: center;
-  color: #1d2e5b;
-  font-family: $ff;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 18px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
+  .user-info__user-img-title {
+    position: relative;
+  }
 
-.user-info__position-transport {
-  position: absolute;
-  right: 58px;
-  bottom: -264px;
-  width: 358px;
-  height: 76px;
-}
+  .user-info__user-img-title::after {
+    content: "фото";
+    position: absolute;
+    right: 95px;
+    top: -16px;
+    width: 190px;
+    height: 31px;
+    padding-top: 16px;
+    border-radius: 0 0 10px 10px;
+    background-color: #dfe3f0;
+    text-align: center;
+    color: #1d2e5b;
+    font-family: $ff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 
-.user-info__legend-transport {
- bottom: -18px;
- left: 114px;
- width: 116px;
- height: 25px;
-}
+  .user-info__position-transport {
+    position: absolute;
+    right: 58px;
+    bottom: -215px;
+    width: 358px;
+    height: 76px;
+  }
 
-.user-info__position-tegs {
-  position: relative;
-  margin-top: 41px;
-  margin-left: 64px;
-  margin-bottom: 65px;
-  width: 704px;
-  height: 76px;
-}
+  .user-info__legend-transport {
+    bottom: -18px;
+    left: 114px;
+    width: 116px;
+    height: 25px;
+  }
 
-.user-info__button-off {
-  display: none;
-}
+  .user-info__position-tegs {
+    position: relative;
+    margin-top: 41px;
+    margin-left: 64px;
+    margin-bottom: 65px;
+    width: 704px;
+    height: 76px;
+  }
 
-.user-info__position-transport {
-  position: absolute;
-  right: 58px;
-  bottom: -215px;
-  width: 358px;
-  height: 76px;
-}
+  .user-info__button-off {
+    display: none;
+  }
 
-.user-info__position {
-  margin-left: 54px;
-  margin-top: 19px;
-}
-.user-info__icons {
-  margin-right: 0px;
-}
+  .user-info__position {
+    margin-left: 54px;
+    margin-top: 19px;
+  }
 
-.user-info__legend-tegs {
-  bottom: -19px;
-  left: 19px;
+  .user-info__icons {
+    margin-right: 0;
+  }
 
-
-}
+  .user-info__legend-tegs {
+    bottom: -19px;
+    left: 19px;
+  }
 }

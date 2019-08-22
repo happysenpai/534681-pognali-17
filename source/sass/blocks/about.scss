@@ -12,13 +12,14 @@
   background-position: 18px 50px;
   border-radius: 0 0 30px 30px;
 }
-.about__button{
+
+.about__button {
   display: none;
   font-family: $ff;
 }
 
 .about__title {
-  padding-top: 0px;
+  padding-top: 0;
   padding-left: 24px;
   font-family: $ff;
   color: #ff8d30;
@@ -38,14 +39,14 @@
 }
 
 .about__text--bold {
- margin-top: 3px;
- padding-left: 25px;
- padding-bottom: 65px;
- width: 233px;
- font-family: $ff;
- font-size: 16px;
- font-weight: 800;
- line-height: 22px;
+  margin-top: 3px;
+  padding-left: 25px;
+  padding-bottom: 65px;
+  width: 233px;
+  font-family: $ff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
 }
 
 @media (min-width: $tablet-width) {
@@ -64,7 +65,6 @@
     font-size: 45px;
     font-weight: 800;
     line-height: 45px;
-
   }
 
   .about__text {
@@ -74,7 +74,6 @@
     font-size: 28px;
     font-weight: 400;
     line-height: 33px;
-
   }
 
   .about__text--bold {
@@ -84,30 +83,29 @@
     font-size: 21px;
     font-weight: 800;
     line-height: 25px;
-
   }
 
   .about__button {
-   display: block;
-   width: 240px;
-   height: 52px;
-   border-radius: 20px;
-   background-color: #ffd74b;
-   margin-top: -36px;
-   margin-left: 35px;
-   margin-bottom: 88px;
-   padding-top: 29px;
-   padding-left: 34px;
-   text-decoration: none;
-   color: #1d2e5b;
-   font-size: 24px;
-   font-weight: 800;
-   line-height: 24px;
- }
+    display: block;
+    width: 240px;
+    height: 52px;
+    border-radius: 20px;
+    background-color: #ffd74b;
+    margin-top: -36px;
+    margin-left: 35px;
+    margin-bottom: 88px;
+    padding-top: 29px;
+    padding-left: 34px;
+    text-decoration: none;
+    color: #1d2e5b;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+  }
 
- .about__button:visited {
-  color: #ffffff;
-}
+  .about__button:visited {
+    color: #ffffff;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -125,7 +123,6 @@
     padding-left: 72px;
     font-size: 44px;
     color: #ff8d30;
-
   }
 
   .about__text {
@@ -152,6 +149,5 @@
     margin-top: -2px;
     margin-left: 71px;
     margin-bottom: 163px;
-
- }
+  }
 }

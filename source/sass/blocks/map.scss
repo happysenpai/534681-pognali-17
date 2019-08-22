@@ -1,4 +1,4 @@
- .map {
+.map {
   position: relative;
   padding: 0 25px;
   margin: 0 auto;
@@ -8,6 +8,7 @@
   flex-direction: column;
   z-index: -5;
 }
+
 .contacts__map {
   position: relative;
   margin-left: -25px;
@@ -22,8 +23,9 @@
     padding: 0 40px;
     margin-top: -134px;
   }
+
   .contacts__map {
- position: relative;
+    position: relative;
     margin-left: -40px;
     margin-top: -34px;
     width: 768px;
@@ -37,6 +39,7 @@
     width: 1320px;
     padding: 0 60px;
   }
+
   .contacts__map {
     margin-top: 66px;
     margin-left: -60px;

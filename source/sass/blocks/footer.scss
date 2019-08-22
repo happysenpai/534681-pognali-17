@@ -24,7 +24,6 @@
   display: flex;
   margin-top: 103px;
   margin-left: 52px;
-  ;
 }
 
 .footer__social-item {
@@ -131,7 +130,7 @@
 
   .footer__dev {
     display: block;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 949px;
     color: #444444;
     font-size: 20px;
@@ -155,23 +154,23 @@
   }
 
   .footer__logo {
-   top: 3px;
-   left: 104px;;
-   height: 47px;
-   background-image: url("../img/logo-desktop-blue@1x.png");
- }
+    top: 3px;
+    left: 104px;
+    height: 47px;
+    background-image: url("../img/logo-desktop-blue@1x.png");
+  }
 
- .footer__social {
-  margin-top: 23px;
-  margin-left: 639px;
-}
+  .footer__social {
+    margin-top: 23px;
+    margin-left: 639px;
+  }
 
-.footer__dev {
-  margin-top: 0px;
-  margin-left: 1244px;
-}
+  .footer__dev {
+    margin-top: 0;
+    margin-left: 1244px;
+  }
 
-.footer__logo-academy {
-  right: -61px;
-}
+  .footer__logo-academy {
+    right: -61px;
+  }
 }

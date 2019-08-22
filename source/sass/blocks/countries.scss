@@ -16,7 +16,6 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px;
-
 }
 
 .countries__text {
@@ -40,7 +39,6 @@
   width: 270px;
   height: 110px;
   border-radius: 10px 10px 0 0;
-
 }
 
 .countries__description {
@@ -162,7 +160,6 @@
     width: 431px;
     height: 140px;
     border-radius: 20px 0 0 20px;
-
   }
 
   .countries__flag {
@@ -181,7 +178,6 @@
     font-size: 24px;
     font-weight: 800;
     line-height: 24px;
-
   }
 
   .countries__slogan {
@@ -212,6 +208,7 @@
     margin-left: 43px;
     font-size: 24px;
   }
+
   .countries__button {
     width: 585px;
     height: 12px;
@@ -237,7 +234,8 @@
     background-repeat: no-repeat;
     background-position: 1091px 147px;
   }
-     .countries__title {
+
+  .countries__title {
     position: relative;
     margin-top: 52px;
     margin-left: 768px;
@@ -256,52 +254,51 @@
     font-weight: 300;
     line-height: 33px;
   }
+
   .countries__position {
     margin-top: -339px;
   }
 
   .countries__item {
-   margin-bottom: -66px;
-   margin-left: 37px;
- }
+    margin-bottom: -66px;
+    margin-left: 37px;
+  }
 
- .countries__background {
-  margin-top: 39px;
-  margin-left: 323px;
-}
+  .countries__background {
+    margin-top: 39px;
+    margin-left: 323px;
+  }
 
-.countries__description {
-  width: 374px;
-}
+  .countries__description {
+    width: 374px;
+  }
 
-.countries__flag {
-  top: 23px;
-  left: 338px;
-}
+  .countries__flag {
+    top: 23px;
+    left: 338px;
+  }
 
-.countries__name {
-  top: 0;
-}
+  .countries__name {
+    top: 0;
+  }
 
-.countries__slogan {
-  top: 33px;
-  left: 32px;
+  .countries__slogan {
+    top: 33px;
+    left: 32px;
+  }
 
-}
+  .countries__people-count {
+    top: 93px;
+    left: 62px;
+  }
 
-.countries__people-count {
-  top: 93px;
-  left: 62px;
-}
-
-.countries__button {
-  width: 241px;
-  height: 12px;
-  margin-top: -5px;
-  margin-left: 804px;
-  margin-bottom: 139px;
-  padding-top: 30px;
-  padding-left: 33px;
-
-}
+  .countries__button {
+    width: 241px;
+    height: 12px;
+    margin-top: -5px;
+    margin-left: 804px;
+    margin-bottom: 139px;
+    padding-top: 30px;
+    padding-left: 33px;
+  }
 }

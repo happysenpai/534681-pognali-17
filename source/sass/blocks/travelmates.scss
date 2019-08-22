@@ -9,7 +9,6 @@
   background-color: #192144;
   z-index: -1;
   border-radius: 0 0 30px 30px;
-
 }
 
 .travelmates__title {
@@ -36,6 +35,7 @@
   margin-bottom: 53px;
   font-weight: 800;
 }
+
 .travelmates__item-wrapper {
   margin-top: 1px;
 }
@@ -61,6 +61,7 @@
   margin-top: 1px;
   margin-left: 1px;
 }
+
 .travelmates__item--bg {
   border-radius: 10px 10px 0 0;
 }
@@ -71,7 +72,7 @@
   margin-top: -8px;
   margin-bottom: 8px;
   background-color: #ffffff;
-  border-radius: 0 0 10px 10px ;
+  border-radius: 0 0 10px 10px;
 }
 
 .travelmates__item--countries {
@@ -91,13 +92,12 @@
 }
 
 .travelmates__item--name {
- color: #1d2e5b;
- padding-top: 27px;
- text-align: center;
- font-size: 21px;
- font-weight: 700;
- line-height: 21px;
-
+  color: #1d2e5b;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
 }
 
 .travelmates__item--tags {
@@ -121,45 +121,46 @@
   margin-top: 6px;
   justify-content: space-between;
 }
+
 .travelmates__icons--width {
   width: 132px;
   margin-left: 30px;
 }
 
 .travelmates__icons--plane {
- width: 26px;
- height: 26px;
- background-image: url("../img/plane-black.svg");
- background-repeat: no-repeat;
- background-size: 21px;
- background-position: 4px 3px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/plane-black.svg");
+  background-repeat: no-repeat;
+  background-size: 21px;
+  background-position: 4px 3px;
 }
 
 .travelmates__icons--bus {
- width: 26px;
- height: 26px;
- background-image: url("../img/bus-black.svg");
- background-repeat: no-repeat;
- background-size: 17px;
- background-position: 5px 3px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/bus-black.svg");
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: 5px 3px;
 }
 
 .travelmates__icons--bike {
- width: 26px;
- height: 26px;
- background-image: url("../img/bike-black.svg");
- background-repeat: no-repeat;
- background-size: 24px;
- background-position: 0px 4px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/bike-black.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 0 4px;
 }
 
 .travelmates__icons--run {
- width: 26px;
- height: 26px;
- background-image: url("../img/run-black.svg");
- background-repeat: no-repeat;
- background-size: 21px;
- background-position: 0px 3px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/run-black.svg");
+  background-repeat: no-repeat;
+  background-size: 21px;
+  background-position: 0 3px;
 }
 
 .travelmates__icons-button {
@@ -311,7 +312,6 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .travelmates {
     width: 1320px;
     padding: 0 60px;
@@ -326,7 +326,7 @@
 
   .travelmates__text {
     margin-top: 19px;
-    margin-left: 72px;;
+    margin-left: 72px;
     font-size: 28px;
     line-height: 33px;
   }
@@ -351,21 +351,21 @@
   }
 
   .travelmates__item--name {
-   padding-top: 35px;
- }
+    padding-top: 35px;
+  }
 
- .travelmates__item--tags {
-   margin-top: -4px;
- }
+  .travelmates__item--tags {
+    margin-top: -4px;
+  }
 
- .travelmates__icons-button {
-  margin-top: 41px;
-  margin-left: 71px;
-  margin-bottom: 134px;
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-left: 34px;
-  width: 246px;
-  height: 11px;
-}
+  .travelmates__icons-button {
+    margin-top: 41px;
+    margin-left: 71px;
+    margin-bottom: 134px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 34px;
+    width: 246px;
+    height: 11px;
+  }
 }
