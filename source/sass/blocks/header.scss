@@ -49,7 +49,7 @@
   .header {
     width: 688px;
     padding: 0 40px;
-    margin-bottom: -24px;
+    margin-bottom: 0;
   }
 
   .header__logo {
@@ -105,6 +105,10 @@
     background-color: #ffd74b;
     text-align: center;
     padding-top: 10px;
+  }
+
+  .header__button-off {
+    display: none;
   }
 
   .header__title {
@@ -190,14 +194,19 @@
   }
 
   .header__button-back {
-    position: relative;
-    margin-left: 605px;
+    position: absolute;
+    top: 243px;
+    right: 174px;
     width: 126px;
+  }
+
+  .header__button-off {
+    display: none;
   }
 
   .header__title {
     margin-top: 118px;
     margin-left: 67px;
-    margin-bottom: 64px;
+    margin-bottom: 63px;
   }
 }

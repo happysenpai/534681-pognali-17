@@ -6,24 +6,24 @@
 }
 
 .steps-1__title {
- margin-top: 24px;
- margin-left: 24px;
- color: #1d2e5b;
- font-family: $ff;
- font-size: 20px;
- font-weight: 700;
- line-height: 20px;
+  margin-top: 24px;
+  margin-left: 24px;
+  color: #1d2e5b;
+  font-family: $ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
 }
 
 .steps-1__text {
- margin-top: -5px;
- margin-left: 26px;
- width: 215px;
- color: #444444;
- font-family: $ff;
- font-size: 16px;
- font-weight: 400;
- line-height: 22px;
+  margin-top: -5px;
+  margin-left: 26px;
+  width: 215px;
+  color: #444444;
+  font-family: $ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .steps-1__title-input {
@@ -37,7 +37,7 @@
   font-weight: 600;
   line-height: 16px;
   text-transform: uppercase;
-  letter-spacing: 1.15px
+  letter-spacing: 1.15px;
 }
 
 .steps-1__reduction {
@@ -57,6 +57,7 @@
   border: 1px solid #cbced9;
   text-align: center;
 }
+
 .steps-1__input-label {
   position: relative;
 }
@@ -68,7 +69,7 @@
   left: 29px;
   width: 23px;
   height: 14px;
-  background-image: url(../img/qty-minus-mobile.svg);
+  background-image: url("../img/qty-minus-mobile.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: 10px 10px;
@@ -80,11 +81,11 @@
 .steps-1__input-label::after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 12px;
   width: 17px;
   height: 17px;
-  background-image: url(../img/qty-plus-mobile.svg);
+  background-image: url("../img/qty-plus-mobile.svg");
   background-repeat: no-repeat;
   background-size: 14px;
   background-position: 1px 1px;
@@ -116,7 +117,7 @@
   width: 0;
 }
 
-.checkmark {
+.steps-1__label .checkmark {
   position: absolute;
   top: -7px;
   left: -39px;
@@ -127,31 +128,31 @@
 }
 
 .steps-1__label:hover input ~ .checkmark {
- background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .steps-1__label input:checked ~ .checkmark {
   background-color: #ffffff;
 }
 
-.checkmark:after {
+.checkmark::after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.steps-1__label input:checked ~ .checkmark:after {
+.steps-1__label input:checked ~ .checkmark::after {
   display: block;
 }
 
-.steps-1__label .checkmark:after {
- left: 10px;
- top: 5px;
- width: 4px;
- height: 8px;
- border: solid #192144;
- border-width: 0px 2px 2px 0;
- transform: rotate(45deg);
+.steps-1__label .checkmark::after {
+  left: 10px;
+  top: 5px;
+  width: 4px;
+  height: 8px;
+  border: 1px solid #192144;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 .steps-1__calendare-date {
@@ -168,7 +169,6 @@
   padding-top: 12px;
   padding-left: 2px;
   padding-bottom: 10px;
-
 }
 
 .calendare {
@@ -187,8 +187,7 @@
   justify-content: space-around;
 }
 
-
-.ssteps-1__week-day{
+.ssteps-1__week-day {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -217,8 +216,6 @@
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
-
-
 }
 
 .steps-1__button {
@@ -237,11 +234,256 @@
   line-height: 30px;
   text-transform: uppercase;
 }
-@media (min-width: $tablet-width) {
 
+@media (min-width: $tablet-width) {
+  .steps-1 {
+    width: 618px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .steps-1__title {
+    margin-top: 48px;
+    margin-left: 43px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .steps-1__text {
+    margin-top: -2px;
+    margin-left: 44px;
+    width: 503px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .steps-1__title-input {
+    margin-top: 64px;
+    margin-left: 43px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+  }
+
+  .steps-1__input {
+    width: 529px;
+    height: 66px;
+    margin-top: 17px;
+    margin-left: 45px;
+    margin-bottom: 49px;
+    font-size: 19px;
+  }
+
+  .steps-1__reduction {
+    right: 44px;
+  }
+
+  .steps-1__input::placeholder {
+    font-size: 20px;
+  }
+
+  .steps-1__input-label::before {
+    top: -5px;
+    left: 58px;
+    width: 34px;
+    height: 12px;
+    background-size: 20px;
+  }
+
+  .steps-1__input-label::after {
+    top: -5px;
+    right: 18px;
+    width: 22px;
+    height: 22px;
+    background-size: 20px;
+    background-position: 0 1px;
+  }
+
+  .steps-1__label {
+    margin-top: -239px;
+    margin-left: 104px;
+    margin-bottom: 231px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  .steps-1__label .checkmark {
+    top: -10px;
+    left: -59px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .steps-1__label .checkmark::after {
+    left: 15px;
+    top: 9px;
+    width: 4px;
+    height: 11px;
+    border-width: 0 3px 3px 0;
+  }
+
+  .steps-1__calendare-date {
+    margin-right: 24px;
+    margin-left: 45px;
+    padding-top: 36px;
+    padding-left: 2px;
+    padding-bottom: 29px;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+    width: 85%;
+  }
+
+  .steps-1__week {
+    display: flex;
+    width: 473px;
+    margin-top: 33px;
+    margin-left: 74px;
+    justify-content: space-between;
+  }
+
+  .steps-1__week-day {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+  }
+
+  .calendare {
+    margin-left: 44px;
+    margin-top: 3px;
+  }
+
+  .calendare__cell {
+    width: 74px;
+    height: 67px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .steps-1__button {
+    margin-top: 46px;
+    margin-left: 45px;
+    margin-bottom: 55px;
+    padding-top: 3px;
+    padding-left: 33px;
+    width: 285px;
+    height: 81px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: none;
+    text-align: left;
+  }
 }
 
-
 @media (min-width: $desktop-width) {
+  .steps-1 {
+    position: relative;
+    width: 1320px;
+    border-radius: 60px;
+    margin-bottom: 44px;
+  }
 
+  .steps-1__title br {
+    display: none;
+  }
+
+  .steps-1__title {
+    margin-top: 100px;
+    margin-left: 159px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+  }
+
+  .steps-1__text {
+    margin-top: -3px;
+    margin-bottom: 112px;
+    margin-left: 160px;
+    width: 578px;
+  }
+
+  .steps-1__title-input {
+    position: relative;
+    margin-top: 66px;
+    margin-left: 159px;
+  }
+
+  .steps-1__input {
+    position: absolute;
+    width: 179px;
+    height: 66px;
+    top: -69px;
+    left: 335px;
+  }
+
+  .steps-1__label {
+    position: absolute;
+    right: 160px;
+    top: 568px;
+  }
+
+  .steps-1__input-label::before {
+    top: -28px;
+    left: 390px;
+  }
+
+  .steps-1__input-label::after {
+    top: -27px;
+    left: 522px;
+    background-size: 18px;
+  }
+
+  .steps-1__reduction {
+    left: 439px;
+  }
+
+  .steps-1__calendare-date {
+    margin-top: 57px;
+    margin-right: 24px;
+    margin-left: 160px;
+    padding-top: 36px;
+    padding-left: 2px;
+    padding-bottom: 29px;
+    width: 75.4%;
+  }
+
+  .steps-1__week {
+    width: 66.5%;
+    margin-top: 12px;
+    margin-left: 175px;
+    justify-content: space-between;
+  }
+
+  .calendare {
+    margin-left: 161px;
+    margin-top: 14px;
+  }
+
+  .calendare__cell {
+    width: 141px;
+    height: 69px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+  }
+
+  .steps-1__button {
+    margin-top: 56px;
+    margin-left: 161px;
+    margin-bottom: 105px;
+    padding-top: 5px;
+  }
 }

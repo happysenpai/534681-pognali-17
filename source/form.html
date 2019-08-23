@@ -12,15 +12,15 @@
     <nav class="header__menu">
       <ul class="header__list">
         <li class="header__item"><a  class="header__link" href="">О сервисе</a></li>
-        <li class="header__item"><a  class="header__link" href="">Направления</a></li>
-        <li class="header__item"><a  class="header__link" href="">Попутчики</a></li>
+        <li class="header__item"><a  class="header__link" href="form.html">Направления</a></li>
+        <li class="header__item"><a  class="header__link" href="catalog.html">Попутчики</a></li>
       </ul>
     </nav>
     <h1 class="header__title">Направления</h1>
     <a class="header__button-auth" href="">авторизация</a>
     <a class="header__button-call" href=""></a>
     <a class="header__button-email" href=""></a>
-    <a class="header__button-back" href="">на главную</a>
+    <a class="header__button-back header__button-off" href="index.html">на главную</a>
   </header>
   <main >
     <section class="user-info">
@@ -29,10 +29,12 @@
         <span class="user-info__number">80</span>
         <span class="user-info__level">level</span>
       </div>
-      <img class="user-info__user-img" src="img/photo-account-mobile@1x.jpg" width="100" height="100" alt="Фото пользователя">
-      <button class="button-change" type="button">Сменить фото</button>
-      <fieldset class="user-info__fieldset">
-        <legend class="user-info__legend">Тэги</legend>
+      <p class="user-info__user-img-title">
+        <img class="user-info__user-img" src="img/photo-account-mobile@1x.jpg" width="100" height="100" alt="Фото пользователя">
+      </p>
+      <button class="user-info__button-change user-info__button-off" type="button">Сменить фото</button>
+      <fieldset class="user-info__fieldset user-info__position-tegs">
+        <legend class="user-info__legend user-info__legend-tegs">Тэги</legend>
         <div class="user-info__tegs">
           <a href="">#бургер</a>
           <a href="">#бар</a>
@@ -41,8 +43,8 @@
           <a href="">#крафт</a>
         </div>
       </fieldset>
-      <fieldset class="user-info__fieldset">
-        <legend class="user-info__legend">Транспорт</legend>
+      <fieldset class="user-info__fieldset user-info__position-transport">
+        <legend class="user-info__legend user-info__legend-transport">Транспорт</legend>
         <ul class="user-info__icons user-info__position">
           <li class="user-info__icons user-info__icons--plane"></li>
           <li class="user-info__icons user-info__icons--bus"></li>
@@ -54,13 +56,13 @@
     <section class="plans">
       <h2 class="plans__header">Мои планы:</h2>
       <div class="plans__partition">
-        <h2 class="plans__country">1. Франция, Италия</h2>
+        <h2 class="plans__country"><span>1.</span> Франция, Италия</h2>
         <p class="plans__traveler">3 попутчика</p>
         <p class="plans__date">26 мар - 29 мар</p>
         <button class="plans__button" type="button">Изменить</button>
       </div>
       <div class="plans__partition">
-        <h2 class="plans__country">2. Тайланд, Индонезия</h2>
+        <h2 class="plans__country"><span>2.</span> Тайланд, Индонезия</h2>
         <p class="plans__traveler">1 попутчик</p>
         <p class="plans__date">1 июл - 15 июл</p>
         <button class="plans__button" type="button">Изменить</button>
@@ -69,9 +71,8 @@
     <section class="steps">
       <h2 class="steps__title">Добавить план:</h2>
       <section class="steps-1">
-        <h3 class="steps-1__title">Шаг 1.<br> Даты пребывания</h3>
-        <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
-
+        <h3 class="steps-1__title">Шаг 1. <span><br></span> Даты пребывания</h3>
+        <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых<br> вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
         <h4 class="steps-1__title-input">ищу попутчиков: <span class="steps-1__reduction">Чел.</span></h4>
         <label class="steps-1__input-label">
           <input class="steps-1__input" type="text" name="people" placeholder="2">
@@ -82,19 +83,19 @@
         </label>
         <label class="steps-1__label">Можно с детьми
           <input class="steps-1__input-child" type="checkbox" name="child" checked>
-          <span class="checkmark"></span>
+          <span tabindex="0" class="checkmark"></span>
         </label>
         <div class="steps-1__calendare-date">Март 2019</div>
         <div class="steps-1__week">
-          <div class="steps-1__week-day">п</div>
-          <div class="steps-1__week-day">в</div>
-          <div class="steps-1__week-day">с</div>
-          <div class="steps-1__week-day">ч</div>
-          <div class="steps-1__week-day">п</div>
-          <div class="steps-1__week-day steps-1__week-weekend">с</div>
-          <div class="steps-1__week-day steps-1__week-weekend">в</div>
+          <div class="steps-1__week-day">Пн</div>
+          <div class="steps-1__week-day">Вт</div>
+          <div class="steps-1__week-day">Ср</div>
+          <div class="steps-1__week-day">Чт</div>
+          <div class="steps-1__week-day">Пт</div>
+          <div class="steps-1__week-day steps-1__week-weekend">Сб</div>
+          <div class="steps-1__week-day steps-1__week-weekend">Вс</div>
         </div>
-        <table class="calendare">
+        <table class="steps-1__calendare calendare">
           <tr class="calendare__row">
             <td class="calendare__cell">23</td>
             <td class="calendare__cell">24</td>
@@ -157,7 +158,7 @@
         <p class="steps-2__text">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
         <label class="steps-2__label">
           <select class="steps-2__select">
-            <option>Босния и герцегов</option>
+            <option>Босния и герцеговина</option>
           </select>
           <img class="steps-2__flag" src="img/Bosnia-and-Herzegovina.png" width="35" height="24" alt="Флаг страны">
         </label>
@@ -181,7 +182,7 @@
         <p class="steps-3__text">Наконец, расскажите о своих планах времяпровождения.
         Можно писать в свободной форме и ставить тэги.</p>
         <div class="steps-3__wraper-from">
-          <h3 class="steps-3-country-name">Босния и герцегови</h3>
+          <h3 class="steps-3-country-name">Босния и герцеговина</h3>
           <img class="steps-3__flag" src="img/Bosnia-and-Herzegovina.png" width="35" height="24" alt="Флаг страны"></div>
           <textarea class="steps-3__texarea" placeholder="План действий"></textarea>
           <div class="steps-3__wraper-to">
@@ -190,7 +191,7 @@
             <textarea class="steps-3__texarea" placeholder="План действий">Пить пиво и лазить по старым замкам, наслаждаться аритектурой и вот это все.
             </textarea>
             <button class="steps-3__button-submit" type="submit">Отправить</button>
-             <a href="" class="steps-3__button-back">На шаг назад</a>
+            <a class="steps-3__button-back" href="#">На шаг назад</a>
           </section>
         </section>
       </main>

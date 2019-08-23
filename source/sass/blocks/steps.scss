@@ -15,7 +15,6 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px;
-
 }
 
 @media (min-width: $tablet-width) {
@@ -23,12 +22,25 @@
     width: 688px;
     padding: 0 40px;
   }
-}
 
+  .steps__title {
+    margin-top: 49px;
+    margin-left: 35px;
+    margin-bottom: 49px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
 
 @media (min-width: $desktop-width) {
   .steps {
     width: 1320px;
     padding: 0 60px;
+  }
+
+  .steps__title {
+    margin-top: 97px;
+    margin-left: 70px;
   }
 }

@@ -2,13 +2,17 @@
   position: relative;
   width: 270px;
   margin: 0 auto;
+  margin-top: -25px;
+  margin-bottom: 22px;
   padding: 0 25px;
-  padding-top: 1px;
+  background-color: #ffffff;
+  border-radius: 30px 30px 0 0;
+ z-index:  3;
 }
 
 .footer__logo {
   position: absolute;
-  top: 39px;
+  top: -56px;
   left: 110px;
   width: 200px;
   height: 19px;
@@ -18,9 +22,8 @@
 
 .footer__social {
   display: flex;
-  margin-top: 95px;
+  margin-top: 103px;
   margin-left: 52px;
-  margin-bottom: 101px;
 }
 
 .footer__social-item {
@@ -67,15 +70,13 @@
 
 .footer__dev {
   display: block;
-  margin-top: 89px;
-  margin-left: 0;
+  margin-top: 102px;
   color: #444444;
-  margin-bottom: 22px;
 }
 
 .footer__logo-academy {
   position: absolute;
-  top: 188px;
+  top: 93px;
   right: 18px;
   width: 42px;
   height: auto;
@@ -83,20 +84,21 @@
 
 @media (min-width: $tablet-width) {
   .footer {
-    width: 768px;
-    padding: 0 40px;
+    width: 688px;
+    margin: 0 40px;
+    border-radius: 60px 60px 0 0;
   }
 
   .footer__logo {
-    top: 7px;
-    left: 79px;
+    top: 8px;
+    left: 440px;
     height: 40px;
     background-image: url("../img/logo-tablet-blue@1x.png");
   }
 
   .footer__social {
-    margin-top: 49px;
-    margin-left: 284px;
+    margin-top: 23px;
+    margin-left: 660px;
   }
 
   .footer__social-item {
@@ -128,8 +130,8 @@
 
   .footer__dev {
     display: block;
-    margin-top: -85px;
-    margin-left: 573px;
+    margin-top: 0;
+    margin-left: 949px;
     color: #444444;
     font-size: 20px;
     font-weight: 400;
@@ -139,37 +141,36 @@
 
   .footer__logo-academy {
     position: absolute;
-    top: 9px;
-    right: 73px;
-    height: auto;
+    top: 10px;
+    right: -398px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .footer {
-    width: 1440px;
-    padding: 0 60px;
+    width: 1320px;
+    margin: 0 60px;
+    border-radius: 60px 60px 0 0;
   }
 
   .footer__logo {
-    top: 2px;
-    left: 121px;
+    top: 3px;
+    left: 104px;
     height: 47px;
     background-image: url("../img/logo-desktop-blue@1x.png");
   }
 
   .footer__social {
-    margin-top: 49px;
-    margin-left: 621px;
+    margin-top: 23px;
+    margin-left: 639px;
   }
 
   .footer__dev {
-    margin-top: -85px;
-    margin-left: 1227px;
-    margin-bottom: 65px;
+    margin-top: 0;
+    margin-left: 1244px;
   }
 
   .footer__logo-academy {
-    right: 112px;
+    right: -61px;
   }
 }

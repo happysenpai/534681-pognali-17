@@ -1,28 +1,39 @@
 .rates {
+  position: relative;
   padding: 0 25px;
   margin: 0 auto;
+  margin-top: -24px;
   width: 270px;
   display: flex;
   flex-direction: column;
   background-image: url("../img/rates@1x.png");
   background-size: 99px 99px;
-  background-position: 196px 38px;
+  background-position: 195px 61px;
   background-repeat: no-repeat;
   background-color: #edeff6;
+  /* z-index: -2; */
+  border-radius: 0 0 30px 30px;
 }
 
 .rates__title {
   width: 100px;
-  padding-top: 35px;
+  padding-top: 57px;
   padding-left: 26px;
+  color: #ff8d30;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .rates__list {
   list-style: none;
+  margin-top: 11px;
+  margin-left: -1px;
 }
 
 .rates__item {
   position: relative;
+  margin-bottom: -2px;
 }
 
 .rates__text {
@@ -31,24 +42,38 @@
   width: 184px;
   margin-left: -14px;
   margin-top: 24px;
-  line-height: 21px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
 }
 
 .rates__number {
   position: absolute;
   top: -7px;
-  right: 0;
+  right: 1px;
   display: flex;
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background-color: #ffa530;
   color: #ffffff;
   align-items: center;
   justify-content: center;
 }
 
-.button--show-tarif {
+.rates__color-1 {
+  background-color: #ffa530;
+}
+
+.rates__color-2 {
+  background-color: #ffbd30;
+}
+
+.rates__color-3 {
+  background-color: #ffd74b;
+}
+
+
+.rates__button-show {
   color: #192144;
   font-weight: 700;
   margin-top: 9px;
@@ -60,100 +85,116 @@
   .rates {
     background-image: url("../img/rates@1x.png");
     background-size: 99px 99px;
-    background-position: 583px 409px;
+    background-position: 583px 433px;
     width: 688px;
     padding: 0 40px;
+    border-radius: 0 0 60px 60px;
   }
 
   .rates__title {
     width: 573px;
-    padding-top: 49px;
-    padding-left: 99px;
-    font-size: 44px;
+    padding-top: 61px;
+    padding-left: 100px;
     color: #ff8d30;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
   }
 
   .rates__item {
-    margin-left: 50px;
-    margin-top: 49px;
+    margin-left: 51px;
+    margin-top: -19px;
+    margin-bottom: -28px;
   }
+
 
   .rates__text {
     width: 520px;
-    line-height: 6px;
-    font-size: 27px;
     margin-top: 61px;
     margin-left: 1px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
   }
 
   .rates__text span {
     position: absolute;
-    right: -39px;
-    top: 1px;
-    font-size: 27px;
+    right: -43px;
+    top: 0;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
   }
 
   .rates__number {
-    top: -30px;
-    left: -89px;
+    top: -19px;
+    left: -90px;
     display: flex;
     width: 67px;
     height: 67px;
     font-size: 27px;
   }
 
-  .button--show-tarif {
+  .rates__button-show {
     color: #132576;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 44px;
+    margin-top: 58px;
     margin-left: 89px;
-    margin-bottom: 66px;
+    margin-bottom: 85px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .rates {
-    position: relative;
     width: 1320px;
     padding: 0 60px;
     background-size: 198px 198px;
-    background-position: 1110px 286px;
+    background-position: 1108px 340px;
+    margin-top: -54px;
+    border-radius: 0 0 60px 60px;
   }
 
   .rates__title {
-    padding-top: 83px;
-    padding-left: 418px;
+    padding-top: 124px;
+    padding-left: 416px;
   }
 
   .rates__list {
     margin-left: 72px;
-    margin-top: 76px;
+    margin-top: 80px;
+  }
+
+  .rates__item {
+    margin-left: 49px;
+    margin-top: -23px;
+    margin-bottom: 5px;
   }
 
   .rates__text {
     width: 520px;
-    line-height: 6px;
-    font-size: 27px;
-    margin-top: 61px;
+    margin-top: 56px;
     margin-left: 1px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
   }
 
   .rates__text span {
-    right: -290px;
+    right: -293px;
   }
 
   .rates__number {
-    top: -30px;
+    top: -18px;
     left: -89px;
-    display: flex;
     width: 67px;
     height: 67px;
     font-size: 27px;
   }
 
-  .button--show-tarif {
-    margin-left: 162px;
+  .rates__button-show {
+    margin-left: 160px;
     margin-bottom: 186px;
+    margin-top: 30px;
   }
 }

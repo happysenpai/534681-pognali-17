@@ -1,28 +1,43 @@
 .travelmates {
+  position: relative;
   padding: 0 25px;
   margin: 0 auto;
+  margin-top: -27px;
   width: 270px;
   display: flex;
   flex-direction: column;
   background-color: #192144;
+  z-index: -1;
+  border-radius: 0 0 30px 30px;
 }
 
 .travelmates__title {
-  padding-top: 51px;
-  padding-left: 24px;
+  margin-top: 99px;
+  margin-left: 24px;
+  color: #ff8d30;
   font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1px;
 }
 
 .travelmates__text {
   width: 216px;
-  margin-top: 3px;
+  margin-top: -1px;
   margin-left: 25px;
   font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
 }
 
 .travelmates__text--bold {
-  margin-top: 4px;
+  margin-top: 5px;
   margin-bottom: 53px;
+  font-weight: 800;
+}
+
+.travelmates__item-wrapper {
+  margin-top: 1px;
 }
 
 .travelmates__item {
@@ -47,12 +62,17 @@
   margin-left: 1px;
 }
 
+.travelmates__item--bg {
+  border-radius: 10px 10px 0 0;
+}
+
 .travelmates__item--description {
   width: 270px;
   height: 157px;
   margin-top: -8px;
   margin-bottom: 8px;
   background-color: #ffffff;
+  border-radius: 0 0 10px 10px;
 }
 
 .travelmates__item--countries {
@@ -62,24 +82,32 @@
   justify-content: center;
   width: 143px;
   top: -14px;
-  left: 52px;
+  left: 54px;
 }
 
 .travelmates__item--countrie {
   margin-left: 19px;
+  width: 35px;
+  height: 24px;
 }
 
 .travelmates__item--name {
   color: #1d2e5b;
-  padding-top: 26px;
+  padding-top: 27px;
   text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
 }
 
 .travelmates__item--tags {
   width: 198px;
   text-align: center;
-  margin-top: -7px;
+  margin-top: -6px;
   margin-left: 37px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 .travelmates__item--tags a {
@@ -91,75 +119,105 @@
   display: flex;
   position: relative;
   margin-top: 6px;
-  margin-left: 15px;
+  justify-content: space-between;
+}
+
+.travelmates__icons--width {
+  width: 132px;
+  margin-left: 30px;
 }
 
 .travelmates__icons--plane {
+  width: 26px;
+  height: 26px;
   background-image: url("../img/plane-black.svg");
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  background-size: 21px;
+  background-position: 4px 3px;
 }
 
 .travelmates__icons--bus {
+  width: 26px;
+  height: 26px;
   background-image: url("../img/bus-black.svg");
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  background-size: 17px;
+  background-position: 5px 3px;
 }
 
 .travelmates__icons--bike {
+  width: 26px;
+  height: 26px;
   background-image: url("../img/bike-black.svg");
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  background-size: 24px;
+  background-position: 0 4px;
 }
 
 .travelmates__icons--run {
+  width: 26px;
+  height: 26px;
   background-image: url("../img/run-black.svg");
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  background-size: 21px;
+  background-position: 0 3px;
 }
 
-.button--show-all {
-  padding-top: 34px;
-  padding-bottom: 48px;
+.travelmates__icons-button {
+  margin-top: 13px;
+  margin-bottom: 30px;
+  padding-top: 23px;
+  padding-bottom: 34px;
   padding-left: 24px;
   text-decoration: none;
-  color: #ffffff;
+  width: 246px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #ffd74b;
+  color: #1d2e5b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {
   .travelmates {
     width: 688px;
+    margin-top: -58px;
     padding: 0 40px;
+    border-radius: 0 0 60px 60px;
   }
 
   .travelmates__title {
-    padding-top: 117px;
-    padding-left: 34px;
-    font-size: 43px;
+    padding-top: 100px;
+    padding-left: 10px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
   }
 
   .travelmates__item--bg {
     width: 285px;
     height: 285px;
+    border-radius: 20px 20px 0 0;
   }
 
   .travelmates__text {
-    width: 387px;
-    margin-top: 39px;
+    width: 425px;
+    margin-top: 21px;
     margin-left: 36px;
-    font-size: 25px;
-    line-height: 31px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
   }
 
   .travelmates__text--bold {
-    margin-top: 17px;
+    width: 252px;
+    margin-top: 11px;
     margin-bottom: 42px;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
   }
 
   .travelmates__item--levelup {
@@ -185,11 +243,13 @@
     margin-top: -8px;
     margin-bottom: 8px;
     background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
   }
 
   .travelmates__item--countries {
     position: absolute;
     padding-right: 18px;
+    margin-left: 2px;
     justify-content: center;
     width: 143px;
     left: 60px;
@@ -201,7 +261,7 @@
 
   .travelmates__item--name {
     color: #1d2e5b;
-    padding-top: 31px;
+    padding-top: 33px;
     text-align: center;
     font-size: 24px;
   }
@@ -209,9 +269,11 @@
   .travelmates__item--tags {
     width: 255px;
     text-align: center;
-    margin-top: -1px;
+    margin-top: -2px;
     margin-left: 15px;
     font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
   }
 
   .travelmates__item--tags a {
@@ -220,61 +282,90 @@
   }
 
   .travelmates__icons--width {
-    width: 179px;
-    margin-left: 29px;
-    margin-top: 22px;
+    width: 132px;
+    margin-left: 38px;
+    margin-top: 15px;
   }
 
   .travelmates__item-wrapper {
     display: flex;
-    justify-content: space-around;
-    margin-top: 17px;
-    margin-left: 8px;
+    justify-content: space-between;
+    margin-top: 13px;
+    margin-left: 35px;
+    width: 618px;
   }
 
-  .button--show-all {
-    padding-top: 103px;
-    padding-bottom: 115px;
-    padding-left: 69px;
-    font-size: 23px;
-    text-decoration: none;
-    color: #ffffff;
+  .travelmates__icons-button {
+    padding-top: 30px;
+    padding-left: 33px;
+    margin-top: 72px;
+    margin-left: 35px;
+    margin-bottom: 88px;
+    width: 585px;
+    height: 17px;
+    border-radius: 20px;
+    background-color: #ffd74b;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
   }
 }
 
-
 @media (min-width: $desktop-width) {
   .travelmates {
-    position: relative;
     width: 1320px;
     padding: 0 60px;
+    margin-top: -59px;
+    border-radius: 0 0 60px 60px;
   }
 
   .travelmates__title {
-    padding-top: 104px;
-    padding-left: 71px;
+    padding-top: 90px;
+    padding-left: 45px;
   }
 
   .travelmates__text {
-    margin-top: 32px;
-    margin-left: 74px;
-    font-size: 25px;
+    margin-top: 19px;
+    margin-left: 72px;
+    font-size: 28px;
     line-height: 33px;
+  }
+
+  .travelmates__text--bold {
+    margin-top: 11px;
+    margin-left: 71px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+
+  .travelmates__item--space {
+    margin-right: 60px;
   }
 
   .travelmates__item-wrapper {
     position: absolute;
-    top: 115px;
-    right: 59px;
+    top: 177px;
+    right: 120px;
+    width: 570px;
   }
 
-  .button--show-all {
-    padding-top: 39px;
-    padding-bottom: 161px;
-    padding-left: 107px;
+  .travelmates__item--name {
+    padding-top: 35px;
   }
 
-  .travelmates__item--space {
-    margin-right: 59px;
+  .travelmates__item--tags {
+    margin-top: -4px;
+  }
+
+  .travelmates__icons-button {
+    margin-top: 41px;
+    margin-left: 71px;
+    margin-bottom: 134px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 34px;
+    width: 246px;
+    height: 11px;
   }
 }
