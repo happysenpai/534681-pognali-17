@@ -1,16 +1,19 @@
 .about {
-  position: relative;
-  padding: 0 25px;
-  padding-top: 53px;
-  margin: 0 auto;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #192144;
-  background-image: url("../img/about-mobile@1x.png");
-  background-repeat: no-repeat;
-  background-position: 18px 50px;
-  border-radius: 0 0 30px 30px;
+  margin: 0px -8px;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    padding-top: 53px;
+    margin: 0 auto;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/about-mobile@1x.png");
+    background-repeat: no-repeat;
+    background-position: 18px 50px;
+    border-radius: 0 0 30px 30px;
+  }
 }
 
 .about__button {
@@ -51,14 +54,15 @@
 
 @media (min-width: $tablet-width) {
   .about {
-    width: 688px;
-    padding: 0 40px;
-    margin-top: -123px;
-    background-image: url("../img/about-tablet@1x.png");
-    background-position: 384px 144px;
-    border-radius: 0 0 60px 60px;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      margin-top: -123px;
+      background-image: url("../img/about-tablet@1x.png");
+      background-position: 384px 144px;
+      border-radius: 0 0 60px 60px;
+    }
   }
-
   .about__title {
     padding-top: 100px;
     padding-left: 35px;
@@ -110,44 +114,53 @@
 
 @media (min-width: $desktop-width) {
   .about {
+   &__wrapper{
     width: 1320px;
     padding: 0 60px;
     margin-bottom: 60px;
     background-image: url("../img/about-desktop@1x.png");
     background-position: 750px 85px;
-    border-radius: 0 0 60px 60px;
-  }
 
-  .about__title {
-    padding-top: 96px;
-    padding-left: 72px;
-    font-size: 44px;
-    color: #ff8d30;
   }
+}
 
-  .about__text {
-    margin-top: 21px;
-    padding-left: 72px;
-    width: 617px;
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 33px;
-  }
+.about__bottom {
+  position: relative;
+  width: 1320px;
+  height: 50px;
+  border-radius: 0 0 60px 60px;
+}
 
-  .about__text--bold {
-    margin-top: 10px;
-    padding-left: 71px;
-    width: 411px;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 25px;
-  }
+.about__title {
+  padding-top: 96px;
+  padding-left: 72px;
+  font-size: 44px;
+  color: #ff8d30;
+}
 
-  .about__button {
-    width: 241px;
-    height: 52px;
-    margin-top: -2px;
-    margin-left: 71px;
-    margin-bottom: 163px;
-  }
+.about__text {
+  margin-top: 21px;
+  padding-left: 72px;
+  width: 617px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33px;
+}
+
+.about__text--bold {
+  margin-top: 10px;
+  padding-left: 71px;
+  width: 411px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.about__button {
+  width: 241px;
+  height: 52px;
+  margin-top: -2px;
+  margin-left: 71px;
+  margin-bottom: 163px;
+}
 }

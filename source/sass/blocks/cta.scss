@@ -1,14 +1,17 @@
 .cta {
-  position: relative;
-  padding: 0 25px;
-  margin: 0 auto;
-  margin-top: -27px;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #192144;
-  border-radius: 0 0 30px 30px;
- }
+  margin: 0px -8px;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: -27px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 30px 30px;
+  }
+}
 
 .cta__title {
   margin-top: 100px;
@@ -104,10 +107,12 @@
 
 @media (min-width: $tablet-width) {
   .cta {
-    width: 688px;
-    padding: 0 40px;
-    margin-top: -64px;
-    border-radius: 0 0 60px 60px;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      margin-top: -64px;
+      border-radius: 0 0 60px 60px;
+    }
   }
 
   .cta__title {
@@ -194,13 +199,14 @@
 
 @media (min-width: $desktop-width) {
   .cta {
-    position: relative;
-    width: 1320px;
-    margin-top: -55px;
-    padding: 0 60px;
-    border-radius: 0 0 60px 60px;
+    &__wrapper{
+      position: relative;
+      width: 1320px;
+      margin-top: -55px;
+      padding: 0 60px;
+      border-radius: 0 0 60px 60px;
+    }
   }
-
   .cta__title {
     margin-top: 162px;
     margin-left: 1px;

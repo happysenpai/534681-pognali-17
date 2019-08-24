@@ -1,14 +1,16 @@
 .filter {
-  position: relative;
-  padding: 0 25px;
-  padding-top: 25px;
-  margin: 0 auto;
-  display: flex;
-  width: 270px;
-  flex-direction: column;
   background-color: #edeff6;
+  margin: 0px -8px;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    padding-top: 25px;
+    margin: 0 auto;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+  }
 }
-
 .filter__form {
   background-color: #ffd74b;
   border-radius: 20px;
@@ -294,11 +296,12 @@
 
 @media (min-width: $tablet-width) {
   .filter {
-    width: 688px;
-    padding: 0 40px;
-    padding-top: 46px;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      padding-top: 46px;
+    }
   }
-
   .form__title {
     margin-top: 36px;
     margin-left: 33px;
@@ -490,10 +493,11 @@
 
 @media (min-width: $desktop-width) {
   .filter {
-    width: 1320px;
-    padding: 0 60px;
+    &__wrapper{
+      width: 1320px;
+      padding: 0 60px;
+    }
   }
-
   .filter__form {
     position: absolute;
     width: 284px;

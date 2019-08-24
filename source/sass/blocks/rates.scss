@@ -1,4 +1,7 @@
 .rates {
+ background-color: #edeff6;
+ margin: 0px -8px;
+ &__wrapper{
   position: relative;
   padding: 0 25px;
   margin: 0 auto;
@@ -10,8 +13,8 @@
   background-size: 99px 99px;
   background-position: 195px 61px;
   background-repeat: no-repeat;
-  background-color: #edeff6;
   border-radius: 0 0 30px 30px;
+}
 }
 
 .rates__title {
@@ -82,12 +85,14 @@
 
 @media (min-width: $tablet-width) {
   .rates {
-    background-image: url("../img/rates@1x.png");
-    background-size: 99px 99px;
-    background-position: 583px 433px;
-    width: 688px;
-    padding: 0 40px;
-    border-radius: 0 0 60px 60px;
+    &__wrapper{
+      background-image: url("../img/rates@1x.png");
+      background-size: 99px 99px;
+      background-position: 583px 433px;
+      width: 688px;
+      padding: 0 40px;
+      border-radius: 0 0 60px 60px;
+    }
   }
 
   .rates__title {
@@ -146,14 +151,15 @@
 
 @media (min-width: $desktop-width) {
   .rates {
-    width: 1320px;
-    padding: 0 60px;
-    background-size: 198px 198px;
-    background-position: 1108px 340px;
-    margin-top: -54px;
-    border-radius: 0 0 60px 60px;
+    &__wrapper{
+      width: 1320px;
+      padding: 0 60px;
+      background-size: 198px 198px;
+      background-position: 1108px 340px;
+      margin-top: -54px;
+      border-radius: 0 0 60px 60px;
+    }
   }
-
   .rates__title {
     padding-top: 124px;
     padding-left: 416px;

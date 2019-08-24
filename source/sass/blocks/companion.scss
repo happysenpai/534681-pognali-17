@@ -1,13 +1,15 @@
 .companion {
-  padding: 0 25px;
-  padding-top: 28px;
-  margin: 0 auto;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #edeff6;
+  margin: 0px -8px;
+  &__wrapper{
+    padding: 0 25px;
+    padding-top: 28px;
+    margin: 0 auto;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+  }
 }
-
 .companion__item {
   width: 270px;
   border-radius: 20px;
@@ -234,9 +236,11 @@
 
 @media (min-width: $tablet-width) {
   .companion {
-    width: 688px;
-    padding: 0 40px;
-    padding-top: 38px;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      padding-top: 38px;
+    }
   }
 
   .companion__item {
@@ -377,9 +381,11 @@
 
 @media (min-width: $desktop-width) {
   .companion {
-    width: 1320px;
-    padding: 0 60px;
-    padding-bottom: 103px;
+    &__wrapper{
+      width: 1320px;
+      padding: 0 60px;
+      padding-bottom: 103px;
+    }
   }
 
   .companion__item__position {

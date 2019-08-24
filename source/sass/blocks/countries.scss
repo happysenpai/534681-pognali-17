@@ -1,13 +1,16 @@
 .countries {
-  position: relative;
-  padding: 0 25px;
-  margin: 0 auto;
-  margin-top: -25px;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #edeff6;
-  border-radius: 0 0 30px 30px;
+  margin: 0px -8px;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: -25px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 30px 30px;
+  }
 }
 
 .countries__title {
@@ -113,13 +116,15 @@
 
 @media (min-width: $tablet-width) {
   .countries {
-    width: 688px;
-    padding: 0 40px;
-    margin-top: -58px;
-    background-image: url("../img/flags-back@1x.png");
-    background-repeat: no-repeat;
-    background-position: 440px 138px;
-    border-radius: 0 0 60px 60px;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      margin-top: -58px;
+      background-image: url("../img/flags-back@1x.png");
+      background-repeat: no-repeat;
+      background-position: 440px 138px;
+      border-radius: 0 0 60px 60px;
+    }
   }
 
   .countries__title {
@@ -227,6 +232,7 @@
 
 @media (min-width: $desktop-width) {
   .countries {
+  &__wrapper{
     width: 1320px;
     padding: 0 60px;
     padding-top: 78px;
@@ -235,7 +241,7 @@
     background-repeat: no-repeat;
     background-position: 1091px 147px;
   }
-
+}
   .countries__title {
     position: relative;
     margin-top: 52px;
