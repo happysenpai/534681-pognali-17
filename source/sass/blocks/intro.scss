@@ -8,7 +8,6 @@
   background-image: url("../img/traveller-illustration-mobile@1x.png"), url("../img/globe-back-mobile@1x.jpg");
   background-position: 79px 223px, 0 0;
   background-repeat: no-repeat, no-repeat;
-  z-index: 0;
 }
 
 .intro::before {
@@ -179,7 +178,7 @@
   z-index: 1;
 }
 
-.intro__step-1 {
+.intro__step--1 {
   position: absolute;
   left: 25px;
   top: 683px;
@@ -193,7 +192,7 @@
   background-color: #ff8d30;
 }
 
-.intro__step-2 {
+.intro__step--2 {
   position: absolute;
   left: 25px;
   top: 763px;
@@ -207,7 +206,7 @@
   background-color: #ffa530;
 }
 
-.intro__step-3 {
+.intro__step--3 {
   position: absolute;
   left: 25px;
   top: 843px;
@@ -221,7 +220,7 @@
   background-color: #ffbd30;
 }
 
-.intro__step-4 {
+.intro__step--4 {
   position: absolute;
   left: 25px;
   top: 923px;
@@ -246,22 +245,22 @@
   z-index: 1;
 }
 
-.intro__step-1 .intro__step-number {
+.intro__step--1 .intro__step-number {
   top: 22px;
   right: 20px;
 }
 
-.intro__step-2 .intro__step-number {
+.intro__step--2 .intro__step-number {
   top: 22px;
   right: 21px;
 }
 
-.intro__step-3 .intro__step-number {
+.intro__step--3 .intro__step-number {
   top: 22px;
   right: 21px;
 }
 
-.intro__step-4 .intro__step-number {
+.intro__step--4 .intro__step-number {
   top: 22px;
   right: 21px;
 }
@@ -359,7 +358,7 @@
     line-height: 24px;
   }
 
-  .intro__step-1 {
+  .intro__step--1 {
     left: 40px;
     top: 854px;
     width: 247px;
@@ -371,7 +370,7 @@
     border-radius: 20px 0 0 0;
   }
 
-  .intro__step-2 {
+  .intro__step--2 {
     left: 384px;
     top: 854px;
     width: 257px;
@@ -384,7 +383,7 @@
     background-color: #ffa530;
   }
 
-  .intro__step-3 {
+  .intro__step--3 {
     left: 40px;
     top: 994px;
     width: 191px;
@@ -397,7 +396,7 @@
     background-color: #ffbd30;
   }
 
-  .intro__step-4 {
+  .intro__step--4 {
     left: 384px;
     top: 994px;
     width: 243px;
@@ -421,17 +420,17 @@
     z-index: 1;
   }
 
-  .intro__step-1 .intro__step-number {
+  .intro__step--1 .intro__step-number {
     top: 43px;
     left: 33px;
   }
 
-  .intro__step-2 .intro__step-number {
+  .intro__step--2 .intro__step-number {
     top: 43px;
     left: 33px;
   }
 
-  .intro__step-3 .intro__step-number {
+  .intro__step--3 .intro__step-number {
     top: 43px;
     left: 33px;
   }
@@ -563,7 +562,7 @@
     line-height: 24px;
   }
 
-  .intro__step-1 {
+  .intro__step--1 {
     left: 20px;
     top: -25px;
     width: 233px;
@@ -574,7 +573,7 @@
     border-radius: 20px 0 0 20px;
   }
 
-  .intro__step-2 {
+  .intro__step--2 {
     left: 335px;
     top: -25px;
     width: 233px;
@@ -585,7 +584,7 @@
     border-radius: 20px 0 0 20px;
   }
 
-  .intro__step-3 {
+  .intro__step--3 {
     left: 680px;
     top: -25px;
     width: 186px;
@@ -596,7 +595,7 @@
     border-radius: 20px 0 0 20px;
   }
 
-  .intro__step-4 {
+  .intro__step--4 {
     left: 1025px;
     top: -25px;
     width: 233px;
@@ -613,22 +612,22 @@
     line-height: 120px;
   }
 
-  .intro__step-1 .intro__step-number {
+  .intro__step--1 .intro__step-number {
     top: -19px;
     left: 268px;
   }
 
-  .intro__step-2 .intro__step-number {
+  .intro__step--2 .intro__step-number {
     top: -19px;
     left: 299px;
   }
 
-  .intro__step-3 .intro__step-number {
+  .intro__step--3 .intro__step-number {
     top: -19px;
     left: 300px;
   }
 
-  .intro__step-4 .intro__step-number {
+  .intro__step--4 .intro__step-number {
     top: -19px;
     left: 270px;
   }
