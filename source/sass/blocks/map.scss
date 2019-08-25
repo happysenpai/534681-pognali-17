@@ -1,32 +1,32 @@
 .map {
   position: relative;
   margin: 0 -8px;
+  margin-top: -25px;
   display: flex;
 }
 
 .map-g {
-  width: 100%;
-  height: 314px;
+ position: relative;
+ width: 100%;
+ height: 334px;
 }
 
 @media (min-width: $tablet-width) {
   .map {
+    margin-top: -56px;
   }
 
   .map-g{
-    width: 100%;
-    height: 654px;
+    height: 571px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .map {
-    position: relative;
-    width: 100%;
-   }
+    margin-bottom: -87px;
+  }
 
   .map-g{
-    width: 100%;
-    height: 489px;
+    height: 515px;
   }
 }
