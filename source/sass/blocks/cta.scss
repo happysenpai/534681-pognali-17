@@ -8,7 +8,7 @@
     padding: 0 25px;
     margin: 0 auto;
     margin-top: -28px;
-    width: 270px;
+    width: 320px;
     display: flex;
     flex-direction: column;
   }
@@ -45,7 +45,7 @@
 
 .cta-form__input {
   width: 245px;
-  height: 60px;
+  height: 62px;
   margin-top: 12px;
   border: none;
   border-radius: 10px;
@@ -63,6 +63,10 @@
   border: none;
   border-radius: 10px;
   background-color: #ffd74b;
+  background-image: url(../img/triangle-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 26px 23px;
+  background-size: 11px;
 }
 
 .button-submit span {
@@ -89,6 +93,7 @@
 }
 
 .cta__tel {
+  position: relative;
   margin-left: 63px;
   margin-top: 14px;
   color: #ffd74b;
@@ -96,7 +101,23 @@
   font-weight: 700;
 }
 
+.cta__tel::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: -63px;
+  width: 45px;
+  height: 45px;
+  background-color: #121936;
+  border-radius: 50%;
+  background-image: url("../img/contacts-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 14px 15px;
+  background-size: 18px;
+}
+
 .cta__mail {
+  position: relative;
   margin-left: 63px;
   margin-top: 23px;
   margin-bottom: 39px;
@@ -104,6 +125,21 @@
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.cta__mail::before {
+ content: "";
+ position: absolute;
+ top: -13px;
+ left: -63px;
+ width: 45px;
+ height: 45px;
+ background-color: #121936;
+ border-radius: 50%;
+ background-image: url("../img/contacts-mail.svg");
+ background-repeat: no-repeat;
+ background-position: 14px 17px;
+ background-size: 19px;
 }
 
 @media (min-width: $tablet-width) {

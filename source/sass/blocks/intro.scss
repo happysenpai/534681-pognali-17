@@ -3,7 +3,7 @@
   background-color: #161c35;
   &__wrapper{
     position: relative;
-    width: 270px;
+    width: 320px;
     margin: 0 auto;
     padding: 0 25px;
     background-image: url("../img/traveller-illustration-mobile@1x.png"), url("../img/globe-back-mobile@1x.jpg");
@@ -62,7 +62,7 @@
   padding-top: 7px;
   width: 189px;
   text-align: center;
-  height: 33px;
+  height: 40px;
   border-radius: 20px;
   background-color: #ffd74b;
   color: #161c35;
@@ -132,9 +132,13 @@
 }
 
 .intro__comment {
-  padding-left: 26px;
-  padding-top: 10px;
+  padding-left: 50px;
+  padding-top: 12px;
   padding-bottom: 317px;
+  background-color: #161c35;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -2px;
 }
 
 .intro__quote {
@@ -175,9 +179,9 @@
   top: 683px;
   padding-top: 22px;
   padding-left: 24px;
-  padding-bottom: 52px;
+  padding-bottom: 66px;
   padding-right: 63px;
-  width: 183px;
+  width: 270px;
   height: 60px;
   border-radius: 10px 10px 0 0;
   background-color: #ff8d30;
@@ -189,9 +193,9 @@
   top: 763px;
   padding-top: 22px;
   padding-left: 24px;
-  padding-bottom: 52px;
+  padding-bottom: 66px;
   padding-right: 63px;
-  width: 183px;
+  width: 270px;
   height: 60px;
   border-radius: 10px 10px 0 0;
   background-color: #ffa530;
@@ -203,9 +207,9 @@
   top: 843px;
   padding-top: 22px;
   padding-left: 24px;
-  padding-bottom: 52px;
+  padding-bottom: 66px;
   padding-right: 104px;
-  width: 142px;
+  width: 270px;
   height: 60px;
   border-radius: 10px 10px 0 0;
   background-color: #ffbd30;
@@ -217,9 +221,9 @@
   top: 923px;
   padding-top: 22px;
   padding-left: 24px;
-  padding-bottom: 52px;
+  padding-bottom: 58px;
   padding-right: 63px;
-  width: 183px;
+  width: 270px;
   height: 6px;
   border-radius: 10px;
   background-color: #ffd74b;

@@ -1,17 +1,31 @@
 .travelmates {
   position: relative;
-   background-color: #192144;
+  background-color: #192144;
   border-radius: 0 0 30px 30px;
   z-index: 4;
-  &__wrapper{
+  &__wrapper {
     position: relative;
+    display: flex;
+    flex-direction: column;
     padding: 0 25px;
     margin: 0 auto;
     margin-top: -27px;
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-  }
+    width: 320px;
+    background-image: url("../img/smolov-back-desktop@1x.png"),url("../img/rogovaya-back-mobile@1x.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: 152px 66px,-10px 338px;
+    &::before {
+     content: "";
+     position: absolute;
+     top: 66px;
+     left: -19px;
+     width: 132px;
+     height: 132px;
+     border-radius: 20px;
+     background-color: #141b3b;
+     z-index: -1;
+   }
+ }
 }
 
 .travelmates__title {
@@ -49,20 +63,43 @@
 }
 
 .travelmates__item--levelup {
-  position: absolute;
-  top: 29px;
-  left: 32px;
-  width: 31px;
+ position: absolute;
+ top: 16px;
+ left: 16px;
+ width: 60px;
+ height: 60px;
+ background-color: rgba(0,0,0,0.6);
+ border-radius: 50%;
+ z-index: 0;
+ border: 3px solid #fe8d30;
 }
 
 .travelmates__item--number {
-  margin-top: 1px;
-  margin-left: 1px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .travelmates__item--level {
-  margin-top: 1px;
-  margin-left: 1px;
+ position: absolute;
+ top: 35px;
+ left: 16px;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 14px;
+}
+.travelmates__item--level::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -4px;
+  width: 31px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: white;
 }
 
 .travelmates__item--bg {
@@ -81,7 +118,7 @@
 .travelmates__item--countries {
   position: absolute;
   display: flex;
-  padding-right: 18px;
+  padding-right: 1px;
   justify-content: center;
   width: 143px;
   top: -14px;
@@ -104,10 +141,10 @@
 }
 
 .travelmates__item--tags {
-  width: 198px;
+  width: 180px;
   text-align: center;
-  margin-top: -6px;
-  margin-left: 37px;
+  margin-top: -7px;
+  margin-left: 49px;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -126,8 +163,10 @@
 }
 
 .travelmates__icons--width {
-  width: 132px;
-  margin-left: 30px;
+  width: 150px;
+  margin-top: 7px;
+  margin-left: 50px;
+  padding-left: 18px;
 }
 
 .travelmates__icons--plane {
@@ -170,13 +209,17 @@
   margin-top: 13px;
   margin-bottom: 30px;
   padding-top: 23px;
-  padding-bottom: 34px;
+  padding-bottom: 39px;
   padding-left: 24px;
   text-decoration: none;
-  width: 246px;
+  width: 270px;
   height: 5px;
   border-radius: 10px;
   background-color: #ffd74b;
+  background-image: url(../img/triangle-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 236px 23px;
+  background-size: 11px;
   color: #1d2e5b;
   font-size: 18px;
   font-weight: 700;

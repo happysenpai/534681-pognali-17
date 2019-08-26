@@ -7,17 +7,17 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 320px;
     height: 231px;
     margin: 0 auto;
-    margin-top: -25px;
+    margin-top: -37px;
+    margin-bottom: 8px;
     padding: 0 25px;
   }
 }
-
 .footer__logo {
   position: absolute;
-  top: 39px;
+  top: 38px;
   left: 110px;
   width: 200px;
   height: 19px;
@@ -27,8 +27,9 @@
 
 .footer__social {
   display: flex;
-  margin-left: 52px;
-  padding-top: 95px;
+  position: absolute;
+  left: 76px;
+  top: 78px;
 }
 
 .footer__social-item {
@@ -72,30 +73,38 @@
   height: 45px;
   background-color: #ffd74b;
 }
+.footer__dev {
+  position: absolute;
+  top: 196px;
+  left: 26px;
+}
 
-
+.footer__logo-academy {
+  position: absolute;
+  top: 188px;
+  right: 19px;
+  width: 40px;
+}
 @media (min-width: $tablet-width) {
   .footer {
     border-radius: 60px 60px 0 0;
     margin-top: 1px;
     &__wrapper{
-    flex-direction: row;
-     width: 688px;
-     height: 147px;
-     margin: 0 40px;
-   }
- }
-
+      flex-direction: row;
+      width: 688px;
+      height: 147px;
+      margin: 0 40px;
+    }
+  }
 }
-
 @media (min-width: $desktop-width) {
   .footer {
     border-radius: 60px 60px 0 0;
-    &__wrapper{
+    &__wrapper {
       flex-direction: row;
       width:1320px;
       margin: 0 60px;
     }
   }
-
 }
+

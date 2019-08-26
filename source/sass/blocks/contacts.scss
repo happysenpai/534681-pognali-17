@@ -8,7 +8,7 @@
     padding: 0 25px;
     margin: 0 auto;
     margin-top: -74px;
-    width: 270px;
+    width: 320px;
     height: 280px;
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@
 }
 
 .contacts__address {
+  position: relative;
   margin-top: 108px;
   margin-left: 61px;
   width: 200px;
@@ -26,6 +27,22 @@
   text-transform: uppercase;
 }
 
+.contacts__address::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -61px;
+  width: 45px;
+  height: 45px;
+  background-color: #121936;
+  border-radius: 50%;
+  background-image: url("../img/contacts-location.svg");
+  background-repeat: no-repeat;
+  background-position: 14px 15px;
+  background-size: 18px;
+}
+
+
 .button__contact {
   margin-top: 17px;
   margin-left: 0;
@@ -33,6 +50,10 @@
   padding-left: 21px;
   padding-top: 21px;
   padding-bottom: 17px;
+  background-image: url(../img/triangle-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 233px 20px;
+  background-size: 11px;
   color: #1d2e5b;
   font-size: 18px;
   font-weight: 700;

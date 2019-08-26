@@ -3,18 +3,29 @@
   background-color: #192144;
   border-radius: 0 0 30px 30px;
   z-index: 6;
-  &__wrapper{
+  &__wrapper {
     position: relative;
     padding: 0 25px;
     padding-top: 53px;
     margin: 0 auto;
-    width: 270px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     background-image: url("../img/about-mobile@1x.png");
     background-repeat: no-repeat;
-    background-position: 18px 50px;
-  }
+    background-position: 18px 39px;
+    &::before {
+     content: "";
+     position: absolute;
+     top: 39px;
+     left: -19px;
+     width: 132px;
+     height: 132px;
+     border-radius: 20px;
+     background-color: #141b3b;
+     z-index: -1;
+   }
+ }
 }
 
 .about__button {
@@ -23,7 +34,7 @@
 }
 
 .about__title {
-  padding-top: 0;
+  margin-top: 19px;
   padding-left: 24px;
   font-family: $ff;
   color: #ff8d30;
@@ -33,9 +44,9 @@
 }
 
 .about__text {
-  margin-top: -2px;
+  margin-top: -1px;
   padding-left: 25px;
-  width: 210px;
+  width: 238px;
   font-family: $ff;
   font-size: 16px;
   font-weight: 400;
@@ -45,7 +56,7 @@
 .about__text--bold {
   margin-top: 3px;
   padding-left: 25px;
-  padding-bottom: 65px;
+  padding-bottom: 43px;
   width: 233px;
   font-family: $ff;
   font-size: 16px;

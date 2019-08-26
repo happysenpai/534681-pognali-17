@@ -8,7 +8,7 @@
     padding: 0 25px;
     margin: 0 auto;
     margin-top: -24px;
-    width: 270px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     background-image: url("../img/rates@1x.png");
@@ -50,6 +50,16 @@
   line-height: 22px;
 }
 
+.rates__text::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 1px;
+  width: 200px;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+}
+
 .rates__number {
   position: absolute;
   top: -7px;
@@ -75,6 +85,15 @@
   background-color: #ffd74b;
 }
 
+.rates__color-3::after {
+  content: "";
+  position: absolute;
+  top: 61px;
+  left: -210px;
+  width: 200px;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+}
 
 .rates__button-show {
   color: #192144;
