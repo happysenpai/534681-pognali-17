@@ -1,12 +1,14 @@
 .countries-filter {
-  position: relative;
-  padding: 0 25px;
-  padding-bottom: 1px;
-  margin: 0 auto;
-  display: flex;
-  width: 270px;
-  flex-direction: column;
   background-color: #e2e5f2;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    padding-bottom: 1px;
+    margin: 0 auto;
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+  }
 }
 
 .countries-filter-open {
@@ -62,11 +64,12 @@
 
 @media (min-width: $tablet-width) {
   .countries-filter {
-    width: 688px;
-    padding: 0 40px;
-    padding-bottom: 37px;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      padding-bottom: 37px;
+    }
   }
-
   .countries-filter__title {
     display: none;
   }
@@ -128,10 +131,11 @@
 
 @media (min-width: $desktop-width) {
   .countries-filter {
-    width: 1320px;
-    padding: 0 60px;
+    &__wrapper{
+      width: 1320px;
+      padding: 0 60px;
+    }
   }
-
   .countries-filter-open {
     display: block;
   }

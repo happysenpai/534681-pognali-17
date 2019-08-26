@@ -1,15 +1,29 @@
+ html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
 body {
   color: #ffffff;
   font-family: "Blogger Sans", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
+  margin: 0;
 }
 
-/* img {
+a {
+  text-decoration: none
+}
+
+img {
   width: 100%;
   height: auto;
-} */
+}
 
 .visually-hidden {
   position: absolute;

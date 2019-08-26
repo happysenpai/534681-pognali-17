@@ -1,12 +1,16 @@
 .header {
-  position: relative;
-  padding: 0 25px;
-  margin: 0 auto;
-  margin-top: -8px;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #161c35;
+  background-size: 100% auto;
+  margin: 0px -8px;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: -8px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+     }
 }
 
 .header__logo {
@@ -47,11 +51,12 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    width: 688px;
-    padding: 0 40px;
-    margin-bottom: 0;
+    &__wrapper{
+      width: 688px;
+      padding: 0 40px;
+      margin-bottom: 0;
+    }
   }
-
   .header__logo {
     margin-top: 45px;
     height: 42px;
@@ -67,6 +72,7 @@
     display: block;
     top: -108px;
     right: -475px;
+    width: 123px;
     position: relative;
     color: #ffffff;
     font-size: 20px;
@@ -123,90 +129,91 @@
 
 @media (min-width: $desktop-width) {
   .header {
+   &__wrapper{
     width: 1320px;
     padding: 0 60px;
   }
+}
+.header__logo {
+  margin-top: 48px;
+  height: 52px;
+  background-image: url("../img/logo-desktop-white@1x.png");
+}
 
-  .header__logo {
-    margin-top: 48px;
-    height: 52px;
-    background-image: url("../img/logo-desktop-white@1x.png");
-  }
+.header__menu {
+  position: absolute;
+  top: 46px;
+  left: 367px;
+  background-image: none;
+}
 
-  .header__menu {
-    position: absolute;
-    top: 46px;
-    left: 367px;
-    background-image: none;
-  }
+.header__list {
+  display: flex;
+  width: 500px;
+  list-style: none;
+}
 
-  .header__list {
-    display: flex;
-    width: 500px;
-    list-style: none;
-  }
+.header__link {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 33px;
+}
 
-  .header__link {
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 33px;
-  }
+.header__button-auth {
+  right: 59px;
+  top: 50px;
+}
 
-  .header__button-auth {
-    right: 59px;
-    top: 50px;
-  }
+.header__button-call {
+  display: block;
+  position: absolute;
+  right: 298px;
+  top: 49px;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background-color: #ff8d30;
+  border-radius: 50%;
+  background-image: url("../img/topmenu-phone.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 50% 50%;
+}
 
-  .header__button-call {
-    display: block;
-    position: absolute;
-    right: 298px;
-    top: 49px;
-    text-decoration: none;
-    width: 50px;
-    height: 50px;
-    background-color: #ff8d30;
-    border-radius: 50%;
-    background-image: url("../img/topmenu-phone.svg");
-    background-repeat: no-repeat;
-    background-size: 18px;
-    background-position: 50% 50%;
-  }
+.header__button-email {
+  display: block;
+  position: absolute;
+  right: 247px;
+  top: 49px;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background-color: #ffbd30;
+  border-radius: 50%;
+  background-image: url("../img/topmenu-mail.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 50% 50%;
+}
 
-  .header__button-email {
-    display: block;
-    position: absolute;
-    right: 247px;
-    top: 49px;
-    text-decoration: none;
-    width: 50px;
-    height: 50px;
-    background-color: #ffbd30;
-    border-radius: 50%;
-    background-image: url("../img/topmenu-mail.svg");
-    background-repeat: no-repeat;
-    background-size: 18px;
-    background-position: 50% 50%;
-  }
+.header__button-back {
+  position: absolute;
+  top: 243px;
+  right: 174px;
+  width: 126px;
+}
 
-  .header__button-back {
-    position: absolute;
-    top: 243px;
-    right: 174px;
-    width: 126px;
-  }
+.header__button-off {
+  display: none;
+}
 
-  .header__button-off {
-    display: none;
-  }
-
-  .header__title {
-    margin-top: 118px;
-    margin-left: 67px;
-    margin-bottom: 63px;
-  }
+.header__title {
+  margin-top: 118px;
+  margin-left: 67px;
+  margin-bottom: 63px;
+}
 }

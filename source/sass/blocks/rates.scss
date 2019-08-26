@@ -1,18 +1,21 @@
 .rates {
   position: relative;
-  padding: 0 25px;
-  margin: 0 auto;
-  margin-top: -24px;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
-  background-image: url("../img/rates@1x.png");
-  background-size: 99px 99px;
-  background-position: 195px 61px;
-  background-repeat: no-repeat;
   background-color: #edeff6;
-  /* z-index: -2; */
   border-radius: 0 0 30px 30px;
+  z-index: 3;
+  &__wrapper{
+    position: relative;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: -24px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/rates@1x.png");
+    background-size: 99px 99px;
+    background-position: 195px 61px;
+    background-repeat: no-repeat;
+  }
 }
 
 .rates__title {
@@ -47,6 +50,16 @@
   line-height: 22px;
 }
 
+.rates__text::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 1px;
+  width: 200px;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+}
+
 .rates__number {
   position: absolute;
   top: -7px;
@@ -72,6 +85,15 @@
   background-color: #ffd74b;
 }
 
+.rates__color-3::after {
+  content: "";
+  position: absolute;
+  top: 61px;
+  left: -210px;
+  width: 200px;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+}
 
 .rates__button-show {
   color: #192144;
@@ -83,12 +105,14 @@
 
 @media (min-width: $tablet-width) {
   .rates {
-    background-image: url("../img/rates@1x.png");
-    background-size: 99px 99px;
-    background-position: 583px 433px;
-    width: 688px;
-    padding: 0 40px;
     border-radius: 0 0 60px 60px;
+    &__wrapper{
+      background-image: url("../img/rates@1x.png");
+      background-size: 99px 99px;
+      background-position: 583px 433px;
+      width: 688px;
+      padding: 0 40px;
+    }
   }
 
   .rates__title {
@@ -147,12 +171,14 @@
 
 @media (min-width: $desktop-width) {
   .rates {
-    width: 1320px;
-    padding: 0 60px;
-    background-size: 198px 198px;
-    background-position: 1108px 340px;
-    margin-top: -54px;
     border-radius: 0 0 60px 60px;
+    &__wrapper{
+      width: 1320px;
+      padding: 0 60px;
+      background-size: 198px 198px;
+      background-position: 1108px 340px;
+      margin-top: -54px;
+    }
   }
 
   .rates__title {

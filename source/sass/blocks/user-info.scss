@@ -1,11 +1,14 @@
 .user-info {
-  padding: 0 25px;
-  padding-bottom: 18px;
-  margin: 0 auto;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #edeff6;
+   &__wrapper{
+    padding: 0 25px;
+    padding-bottom: 18px;
+    margin: 0 auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+
+  }
 }
 
 .user-info__levelup {
@@ -148,11 +151,12 @@
 
 @media (min-width: $tablet-width) {
   .user-info {
-    display: flex;
-    width: 688px;
-    padding: 0 40px;
-    padding-bottom: 37px;
-    z-index: 1;
+    &__wrapper{
+      display: flex;
+      width: 688px;
+      padding: 0 40px;
+      padding-bottom: 37px;
+    }
   }
 
   .user-info__levelup {
@@ -282,11 +286,12 @@
 
 @media (min-width: $desktop-width) {
   .user-info {
-    position: relative;
-    width: 1320px;
-    padding: 0 60px;
+    &__wrapper{
+      position: relative;
+      width: 1320px;
+      padding: 0 60px;
+    }
   }
-
   .user-info__levelup {
     position: absolute;
     top: -210px;

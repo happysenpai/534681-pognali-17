@@ -1,13 +1,14 @@
 .pagination {
-  padding: 0 25px;
-  margin: 0 auto;
-  padding-top: 25px;
-  width: 270px;
-  display: flex;
-  flex-direction: column;
   background-color: #edeff6;
+  &__wrapper{
+    padding: 0 25px;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
 }
-
 .pagination__more {
   position: relative;
   color: #1d2e5b;
@@ -71,11 +72,12 @@
 
 @media (min-width: $tablet-width) {
   .pagination {
-    position: relative;
-    width: 688px;
-    padding: 0 40px;
+    &__wrapper{
+      position: relative;
+      width: 688px;
+      padding: 0 40px;
+    }
   }
-
   .pagination__more {
     font-size: 21px;
     font-weight: 800;
@@ -165,10 +167,11 @@
 
 @media (min-width: $desktop-width) {
   .pagination {
-    width: 1320px;
-    padding: 0 60px;
+    &__wrapper{
+      width: 1320px;
+      padding: 0 60px;
+    }
   }
-
   .pagination__more {
     margin-left: 393px;
     margin-top: 5px;
