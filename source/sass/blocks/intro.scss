@@ -1,12 +1,10 @@
 .intro {
   position: relative;
   background-color: #161c35;
-  margin: 0px -8px;
   &__wrapper{
     position: relative;
     width: 270px;
     margin: 0 auto;
-    margin-top: -8px;
     padding: 0 25px;
     background-image: url("../img/traveller-illustration-mobile@1x.png"), url("../img/globe-back-mobile@1x.jpg");
     background-position: 79px 223px, 0 0;
@@ -448,7 +446,7 @@
 }
 .intro__logo {
   position: absolute;
-  top: 46px;
+  top: 47px;
   left: 61px;
   width: 200px;
   height: 52px;
@@ -457,6 +455,18 @@
 
 .intro__menu {
   padding-top: 50px;
+}
+
+.intro__menu::before {
+  content: "";
+  position: absolute;
+  top: 74px;
+  left: 261px;
+  width: 60px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: white;
+
 }
 
 .intro__menu-list {
@@ -493,7 +503,7 @@
 
 .intro__item--mail {
   right: -9px;
-  top: -1px;
+  top: 0px;
   text-decoration: none;
   width: 50px;
   height: 50px;
@@ -518,9 +528,8 @@
 .intro__list {
   display: flex;
   position: absolute;
-  top: -193px;
-  right: 69px;
-  z-index: 1;
+  top: -194px;
+  right: -11px;
 }
 
 .intro__comment {

@@ -1,5 +1,6 @@
 .header {
   background-color: #161c35;
+  background-size: 100% auto;
   margin: 0px -8px;
   &__wrapper{
     position: relative;
@@ -71,6 +72,7 @@
     display: block;
     top: -108px;
     right: -475px;
+    width: 123px;
     position: relative;
     color: #ffffff;
     font-size: 20px;
