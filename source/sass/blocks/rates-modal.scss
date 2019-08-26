@@ -1,3 +1,28 @@
 .rates-modal {
-display: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 6;
+  display: none;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 25px;
+  width: 270px;
+  height: 443px;
+  box-shadow: 0 20px 50px rgba(29, 46, 91, 0.1);
+  border-radius: 20px;
+  background-color: #ffffff;
+
+}
+.modal-show {
+display: block;
+}
+
+.rates-modal__title {
+  color: #ff8d30;
+  font-family: $ff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
 }
