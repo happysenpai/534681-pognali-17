@@ -1,7 +1,6 @@
 .header {
   background-color: #161c35;
   background-size: 100% auto;
-  margin: 0px -8px;
   &__wrapper{
     position: relative;
     padding: 0 25px;
@@ -10,7 +9,7 @@
     width: 320px;
     display: flex;
     flex-direction: column;
-     }
+  }
 }
 
 .header__logo {
