@@ -1,13 +1,23 @@
  .menu-modal {
-   position: absolute;
-   display: none;
-   top: 1px;
-   left: 1px;
-   width: 320px;
-   margin: 0 auto;
- }
- @media (min-width: $tablet-width) {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 6;
+  display: none;
+  margin: 0 auto;
+  padding: 0 25px;
+  width: 270px;
+  height: 568px;
+  box-shadow: 0 20px 50px rgba(29, 46, 91, 0.1);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.modal-show {
+  display: block;
+}
+@media (min-width: $tablet-width) {
   .menu-modal {
 
-   }
- }
+  }
+}
