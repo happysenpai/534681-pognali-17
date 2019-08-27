@@ -65,6 +65,7 @@
 @media (min-width: $tablet-width) {
   .contacts {
     border-radius: 0 0 60px 60px;
+    padding-bottom: 120px;
     &__wrapper{
       width: 768px;
       padding: 0 40px;
@@ -73,7 +74,7 @@
   }
 
   .contacts__address {
-    margin-top: 143px;
+    margin-top: 142px;
     margin-left: 128px;
     width: 500px;
     font-size: 28px;
@@ -81,19 +82,28 @@
     line-height: 28px;
   }
 
+  .contacts__address::before {
+    top: -21px;
+    left: -94px;
+    width: 68px;
+    height: 68px;
+    background-position: 22px 20px;
+    background-size: 21px;
+  }
+
   .button__contact {
     margin-top: 39px;
-    margin-left: 35px;
-    padding-top: 28px;
+    margin-left: 34px;
+    padding-top: 26px;
     padding-left: 33px;
-    padding-bottom: 23px;
-    margin-bottom: 58px;
-    width: 579px;
+    padding-bottom: 25px;
+    width: 618px;
     color: #1d2e5b;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
     border-radius: 20px;
+    background-position: 568px 30px;
   }
 }
 

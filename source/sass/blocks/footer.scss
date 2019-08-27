@@ -32,6 +32,17 @@
   top: 78px;
 }
 
+.footer__social::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 82px;
+  left: -51px;
+  width: 270px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .footer__social-item {
   display: flex;
   margin-right: 45px;
@@ -73,9 +84,14 @@
   height: 45px;
   background-color: #ffd74b;
 }
+
+.footer__link {
+  color: #444444;
+}
+
 .footer__dev {
   position: absolute;
-  top: 196px;
+  top: 195px;
   left: 26px;
 }
 
@@ -88,14 +104,70 @@
 @media (min-width: $tablet-width) {
   .footer {
     border-radius: 60px 60px 0 0;
-    margin-top: 1px;
     &__wrapper{
-      flex-direction: row;
-      width: 768px;
-      height: 147px;
-      margin: 0 40px;
-    }
-  }
+     width: 768px;
+     height: 147px;
+     margin-top: -55px;
+
+   }
+ }
+
+ .footer__logo {
+  top: 56px;
+  left: 40px;
+  height: 40px;
+  background-image: url(../img/logo-tablet-blue@1x.png);
+}
+
+.footer__social {
+ left: 284px;
+ top: 32px;
+}
+.footer__social::after {
+display: none;
+}
+
+.footer__social-item {
+  margin-right: 60px;
+}
+
+.footer__dev {
+  position: absolute;
+  top: 63px;
+  left: 574px;
+  color: #444444;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__social-facebook{
+ width: 60px;
+ height: 60px;
+ background-size: 16px;
+ background-position: 22px 15px
+}
+
+.footer__social-vk {
+ width: 60px;
+ height: 60px;
+ background-size: 32px;
+ background-position: 13px 22px;
+}
+
+.footer__social-instagram {
+  width: 60px;
+  height: 60px;
+  background-size: 24px;
+  background-position: 18px 18px;
+}
+
+.footer__logo-academy {
+  top: 59px;
+  right: 33px;
+  width: 40px;
+}
+
 }
 @media (min-width: $desktop-width) {
   .footer {
