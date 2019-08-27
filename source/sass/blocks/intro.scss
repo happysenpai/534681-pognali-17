@@ -265,10 +265,10 @@
   .intro {
    background-color: #161c35;
    &__wrapper{
-    width: 688px;
+    width: 768px;
     padding: 0 40px;
     background-image: url("../img/traveller-illustration-tablet@1x.png"), url("../img/globe-back-tablet@1x.jpg");
-    background-position: 284px 403px, -357px 380px;
+    background-position: 283px 402px, -357px 380px;
     background-repeat: no-repeat;
     background-color: #182044;
   }
@@ -300,21 +300,21 @@
 }
 
 .intro__menu-button {
-  left: 500px;
-  top: 40px;
+  left: 499px;
+  top: 39px;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   width: 188px;
-  height: 40px;
+  height: 50px;
   border-radius: 25px;
   padding-top: 10px;
 }
 
 .intro__title {
   width: 395px;
-  margin-top: 112px;
-  margin-left: 147px;
+  margin-top: 108px;
+  margin-left: 146px;
   font-size: 60px;
   font-weight: 700;
   line-height: 70px;
@@ -326,9 +326,10 @@
 }
 
 .intro__comment {
-  margin-top: 1px;
-  margin-left: 8px;
-  padding-bottom: 569px;
+  margin-top: -208px;
+  margin-left: -18px;
+  padding-bottom: 571px;
+  background-color: transparent;
 }
 
 .intro__quote {
@@ -341,8 +342,8 @@
 }
 
 .intro__autor {
-  margin-top: 43px;
-  margin-left: 2px;
+  margin-top: 44px;
+  margin-left: 1px;
   width: 250px;
   font-size: 21px;
   font-weight: 800;
@@ -357,38 +358,38 @@
 }
 
 .intro__step--1 {
-  left: 40px;
-  top: 854px;
-  width: 247px;
-  height: 66px;
-  padding-top: 31px;
-  padding-left: 33px;
-  padding-bottom: 52px;
-  padding-right: 85px;
-  border-radius: 20px 0 0 0;
+ left: 39px;
+ top: 853px;
+ width: 362px;
+ height: 66px;
+ padding-top: 29px;
+ padding-left: 33px;
+ padding-bottom: 112px;
+ padding-right: 85px;
+ border-radius: 20px 0 0 0;
 }
 
 .intro__step--2 {
   left: 384px;
-  top: 854px;
-  width: 257px;
+  top: 853px;
+  width: 343px;
   height: 66px;
-  padding-top: 31px;
+  padding-top: 29px;
   padding-left: 33px;
-  padding-bottom: 52px;
+  padding-bottom: 112px;
   padding-right: 54px;
   border-radius: 20px 20px 0 0;
   background-color: #ffa530;
 }
 
 .intro__step--3 {
-  left: 40px;
-  top: 994px;
-  width: 191px;
+  left: 39px;
+  top: 993px;
+  width: 362px;
   height: 57px;
-  padding-top: 31px;
+  padding-top: 29px;
   padding-left: 33px;
-  padding-bottom: 52px;
+  padding-bottom: 111px;
   padding-right: 146px;
   border-radius: 0 0 0 20px;
   background-color: #ffbd30;
@@ -396,12 +397,12 @@
 
 .intro__step--4 {
   left: 384px;
-  top: 994px;
-  width: 243px;
+  top: 993px;
+  width: 343px;
   height: 66px;
-  padding-top: 31px;
-  padding-left: 34px;
-  padding-bottom: 43px;
+  padding-top: 29px;
+  padding-left: 33px;
+  padding-bottom: 111px;
   padding-right: 67px;
   border-radius: 0 0 20px 20px;
   background-color: #ffd74b;
@@ -433,7 +434,7 @@
   left: 33px;
 }
 
-.intro__step-4 .intro__step-number {
+.intro__step--4 .intro__step-number {
   top: 43px;
   left: 33px;
 }
