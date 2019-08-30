@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "fonts.scss";
+@import "normalize.scss";
 @import "global.scss";
 @import "./blocks/intro.scss";
 @import "./blocks/about.scss";
@@ -21,5 +22,6 @@
 @import "./blocks/steps-3.scss";
 @import "./blocks/map.scss";
 @import "./blocks/footer.scss";
+@import "./blocks/scroll-menu.scss";
 @import "./blocks/menu-modal.scss";
 @import "./blocks/rates-modal.scss";

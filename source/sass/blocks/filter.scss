@@ -11,6 +11,7 @@
   }
 }
 .filter__form {
+  margin-top: -1px;
   background-color: #ffd74b;
   border-radius: 20px;
   display: flex;
@@ -96,12 +97,12 @@
 }
 
 .form__label .checkmark::after {
-  left: 8px;
-  top: 3px;
-  width: 2px;
-  height: 8px;
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 9px;
   border: solid #000000;
-  border-width: 0 2px 2px 0;
+  border-width: 0px 2px 2px 0;
   transform: rotate(45deg);
 }
 
@@ -167,7 +168,7 @@
 .filter__form .form__header-level {
   position: relative;
   display: block;
-  margin-top: -3px;
+  margin-top: -1px;
   margin-left: 14px;
 }
 
@@ -194,8 +195,8 @@
 
 .form__header-mini {
   position: relative;
-  width: 64px;
-  height: 31px;
+  width: 109px;
+  height: 33px;
   padding-left: 45px;
   margin-right: -4px;
   border: none;
@@ -209,8 +210,8 @@
 }
 
 .form__header-max {
-  width: 70px;
-  height: 31px;
+  width: 109px;
+  height: 33px;
   padding-left: 38px;
   border: none;
   border-radius: 0 4px 4px 0;
@@ -279,8 +280,8 @@
   margin-top: 27px;
   margin-left: 20px;
   margin-bottom: 22px;
-  padding-left: 17px;
-  padding-top: 3px;
+  padding-left: 6px;
+  padding-top: 0px;
   width: 230px;
   height: 40px;
   border-radius: 20px;

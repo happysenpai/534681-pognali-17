@@ -13,7 +13,7 @@
 }
 
 .header__logo {
-  margin-top: 20px;
+  margin-top: 28px;
   width: 200px;
   height: 19px;
   background-image: url("../img/logo-mobile-white@1x.png");
@@ -23,7 +23,7 @@
 .header__menu {
   position: absolute;
   right: 24px;
-  top: 22px;
+  top: 30px;
   width: 26px;
   height: 16px;
   background-image: url("../img/menu.svg");
@@ -41,11 +41,16 @@
 }
 
 .header__title {
-  margin-top: 56px;
+  position: relative;
+  display: block;
+  margin-top: 53px;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
-  margin-bottom: 9px;
+  margin-bottom: -2px;
+  padding-bottom: 9px;
+  border-radius: 2px;
+  border-bottom: 5px solid #ff8d30;
 }
 
 @media (min-width: $tablet-width) {

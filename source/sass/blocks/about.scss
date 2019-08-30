@@ -125,6 +125,10 @@
   font-size: 24px;
   font-weight: 800;
   line-height: 24px;
+  background-image: url(../img/triangle-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 228px 33px;
+  background-size: 11px;
 }
 
 .about__button:visited {
@@ -139,10 +143,15 @@
       width: 1320px;
       padding: 0 60px;
       background-image: url("../img/about-desktop@1x.png");
-      background-position: 750px 85px;
+      background-position: 688px 84px;
       margin-bottom: 118px;
       border-radius: 0 0 60px 60px;
-
+      &::before {
+        top: 70px;
+        left: -2px;
+        width: 213px;
+        height: 214px;
+      }
     }
   }
 
@@ -154,35 +163,35 @@
   }
 
   .about__title {
-    padding-top: 96px;
-    padding-left: 72px;
+    padding-top: 109px;
+    padding-left: 10px;
     font-size: 44px;
     color: #ff8d30;
   }
 
   .about__text {
     margin-top: 21px;
-    padding-left: 72px;
-    width: 617px;
+    padding-left: 10px;
+    width: 624px;
     font-size: 28px;
     font-weight: 300;
     line-height: 33px;
   }
 
   .about__text--bold {
-    margin-top: 10px;
-    padding-left: 71px;
-    width: 411px;
+    margin-top: 11px;
+    padding-left: 10px;
+    width: 421px;
     font-size: 21px;
     font-weight: 700;
     line-height: 25px;
   }
 
   .about__button {
-    width: 241px;
-    height: 52px;
-    margin-top: -2px;
-    margin-left: 71px;
+    width: 274px;
+    height: 81px;
+    margin-top: 22px;
+    margin-left: 9px;
     margin-bottom: 163px;
   }
 }

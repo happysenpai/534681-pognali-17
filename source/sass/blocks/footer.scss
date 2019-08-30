@@ -123,8 +123,9 @@
  left: 284px;
  top: 32px;
 }
+
 .footer__social::after {
-display: none;
+  display: none;
 }
 
 .footer__social-item {
@@ -178,5 +179,24 @@ display: none;
       margin: 0 60px;
     }
   }
+
+  .footer__logo {
+    top: 51px;
+    left: 110px;
+    height: 50px;;
+    background-image: url(../img/logo-desktop-blue@1x.png);
+  }
+
+  .footer__social {
+    left: 669px;
+  }
+
+  .footer__dev {
+   left: 1276px;
+ }
+
+ .footer__logo-academy {
+  right: -116px;
+}
 }
 

@@ -246,8 +246,8 @@
     }
   }
   .cta__title {
-    margin-top: 162px;
-    margin-left: 1px;
+    margin-top: 158px;
+    margin-left: -1px;
     text-align: center;
     font-size: 45px;
     font-weight: 700;
@@ -255,27 +255,27 @@
   }
 
   .cta__reg {
-    width: 562px;
+    width: 600px;
     margin-top: 20px;
-    margin-left: 405px;
+    margin-left: 298px;
     margin-bottom: 24px;
     font-size: 28px;
     font-weight: 300;
     line-height: 33px;
   }
 
-  .cta__reg br {
-    display: none;
+  .cta__reg br:nth-child(2) {
+    display: block;
   }
 
   .cta-form {
-    margin-top: 21px;
-    margin-left: 72px;
+    margin-top: 25px;
+    margin-left: 10px;
   }
 
   .cta-form__input {
     width: 850px;
-    height: 79px;
+    height: 81px;
     border-radius: 20px 0 0 20px;
     padding-left: 34px;
     font-size: 22px;
@@ -283,37 +283,54 @@
 
   .cta-form-submit {
     top: 12px;
-    right: 74px;
+    right: 16px;
     width: 324px;
     height: 81px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    background-position: 278px 33px;
   }
 
   .cta-form-submit span {
-    display: block;
-    font-family: $ff;
-    margin-top: 1px;
-    margin-right: 114px;
-    color: #1d2e5b;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-  }
+   display: block;
+   font-family: $ff;
+   margin-top: 1px;
+   margin-right: 114px;
+   color: #1d2e5b;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 24px;
+ }
 
-  .cta__text {
-    margin-top: 73px;
-    margin-left: 2px;
-  }
+ .cta__text {
+   margin-top: 71px;
+   margin-left: -2px;
+ }
 
-  .cta__tel {
-    margin-left: 345px;
-    margin-top: 54px;
-  }
+ .cta__tel {
+  margin-left: 283px;
+  margin-top: 54px;
+}
 
-  .cta__mail {
-    margin-left: 785px;
-    margin-top: -28px;
-    margin-bottom: 132px;
-  }
+.cta__tel::before {
+  top: -32px;
+  left: -122px;
+  width: 90px;
+  height: 90px;
+  background-position: 26px 26px;
+  background-size: 40px;
+}
+
+.cta__mail {
+  margin-left: 723px;
+  margin-top: -28px;
+  margin-bottom: 134px;
+}
+
+.cta__mail::before {
+  top: -32px;
+  left: -122px;
+  width: 90px;
+  height: 90px;
+  background-position: 26px 32px;
+  background-size: 38px;
+}
 }

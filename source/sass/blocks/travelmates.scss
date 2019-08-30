@@ -107,12 +107,34 @@
 }
 
 .travelmates__item--description {
+  position: relative;
   width: 270px;
   height: 157px;
   margin-top: -7px;
   margin-bottom: 8px;
   background-color: #ffffff;
   border-radius: 0 0 10px 10px;
+}
+
+.travelmates__online {
+  position: absolute;
+  top: 34px;
+  left: 63px;
+  width: 5px;
+  height: 5px;
+  border-radius: 4px;
+  background-color: #81e31e;
+}
+
+.travelmates__offline {
+  position: absolute;
+  top: 33px;
+  left: 53px;
+  width: 5px;
+  height: 5px;;
+  border-radius: 4px;
+  background-color: #f97676;
+
 }
 
 .travelmates__item--countries {
@@ -303,6 +325,22 @@
   border-radius: 0 0 20px 20px;
 }
 
+.travelmates__online {
+  top: 40px;
+  left: 56px;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+}
+
+.travelmates__offline {
+  top: 40px;
+  left: 46px;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+}
+
 .travelmates__item--countries {
   position: absolute;
   padding-top: 1px;
@@ -378,23 +416,28 @@
       width: 1320px;
       padding: 0 60px;
       margin-top: -59px;
+      background-position: 485px 192px,129px 444px;
+      &::before {
+        top: 127px;
+        left: -1px;
+      }
     }
   }
   .travelmates__title {
-    padding-top: 90px;
-    padding-left: 45px;
+    padding-top: 85px;
+    margin-left: -1px;
   }
 
   .travelmates__text {
-    margin-top: 19px;
-    margin-left: 72px;
+    margin-top: 21px;
+    margin-left: 9px;
     font-size: 28px;
     line-height: 33px;
   }
 
   .travelmates__text--bold {
-    margin-top: 11px;
-    margin-left: 71px;
+    margin-top: 12px;
+    margin-left: 9px;
     font-size: 21px;
     font-weight: 700;
     line-height: 25px;
@@ -406,9 +449,22 @@
 
   .travelmates__item-wrapper {
     position: absolute;
-    top: 177px;
-    right: 120px;
+    top: 173px;
+    right: 62px;
     width: 570px;
+  }
+  .travelmates__online {
+    top: 42px;
+    left: 56px;
+  }
+
+  .travelmates__offline {
+    top: 42px;
+    left: 46px;
+  }
+  .travelmates__item--levelup {
+    top: 23px;
+    left: 23px;
   }
 
   .travelmates__item--name {
@@ -420,13 +476,14 @@
   }
 
   .travelmates__icons-button {
-    margin-top: 41px;
-    margin-left: 71px;
+    margin-top: 43px;
+    margin-left: 9px;
     margin-bottom: 134px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 28px;
+    padding-bottom: 53px;
     padding-left: 34px;
-    width: 246px;
+    width: 280px;
     height: 11px;
+    background-position: 234px 33px;
   }
 }
