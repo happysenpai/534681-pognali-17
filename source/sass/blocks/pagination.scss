@@ -1,5 +1,6 @@
 .pagination {
   background-color: #edeff6;
+  margin-bottom: 38px;
   &__wrapper{
     padding: 0 25px;
     margin: 0 auto;
@@ -18,7 +19,7 @@
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 94px;
-  margin-top: -14px;
+  margin-top: -16px;
 }
 
 .pagination__more::before {
