@@ -36,6 +36,7 @@
 }
 
 .form__header {
+  position: relative;
   margin-top: 13px;
   margin-left: 27px;
   margin-bottom: 9px;
@@ -45,6 +46,30 @@
   line-height: 18px;
   text-transform: uppercase;
 }
+
+.form__header::before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 0;
+  width: 220px;
+  height: 1px;
+  background-color: #f3c72b;
+}
+
+.form__header::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 23px;
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/dropdown.svg);
+  background-repeat: no-repeat;
+  background-size: 9px;
+  background-position: 1px 1px;
+}
+
 
 .form__label {
   display: block;

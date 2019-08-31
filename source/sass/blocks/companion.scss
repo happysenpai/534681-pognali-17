@@ -33,13 +33,56 @@
 
 .companion__item-online {
   position: absolute;
-  top: 1px;
-  right: 1px;
+  top: 23px;
+  right: 22px;
   width: 6px;
   height: 6px;
   border-radius: 3px;
+  background-color: #81e31e;
   z-index: 1;
 }
+
+.companion__item--like-active {
+  position: relative;
+}
+
+.companion__item--like-active::before {
+  content: "";
+  position: absolute;
+  top: 54px;
+  left: 67px;
+  width: 31px;
+  height: 31px;
+  border-radius: 16px;
+  background-color: #f9eaea;
+  background-image: url(../img/heart-active.svg);
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: 9px 11px;
+  z-index: 1;
+
+}
+
+.companion__item--like-insactive {
+  position: relative;
+}
+
+.companion__item--like-insactive::before {
+  content: "";
+  position: absolute;
+  top: 54px;
+  left: 67px;
+  width: 31px;
+  height: 31px;
+  border-radius: 16px;
+  background-color: #edeff6;
+  background-image: url(../img/heart.svg);
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: 9px 11px;
+  z-index: 1;
+}
+
 
 .companion__item--photo {
   margin-left: 18px;
@@ -257,13 +300,53 @@
   position: absolute;
   top: 12px;
   left: 8px;
-  width: 50px;
+  width: 25px;
   color: #1d2e5b;
   font-size: 24px;
   font-weight: 700;
   line-height: 18px;
   display: block;
   background-color: transparent;
+}
+
+.companion__item-meter1::before{
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  transform: rotate(90deg);
+}
+
+.companion__item-meter2::before{
+  content: "";
+  position: absolute;
+  left: 1px;
+  width: 30px;
+  height: 17px;
+  background-color: #ffffff;
+  transform: rotate(63deg);
+}
+
+.companion__item-meter3::before{
+  content: "";
+  position: absolute;
+  left: -16px;
+  width: 60px;
+  height: 40px;
+  background-color: #ffffff;
+  transform: rotate(44deg);
+}
+
+.companion__item-meter4::before{
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 60px;
+  height: 30px;
+  background-color: #ffffff;
+  transform: rotate(90deg);
 }
 
 .companion__button-call {
