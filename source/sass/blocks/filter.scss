@@ -1,9 +1,10 @@
 .filter {
   background-color: #edeff6;
+  padding-top: 1px;
   &__wrapper{
     position: relative;
     padding: 0 25px;
-    padding-top: 25px;
+    padding-top: 24px;
     margin: 0 auto;
     display: flex;
     width: 320px;
@@ -328,7 +329,9 @@
     }
   }
   .form__title {
-    margin-top: 36px;
+    margin-top: 34px;
+    padding-left: 1px;
+    margin-bottom: 32px;
     margin-left: 33px;
     width: 500px;
     font-size: 30px;
@@ -337,183 +340,191 @@
   }
 
   .form__header {
-    margin-top: 41px;
-    margin-left: 34px;
+    margin-top: 40px;
+    margin-left: 35px;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     text-transform: uppercase;
+    letter-spacing: -0.4px;
+  }
+  .form__header::before,
+  .form__header::after {
+    display: none;
   }
 
   .form__label {
     display: inline-block;
-    width: 128px;
+    width: 166px;
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
-    padding-left: 40px;
-    margin-bottom: 7px;
+    padding-left: 45px;
+    margin-bottom: 7px;;
   }
 
   .checkmark {
-    top: -3px;
-    left: 10px;
-    height: 23px;
-    width: 23px;
+    top: 0px;
+    left: 9px;
+    height: 24px;
+    width: 24px;
     border-radius: 3px;
   }
 
   .form__label .checkmark::after {
-    left: 8px;
-    top: 3px;
-    width: 3px;
-    height: 10px;
-    border: solid #000000;
-    border-width: 0 3px 3px 0;
-    transform: rotate(45deg);
-  }
+   left: 9px;
+   top: 6px;
+   width: 6px;
+   height: 12px;
+   border: solid #000000;
+   border-width: 0 3px 3px 0;
+   transform: rotate(45deg);
+ }
 
-  .filter__form .form__header-sport {
-    margin-top: -40px;
-    margin-left: 139px;
-    margin-bottom: -34px;
-    display: inline-block;
-  }
+ .filter__form .form__header-sport {
+  margin-top: -42px;
+  margin-left: 139px;
+  margin-bottom: -34px;
+  display: inline-block;
+  vertical-align: baseline;
+}
 
-  .filter__form .form__header-music {
-    margin-top: -40px;
-    margin-left: 140px;
-    margin-bottom: -40px;
-    display: inline-block;
-  }
+.filter__form .form__header-music {
+  margin-top: -40px;
+  margin-left: 140px;
+  margin-bottom: -34px;
+  display: inline-block;
+  vertical-align: baseline;
+}
 
-  .filter__form .form__header-food {
-    margin-top: -40px;
-    margin-left: 140px;
-    margin-bottom: -28px;
-    display: inline-block;
-  }
+.filter__form .form__header-food {
+  margin-top: -42px;
+  margin-left: 140px;
+  margin-bottom: -25px;
+  display: inline-block;
+  vertical-align: baseline;
+}
 
-  .filter__form .form__header-transport {
-    margin-top: -46px;
-    margin-left: 140px;
-    margin-bottom: 9px;
-  }
+.filter__form .form__header-transport {
+ margin-top: -50px;
+ margin-left: 140px;
+ margin-bottom: 14px;
+}
 
-  .form__header-transport .form__icons[type="checkbox"] + label {
-    height: 43px;
-    width: 43px;
-  }
+.form__header-transport .form__icons[type="checkbox"] + label {
+  height: 43px;
+  width: 43px;
+}
 
-  .form__header-transport .form__icons--plane[type="checkbox"] + label {
-    left: 15px;
-    background-size: 19px;
-    background-position: 10px 10px;
-  }
+.form__header-transport .form__icons--plane[type="checkbox"] + label {
+  left: 15px;
+  background-size: 19px;
+  background-position: 10px 10px;
+}
 
-  .form__header-transport .form__icons--bus[type="checkbox"] + label {
-    left: 58px;
-    background-size: 17px;
-    background-position: 13px 10px;
-  }
+.form__header-transport .form__icons--bus[type="checkbox"] + label {
+  left: 58px;
+  background-size: 17px;
+  background-position: 13px 10px;
+}
 
-  .form__header-transport .form__icons--bike[type="checkbox"] + label {
-    left: 101px;
-    background-size: 24px;
-    background-position: 10px 10px;
-  }
+.form__header-transport .form__icons--bike[type="checkbox"] + label {
+  left: 101px;
+  background-size: 24px;
+  background-position: 10px 10px;
+}
 
-  .form__header-transport .form__icons--run[type="checkbox"] + label {
-    left: 144px;
-    background-size: 20px;
-    background-position: 11px 10px;
-  }
+.form__header-transport .form__icons--run[type="checkbox"] + label {
+  left: 144px;
+  background-size: 20px;
+  background-position: 11px 10px;
+}
 
-  .filter__form .form__range {
-    margin-top: -30px;
-    margin-left: 160px;
-    margin-bottom: 72px;
-    width: 277px;
-    height: 3px;
-  }
+.filter__form .form__range {
+  margin-top: -30px;
+  margin-left: 160px;
+  margin-bottom: 72px;
+  width: 277px;
+  height: 3px;
+}
 
-  .form__range-inner {
-    top: 0;
-    left: 74px;
-    width: 201px;
-    height: 3px;
-  }
+.form__range-inner {
+  top: 2px;
+  left: 76px;
+  width: 201px;
+  height: 3px;
+}
 
-  .form__range-inner::before {
-    top: -4px;
-    left: -6px;
-    width: 13px;
-    height: 13px;
-  }
+.form__range-inner::before {
+  top: -5px;
+  left: -6px;
+  width: 13px;
+  height: 13px;
+}
 
-  .form__range-inner::after {
-    top: -4px;
-    right: -5px;
-    width: 13px;
-    height: 13px;
-  }
+.form__range-inner::after {
+  top: -5px;
+  right: -6px;
+  width: 13px;
+  height: 13px;
+}
 
-  .filter__form .form__header-level {
-    margin-top: -54px;
-    margin-left: 493px;
-    margin-bottom: -8px;
-  }
+.filter__form .form__header-level {
+  margin-top: -53px;
+  margin-left: 492px;
+  margin-bottom: -8px;
+}
 
 
-  .form__header-level::after {
-    top: 23px;
-    left: 82px;
-    width: 15px;
-    height: 13px;
-  }
+.form__header-level::after {
+  top: 21px;
+  left: 82px;
+  width: 15px;
+  height: 13px;
+}
 
-  .form__header-level::before {
-    top: 29px;
-    left: 74px;
-    width: 20px;
-  }
+.form__header-level::before {
+  top: 28px;
+  left: 76px;
+  width: 21px;
+}
 
-  .form__header-mini {
-    width: 49px;
-    height: 46px;
-    padding-left: 23px;
-    margin-right: -4px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
+.form__header-mini {
+  width: 73px;
+  height: 46px;
+  padding-top: 2px;
+  padding-left: 25px;
+  margin-right: -4px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-  .form__header-max {
-    width: 56px;
-    height: 46px;
-    padding-left: 16px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
+.form__header-max {
+  width: 76px;
+  height: 46px;
+  padding-left: 17px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-  .form__button-show {
-    width: 616px;
-    height: 52px;
-    margin-top: 25px;
-    margin-left: 34px;
-    margin-bottom: 38px;
-    padding-left: 21px;
-    padding-top: 3px;
-    font-weight: 700;
-    line-height: 30px;
-    font-size: 20px;
-    border: none;
-  }
+.form__button-show {
+  width: 618px;
+  height: 50px;
+  margin-top: 26px;
+  margin-left: 35px;
+  margin-bottom: 38px;
+  padding-left: 3px;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 28px;
+}
 }
 
 @media (min-width: $desktop-width) {
