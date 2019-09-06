@@ -17,7 +17,8 @@ var del = require("del");
 var server = require("browser-sync").create();
 
 gulp.task("clean", function () {
-  return del("build"); });
+  return del("build");
+});
 
 
 gulp.task("copy", function () {
@@ -85,6 +86,6 @@ gulp.task("refresh", function (done) {
 });
 
 
-gulp.task("build", gulp.series("clean", "copy","css", "sprite", "html"));
+gulp.task("build", gulp.series("clean", "copy","css", "sprite", "html","webp"));
 
 gulp.task("start", gulp.series("build", "server"));

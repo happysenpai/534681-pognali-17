@@ -38,8 +38,8 @@
   border-radius: 50%;
   background-image: url("../img/contacts-location.svg");
   background-repeat: no-repeat;
-  background-position: 14px 15px;
-  background-size: 18px;
+  background-position: 15px 12px;
+  background-size: 16px;
 }
 
 
@@ -110,7 +110,7 @@
 @media (min-width: $desktop-width) {
  .contacts {
   border-radius: 0 0 60px 60px;
-      padding-bottom: 0px;
+  padding-bottom: 0px;
   &__wrapper{
     position: relative;
     width: 1320px;
@@ -137,9 +137,9 @@
 }
 
 .button__contact {
-  position: absolute;
-  right: 76px;
-  top: 100px;
+  position: relative;
+  right: -826px;
+  top: -114px;
   font-size: 24px;
   width: 324px;
   background-position: 274px 30px;
