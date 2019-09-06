@@ -6,19 +6,27 @@
     width: 320px;
     margin: 0 auto;
     padding: 0 25px;
-    background-image: url("../img/traveller-illustration-mobile@1x.png"), url("../img/globe-back-mobile@1x.jpg");
+    background-image: url("../img/traveller-illustration-mobile@1x.png"),
+    url("../img/globe-back-mobile@1x.jpg");
     background-position: 79px 223px, 0 0;
     background-repeat: no-repeat, no-repeat;
-  }
+    @media (min-resolution: $retina-dpi),
+    (min-resolution: $retina-dppx) {
+      background-image: url("../img/traveller-illustration-mobile@2x.png"),
+     url("../img/globe-back-mobile@2x.jpg");
+     background-position: 79px 223px, 0 0;
+     background-repeat: no-repeat, no-repeat;
+     background-size:192px 255px,320px 569px ;
+   }
+ }
 }
 
 .intro__logo {
   position: absolute;
   top: 27px;
   left: 25px;
-  width: 200px;
+  width: 100px;
   height: 19px;
-
   background-repeat: no-repeat;
 }
 
@@ -46,25 +54,7 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.intro__title {
- padding-left: 20px;
- padding-top: 36px;
-}
-=======
-  .button__menu {
-    position: absolute;
-    top: 466px;
-    left: 125px;
-  }
 
-  .intro__title {
-   padding-left: 20px;
-   padding-top: 36px;
- }
->>>>>>> module4-task1
-=======
 .intro__menu-list {
   display: none;
   font-family: $ff;
@@ -124,7 +114,6 @@
   background-size: 18px;
   background-position: 50% 50%;
 }
->>>>>>> module4-task1
 
 .intro__title {
   margin-left: 13px;
@@ -303,7 +292,7 @@
     left: 39px;
     width: 166px;
     height: 42px;
-    background-image: url("../img/logo-tablet-white@1x.png");
+
   }
 
   .intro__menu {
@@ -477,7 +466,7 @@
   left: 58px;
   width: 200px;
   height: 52px;
-  background-image: url("../img/logo-desktop-white@1x.png");
+
 }
 
 .intro__menu {

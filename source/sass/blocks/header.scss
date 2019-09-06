@@ -17,9 +17,8 @@
 
 .header__logo {
   margin-top: 28px;
-  width: 200px;
+  width: 100px;
   height: 19px;
-  background-image: url("../img/logo-mobile-white@1x.png");
   background-repeat: no-repeat;
 }
 
@@ -67,7 +66,8 @@
   .header__logo {
     margin-top: 45px;
     height: 42px;
-    background-image: url("../img/logo-tablet-white@1x.png");
+    width: 166px;
+    height: 42px;
   }
 
   .header__menu {
@@ -143,8 +143,9 @@
 }
 .header__logo {
   margin-top: 48px;
+  width: 200px;
   height: 52px;
-  background-image: url("../img/logo-desktop-white@1x.png");
+
 }
 
 .header__menu {
