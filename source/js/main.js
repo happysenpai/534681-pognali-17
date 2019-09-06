@@ -35,7 +35,7 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
-menulink.addEventListener("click", function (evt) {
+/*menulink.addEventListener("click", function (evt) {
   evt.preventDefault();
   modalmenu.classList.add("modal-show");
 });
@@ -53,4 +53,4 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
-
+*/
