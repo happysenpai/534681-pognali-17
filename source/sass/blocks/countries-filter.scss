@@ -1,5 +1,10 @@
 .countries-filter {
+  position: relative;
   background-color: #e2e5f2;
+  border-radius: 0 0 20px 20px;
+  margin-top: -14px;
+  padding-top: 14px;
+  z-index: 3;
   &__wrapper{
     position: relative;
     padding: 0 25px;

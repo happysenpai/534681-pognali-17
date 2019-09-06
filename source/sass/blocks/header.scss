@@ -1,6 +1,9 @@
 .header {
+  position: relative;
   background-color: #161c35;
   background-size: 100% auto;
+  border-radius: 0 0 20px 20px;
+  z-index: 6;
   &__wrapper{
     position: relative;
     padding: 0 25px;

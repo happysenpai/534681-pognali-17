@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Погнали? Каталог</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.mini.css">
   <script>
     document.createElement( "picture" );
   </script>
   <script src="js/picturefill.min.js" async></script>
 </head>
 <body>
+    <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
   <header class="header">
     <div class="header__wrapper">
       <a href="index.html" class="header__logo"></a>
@@ -45,7 +48,7 @@
               <li class="countries-filter__alpha-item">
                 <a href="" class="countries-filter__alpha-link">а</a>
                 <ul class="countries-filter__alpha-list-inner">
-                  <li class="countries-filter__alpha-item-inner"><a href="" class="countries-filter__alpha-link-inner">Австралия</a></li>
+       ="countries-filter__alpha-item-inner"><a href="" class="countries-filter__alpha-link-inner">Австралия</a></li>
                   <li class="countries-filter__alpha-item-inner"><a href="" class="countries-filter__alpha-link-inner">Австрия</a></li>
                   <li class="countries-filter__alpha-item-inner"><a href="" class="countries-filter__alpha-link-inner">Азербайджан</a></li>
                   <li class="countries-filter__alpha-item-inner"><a href="" class="countries-filter__alpha-link-inner">Албания</a></li>
@@ -423,138 +426,134 @@
       <div class="companion__wrapper">
         <h2 class="visually-hidden">Список компаньонов</h2>
         <div class="companion__item companion__item__position">
-          <span class="companion__item-offline"></span>
-          <div class="companion__item companion__item--header companion__item--like-active">
-            <img class="companion__item companion__item--photo"
-            src="img/firsova-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
-            <div class="companion__item companion__item--name">Таня Фирсова</div>
-            <div class="companion__item companion__item--likes">1.5 М</div>
-            <div class="companion__item companion__item--tags">
-              <a href="">#ЗОЖ</a>
-              <a href="">#ПП</a>
-              <a href="">#Фитнес</a>
-              <a href="">#пляж</a>
-              <a href="">#авокадо</a>
-              <a href="">#смузи</a>
-            </div>
-          </div>
-          <div class="companion__item companion__item--wish">
-            <h3 class="companion__section-title companion__section-title--wish-list">хочет посетить:</h3>
-            <div class="companion__item companion__item--flag companion__item--flag-shri">Шри ланка</div>
-            <div class="companion__item companion__item--flag companion__item--flag-thai">Тайланд</div>
-            <div class="companion__item companion__item--flag companion__item--flag-seishil">Сейшелы</div>
-          </div>
-          <h3  class="companion__section-title companion__section-title--transport">транспорт:</h3>
-          <ol class="companion__icons companion__icons--position">
-            <li class="companion__icons companion__icons--plane"></li>
-            <li class="companion__icons companion__icons--bus"></li>
-            <li class="companion__icons companion__icons--bike"></li>
-            <li class="companion__icons companion__icons--run"></li>
-          </ol>
-          <div class="companion__item companion__item--levelup companion__item-meter1">
-            <h3  class="companion__section-title companion__section-title--level"></h3>
-            <span class="companion__item companion__item--number">99</span>
-          </div>
-          <button class="companion__button-call" type="button">Позвать!</button>
-        </div>
-        <div class="companion__item companion__item__position">
-         <span class="companion__item-offline"></span>
-         <div class="companion__item companion__item--header companion__item--like-insactive">
-          <img class="companion__item companion__item--photo" src="img/demin-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
-          <div class="companion__item companion__item--name">Петя Демин</div>
-          <div class="companion__item companion__item--likes">150</div>
+         <div class="companion__item companion__item--header companion__item--like-active">
+          <img class="companion__item companion__item--photo"
+          src="img/firsova-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
+          <div class="companion__item companion__item--name companion__item-offline">Таня Фирсова</div>
+          <div class="companion__item companion__item--likes">1.5 М</div>
           <div class="companion__item companion__item--tags">
-            <a href="">#бургер</a>
-            <a href="">#бар</a>
-            <a href="">#футбол</a>
-            <a href="">#концерт</a>
-            <a href="">#крафт</a>
+            <a href="">#ЗОЖ</a>
+            <a href="">#ПП</a>
+            <a href="">#Фитнес</a>
+            <a href="">#пляж</a>
+            <a href="">#авокадо</a>
+            <a href="">#смузи</a>
           </div>
         </div>
         <div class="companion__item companion__item--wish">
           <h3 class="companion__section-title companion__section-title--wish-list">хочет посетить:</h3>
-          <div class="companion__item companion__item--flag companion__item--flag-belgium">Бельгия</div>
-          <div class="companion__item companion__item--flag companion__item--flag-czech">Чехия</div>
+          <div class="companion__item companion__item--flag companion__item--flag-shri">Шри ланка</div>
+          <div class="companion__item companion__item--flag companion__item--flag-thai">Тайланд</div>
+          <div class="companion__item companion__item--flag companion__item--flag-seishil">Сейшелы</div>
         </div>
-
-        <h3 class="companion__section-title companion__section-title--transport companion__section-position">транспорт:</h3>
+        <h3  class="companion__section-title companion__section-title--transport">транспорт:</h3>
         <ol class="companion__icons companion__icons--position">
           <li class="companion__icons companion__icons--plane"></li>
           <li class="companion__icons companion__icons--bus"></li>
           <li class="companion__icons companion__icons--bike"></li>
           <li class="companion__icons companion__icons--run"></li>
         </ol>
-        <div class="companion__item companion__item--levelup companion__item-meter2">
-          <h3 class="companion__section-title companion__section-title--level"></h3>
-          <span class="companion__item companion__item--number">80</span>
+        <div class="companion__item companion__item--levelup companion__item-meter1">
+          <h3  class="companion__section-title companion__section-title--level"></h3>
+          <span class="companion__item companion__item--number">99</span>
         </div>
         <button class="companion__button-call" type="button">Позвать!</button>
       </div>
       <div class="companion__item companion__item__position">
-       <span class="companion__item-offline"></span>
        <div class="companion__item companion__item--header companion__item--like-insactive">
-        <img class="companion__item companion__item--photo" src="img/smolov-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
-        <div class="companion__item companion__item--name">Марк Смолов</div>
-        <div class="companion__item companion__item--likes">1700</div>
+        <img class="companion__item companion__item--photo" src="img/demin-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
+        <div class="companion__item companion__item--name companion__item-offline">Петя Демин</div>
+        <div class="companion__item companion__item--likes">150</div>
         <div class="companion__item companion__item--tags">
-          <a href="">#рэп</a>
-          <a href="">#тату</a>
-          <a href="">#хайпбист</a>
-          <a href="">#кроссовки</a>
-          <a href="">#суприм</a>
+          <a href="">#бургер</a>
+          <a href="">#бар</a>
+          <a href="">#футбол</a>
+          <a href="">#концерт</a>
+          <a href="">#крафт</a>
         </div>
       </div>
       <div class="companion__item companion__item--wish">
         <h3 class="companion__section-title companion__section-title--wish-list">хочет посетить:</h3>
-        <div class="companion__item companion__item--flag companion__item--flag companion__item--flag-usa">США
-        </div>
-        <div class="companion__item companion__item--flag companion__item--flag companion__item--flag-australia">Австралия</div>
-        <div class="companion__item companion__item--flag companion__item--flag companion__item--flag-dominica">Доминикана</div>
+        <div class="companion__item companion__item--flag companion__item--flag-belgium">Бельгия</div>
+        <div class="companion__item companion__item--flag companion__item--flag-czech">Чехия</div>
       </div>
-      <h3 class="companion__section-title companion__section-title--transport companion__section-position2">транспорт:</h3>
+
+      <h3 class="companion__section-title companion__section-title--transport companion__section-position">транспорт:</h3>
       <ol class="companion__icons companion__icons--position">
         <li class="companion__icons companion__icons--plane"></li>
         <li class="companion__icons companion__icons--bus"></li>
         <li class="companion__icons companion__icons--bike"></li>
         <li class="companion__icons companion__icons--run"></li>
       </ol>
-      <div class="companion__item companion__item--levelup companion__item-meter3">
-        <h3  class="companion__section-title companion__section-title--level"></h3>
-        <span class="companion__item companion__item--number">25</span>
+      <div class="companion__item companion__item--levelup companion__item-meter2">
+        <h3 class="companion__section-title companion__section-title--level"></h3>
+        <span class="companion__item companion__item--number">80</span>
       </div>
       <button class="companion__button-call" type="button">Позвать!</button>
     </div>
     <div class="companion__item companion__item__position">
-     <span class="companion__item-online"></span>
      <div class="companion__item companion__item--header companion__item--like-insactive">
-      <img class="companion__item companion__item--photo" src="img/rogovaya-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
-      <div class="companion__item companion__item--name">Лариса Роговая</div>
-      <div class="companion__item companion__item--likes">23</div>
+      <img class="companion__item companion__item--photo" src="img/smolov-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
+      <div class="companion__item companion__item--name companion__item-offline">Марк Смолов</div>
+      <div class="companion__item companion__item--likes">1700</div>
       <div class="companion__item companion__item--tags">
-        <a href="">#образование</a>
-        <a href="">#карьера</a>
-        <a href="">#учеба</a>
-        <a href="">#линкедин</a>
+        <a href="">#рэп</a>
+        <a href="">#тату</a>
+        <a href="">#хайпбист</a>
+        <a href="">#кроссовки</a>
+        <a href="">#суприм</a>
       </div>
     </div>
     <div class="companion__item companion__item--wish">
       <h3 class="companion__section-title companion__section-title--wish-list">хочет посетить:</h3>
-      <div class="companion__item companion__item--flag companion__item--flag-uk">Великобритания</div>
-      <div class="companion__item companion__item--flag companion__item--flag-ger">Германия</div>
+      <div class="companion__item companion__item--flag companion__item--flag companion__item--flag-usa">США
+      </div>
+      <div class="companion__item companion__item--flag companion__item--flag companion__item--flag-australia">Австралия</div>
+      <div class="companion__item companion__item--flag companion__item--flag companion__item--flag-dominica">Доминикана</div>
     </div>
-    <h3 class="companion__section-title companion__section-title--transport companion__section-position3">транспорт:</h3>
+    <h3 class="companion__section-title companion__section-title--transport companion__section-position2">транспорт:</h3>
     <ol class="companion__icons companion__icons--position">
       <li class="companion__icons companion__icons--plane"></li>
       <li class="companion__icons companion__icons--bus"></li>
       <li class="companion__icons companion__icons--bike"></li>
       <li class="companion__icons companion__icons--run"></li>
     </ol>
-    <div class="companion__item companion__item--levelup companion__item-meter4">
-      <h3 class="companion__section-title companion__section-title--level"></h3>
-      <span class="companion__item companion__item--number">50</span>
+    <div class="companion__item companion__item--levelup companion__item-meter3">
+      <h3  class="companion__section-title companion__section-title--level"></h3>
+      <span class="companion__item companion__item--number">25</span>
     </div>
     <button class="companion__button-call" type="button">Позвать!</button>
   </div>
+  <div class="companion__item companion__item__position">
+   <div class="companion__item companion__item--header companion__item--like-insactive">
+    <img class="companion__item companion__item--photo" src="img/rogovaya-mobile@1x.jpg" width="70" height="70" alt="Фото компаньона">
+    <div class="companion__item companion__item--name companion__item-online">Лариса Роговая</div>
+    <div class="companion__item companion__item--likes">23</div>
+    <div class="companion__item companion__item--tags">
+      <a href="">#образование</a>
+      <a href="">#карьера</a>
+      <a href="">#учеба</a>
+      <a href="">#линкедин</a>
+    </div>
+  </div>
+  <div class="companion__item companion__item--wish">
+    <h3 class="companion__section-title companion__section-title--wish-list">хочет посетить:</h3>
+    <div class="companion__item companion__item--flag companion__item--flag-uk">Великобритания</div>
+    <div class="companion__item companion__item--flag companion__item--flag-ger">Германия</div>
+  </div>
+  <h3 class="companion__section-title companion__section-title--transport companion__section-position3">транспорт:</h3>
+  <ol class="companion__icons companion__icons--position">
+    <li class="companion__icons companion__icons--plane"></li>
+    <li class="companion__icons companion__icons--bus"></li>
+    <li class="companion__icons companion__icons--bike"></li>
+    <li class="companion__icons companion__icons--run"></li>
+  </ol>
+  <div class="companion__item companion__item--levelup companion__item-meter4">
+    <h3 class="companion__section-title companion__section-title--level"></h3>
+    <span class="companion__item companion__item--number">50</span>
+  </div>
+  <button class="companion__button-call" type="button">Позвать!</button>
+</div>
 </div>
 </section>
 <section class="pagination">
