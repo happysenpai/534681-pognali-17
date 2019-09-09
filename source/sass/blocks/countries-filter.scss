@@ -14,18 +14,19 @@
     display: flex;
     width: 320px;
     flex-direction: column;
-    margin-bottom: -675px;
+    padding-bottom: 30px;
   }
 }
 
 .countries-filter__menu {
-  display: block;
+  display: none;
   list-style: none;
 }
 
 .countries-filter__title {
   margin-top: 16px;
   margin-left: 28px;
+  margin-bottom: -18px;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
