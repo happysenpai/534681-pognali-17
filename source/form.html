@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Погнали? Форма</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.mini.css">
   <script>
     document.createElement( "picture" );
@@ -17,241 +18,241 @@
   <header class="header">
     <div class="header__wrapper">
       <a href="index.html" class="header__logo">
-       <picture class="header__logo-wrapper">
-        <source media="(min-width: 1200px)"
-        srcset="img/logo-desktop-white@1x.webp 1x, img/logo-desktop-white@2x.webp 2x" type="image/webp">
-        <source media="(min-width: 796px)"
-        srcset="img/logo-tablet-white@1x.webp 1x, img/logo-tablet-white@2x.webp 2x" type="image/webp">
-        <source type="image/webp" srcset="img/logo-mobile-white@1x.webp 1x, img/logo-mobile-white@2x.webp 2x">
+        <picture class="header__logo-wrapper">
           <source media="(min-width: 1200px)"
-          srcset="img/logo-desktop-white@1x.png 1x, img/logo-desktop-white@2x.png 2x">
+          srcset="img/logo-desktop-white@1x.webp 1x, img/logo-desktop-white@2x.webp 2x" type="image/webp">
           <source media="(min-width: 796px)"
-          srcset="img/logo-tablet-white@1x.png 1x, img/logo-tablet-white@2x.png 2x">
-          <img class="header__logo-image" src="img/logo-mobile-white@1x.png"
-          srcset="img/logo-mobile-white@2x.png 2x" alt="Логотип компании «Погнали?»">
-        </picture>
-      </a>
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li class="header__item"><a  class="header__link" href="">О сервисе</a></li>
-          <li class="header__item"><a  class="header__link" href="form.html">Направления</a></li>
-          <li class="header__item"><a  class="header__link" href="catalog.html">Попутчики</a></li>
-        </ul>
-      </nav>
-      <h1 class="header__title">Направления</h1>
-      <a class="header__button-auth" href="">авторизация</a>
-      <a class="header__button-call" href=""></a>
-      <a class="header__button-email" href=""></a>
-      <a class="header__button-back header__button-off" href="index.html">на главную</a>
-    </div>
-  </header>
-  <main >
-    <section class="user-info">
-      <div class="user-info__wrapper">
-        <h2 class="visually-hidden">карточка пользователя</h2>
-        <div class="user-info__levelup">
-          <span class="user-info__number">80</span>
-          <span class="user-info__level">level</span>
-        </div>
-        <p class="user-info__user-img-title">
-          <img class="user-info__user-img" src="img/photo-account-mobile@1x.jpg" width="100" height="100" alt="Фото пользователя">
-        </p>
-        <button class="user-info__button-change user-info__button-off" type="button">Сменить фото</button>
-        <fieldset class="user-info__fieldset user-info__position-tegs">
-          <legend class="user-info__legend user-info__legend-tegs">Тэги</legend>
-          <div class="user-info__tegs">
-            <a href="">#бургер</a>
-            <a href="">#бар</a>
-            <a href="">#футбол</a>
-            <a href="">#концерт</a>
-            <a href="">#крафт</a>
-          </div>
-        </fieldset>
-        <fieldset class="user-info__fieldset user-info__position-transport">
-          <legend class="user-info__legend user-info__legend-transport">Транспорт</legend>
-          <ul class="user-info__icons user-info__position">
-            <li class="user-info__icons user-info__icons--plane"></li>
-            <li class="user-info__icons user-info__icons--bus"></li>
-            <li class="user-info__icons user-info__icons--bike"></li>
-            <li class="user-info__icons user-info__icons--run"></li>
+          srcset="img/logo-tablet-white@1x.webp 1x, img/logo-tablet-white@2x.webp 2x" type="image/webp">
+          <source type="image/webp" srcset="img/logo-mobile-white@1x.webp 1x, img/logo-mobile-white@2x.webp 2x">
+            <source media="(min-width: 1200px)"
+            srcset="img/logo-desktop-white@1x.png 1x, img/logo-desktop-white@2x.png 2x">
+            <source media="(min-width: 796px)"
+            srcset="img/logo-tablet-white@1x.png 1x, img/logo-tablet-white@2x.png 2x">
+            <img class="header__logo-image" src="img/logo-mobile-white@1x.png"
+            srcset="img/logo-mobile-white@2x.png 2x" alt="Логотип компании «Погнали?»">
+          </picture>
+        </a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item"><a  class="header__link" href="">О сервисе</a></li>
+            <li class="header__item"><a  class="header__link" href="form.html">Направления</a></li>
+            <li class="header__item"><a  class="header__link" href="catalog.html">Попутчики</a></li>
           </ul>
-        </fieldset>
+        </nav>
+        <h1 class="header__title">Направления</h1>
+        <a class="header__button-auth" href="">авторизация</a>
+        <a class="header__button-call" href=""></a>
+        <a class="header__button-email" href=""></a>
+        <a class="header__button-back header__button-off" href="index.html">на главную</a>
       </div>
-    </section>
-    <section class="plans">
-      <div class="plans__wrapper">
-        <h2 class="plans__header">Мои планы:</h2>
-        <div class="plans__partition">
-          <h2 class="plans__country"><span>1.</span> Франция, Италия</h2>
-          <p class="plans__traveler">3 попутчика</p>
-          <p class="plans__date">26 мар - 29 мар</p>
-          <button class="plans__button" type="button">Изменить</button>
-        </div>
-        <div class="plans__partition">
-          <h2 class="plans__country"><span>2.</span> Тайланд, Индонезия</h2>
-          <p class="plans__traveler">1 попутчик</p>
-          <p class="plans__date">1 июл - 15 июл</p>
-          <button class="plans__button" type="button">Изменить</button>
-        </div>
-      </div>
-    </section>
-    <section class="steps">
-      <div class="steps__wrapper">
-        <h2 class="steps__title">Добавить план:</h2>
-        <section class="steps-1">
-          <h3 class="steps-1__title">Шаг 1. <span><br></span> Даты пребывания</h3>
-          <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых<br> вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
-          <h4 class="steps-1__title-input">ищу попутчиков: <span class="steps-1__reduction">Чел.</span></h4>
-          <label class="steps-1__input-label">
-            <input class="steps-1__input" type="text" name="people" placeholder="2">
-          </label>
-          <h4 class="steps-1__title-input">длительность:<span class="steps-1__reduction">дн.</span></h4>
-          <label class="steps-1__input-label">
-            <input class="steps-1__input" type="text" name="people" placeholder="2">
-          </label>
-          <label class="steps-1__label">Можно с детьми
-            <input class="steps-1__input-child" type="checkbox" name="child" checked>
-            <span tabindex="0" class="checkmark"></span>
-          </label>
-          <div class="steps-1__calendare-date">Март 2019</div>
-          <div class="steps-1__week">
-            <div class="steps-1__week-day">Пн</div>
-            <div class="steps-1__week-day">Вт</div>
-            <div class="steps-1__week-day">Ср</div>
-            <div class="steps-1__week-day">Чт</div>
-            <div class="steps-1__week-day">Пт</div>
-            <div class="steps-1__week-day steps-1__week-weekend">Сб</div>
-            <div class="steps-1__week-day steps-1__week-weekend">Вс</div>
+    </header>
+    <main >
+      <section class="user-info">
+        <div class="user-info__wrapper">
+          <h2 class="visually-hidden">карточка пользователя</h2>
+          <div class="user-info__levelup">
+            <span class="user-info__number">80</span>
+            <span class="user-info__level">level</span>
           </div>
-          <table class="steps-1__calendare calendare">
-            <tr class="calendare__row">
-              <td class="calendare__cell">23</td>
-              <td class="calendare__cell">24</td>
-              <td class="calendare__cell">25</td>
-              <td class="calendare__cell">26</td>
-              <td class="calendare__cell">27</td>
-              <td class="calendare__cell">28</td>
-              <td class="calendare__cell">1</td>
-            </tr>
-            <tr class="calendare__row">
-              <td class="calendare__cell">2</td>
-              <td class="calendare__cell">3</td>
-              <td class="calendare__cell">4</td>
-              <td class="calendare__cell">5</td>
-              <td class="calendare__cell">6</td>
-              <td class="calendare__cell">7</td>
-              <td class="calendare__cell">8</td>
-            </tr>
-            <tr class="calendare__row">
-              <td class="calendare__cell">9</td>
-              <td class="calendare__cell">10</td>
-              <td class="calendare__cell">11</td>
-              <td class="calendare__cell">12</td>
-              <td class="calendare__cell">13</td>
-              <td class="calendare__cell">14</td>
-              <td class="calendare__cell">15</td>
-            </tr>
-            <tr class="calendare__row">
-              <td class="calendare__cell">16</td>
-              <td class="calendare__cell">17</td>
-              <td class="calendare__cell">18</td>
-              <td class="calendare__cell">19</td>
-              <td class="calendare__cell">20</td>
-              <td class="calendare__cell">21</td>
-              <td class="calendare__cell">22</td>
-            </tr>
-            <tr class="calendare__row">
-              <td class="calendare__cell">23</td>
-              <td class="calendare__cell">24</td>
-              <td class="calendare__cell">25</td>
-              <td class="calendare__cell">26</td>
-              <td class="calendare__cell">27</td>
-              <td class="calendare__cell">28</td>
-              <td class="calendare__cell calendare__cell-next-month">29</td>
-            </tr>
-            <tr class="calendare__row">
-              <td class="calendare__cell calendare__cell-next-month">30</td>
-              <td class="calendare__cell calendare__cell-next-month">31</td>
-              <td class="calendare__cell calendare__cell-next-month">1</td>
-              <td class="calendare__cell calendare__cell-next-month">2</td>
-              <td class="calendare__cell calendare__cell-next-month">3</td>
-              <td class="calendare__cell calendare__cell-next-month">4</td>
-              <td class="calendare__cell calendare__cell-next-month">5</td>
-            </tr>
-          </table>
-          <button class="steps-1__button">Следующий шаг</button>
-        </section>
-        <section class="steps-2">
-          <h3 class="steps-2__title">Шаг 2.<br> Маршрут</h3>
-          <p class="steps-2__text">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
-          <label class="steps-2__label">
-            <select class="steps-2__select">
-              <option>Босния и герцеговина</option>
-            </select>
-            <img class="steps-2__flag" src="img/Bosnia-and-Herzegovina.png" width="35" height="24" alt="Флаг страны">
-          </label>
-          <label class="steps-2__label">
-            <select class="steps-2__select">
-              <option>Чехословакия</option>
-            </select>
-            <img class="steps-2__flag" src="img/Czech-Republic.png" width="35" height="24" alt="Флаг страны">
-          </label>
-          <label class="steps-2__label">
-            <select class="steps-2__select steps-2__select-no-img">
-              <option>Выберите страну</option>
-            </select>
-          </label>
-          <div class="steps-2__button-add">Добавить страну</div>
-          <button class="steps-2__button-next" type="button">Следующий шаг</button>
-          <a class="steps-2__button-back">На шаг назад</a>
-        </section>
-        <section class="steps-3">
-          <h3 class="steps-3__title">Шаг 3.<br> Развлечения</h3>
-          <p class="steps-3__text">Наконец, расскажите о своих планах времяпровождения.
-          Можно писать в свободной форме и ставить тэги.</p>
-          <div class="steps-3__wraper-from">
-            <h3 class="steps-3-country-name">Босния и герцеговина</h3>
-            <img class="steps-3__flag" src="img/Bosnia-and-Herzegovina.png" width="35" height="24" alt="Флаг страны"></div>
-            <textarea class="steps-3__texarea" placeholder="План действий"></textarea>
-            <div class="steps-3__wraper-to">
-              <h3 class="steps-3-country-name">Чехословакия</h3>
-              <img class="steps-3__flag" src="img/Czech-Republic.png" width="35" height="24" alt="Флаг страны"></div>
-              <textarea class="steps-3__texarea" placeholder="План действий">Пить пиво и лазить по старым замкам, наслаждаться аритектурой и вот это все.
-              </textarea>
-              <button class="steps-3__button-submit" type="submit">Отправить</button>
-              <a class="steps-3__button-back" href="#">На шаг назад</a>
-            </section>
+          <p class="user-info__user-img-title">
+            <img class="user-info__user-img" src="img/photo-account-mobile@1x.jpg" width="100" height="100" alt="Фото пользователя">
+          </p>
+          <button class="user-info__button-change user-info__button-off" type="button">Сменить фото</button>
+          <fieldset class="user-info__fieldset user-info__position-tegs">
+            <legend class="user-info__legend user-info__legend-tegs">Тэги</legend>
+            <div class="user-info__tegs">
+              <a href="">#бургер</a>
+              <a href="">#бар</a>
+              <a href="">#футбол</a>
+              <a href="">#концерт</a>
+              <a href="">#крафт</a>
+            </div>
+          </fieldset>
+          <fieldset class="user-info__fieldset user-info__position-transport">
+            <legend class="user-info__legend user-info__legend-transport">Транспорт</legend>
+            <ul class="user-info__icons user-info__position">
+              <li class="user-info__icons user-info__icons--plane"></li>
+              <li class="user-info__icons user-info__icons--bus"></li>
+              <li class="user-info__icons user-info__icons--bike"></li>
+              <li class="user-info__icons user-info__icons--run"></li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+      <section class="plans">
+        <div class="plans__wrapper">
+          <h2 class="plans__header">Мои планы:</h2>
+          <div class="plans__partition">
+            <h2 class="plans__country"><span>1.</span> Франция, Италия</h2>
+            <p class="plans__traveler">3 попутчика</p>
+            <p class="plans__date">26 мар - 29 мар</p>
+            <button class="plans__button" type="button">Изменить</button>
           </div>
-        </section>
+          <div class="plans__partition">
+            <h2 class="plans__country"><span>2.</span> Тайланд, Индонезия</h2>
+            <p class="plans__traveler">1 попутчик</p>
+            <p class="plans__date">1 июл - 15 июл</p>
+            <button class="plans__button" type="button">Изменить</button>
+          </div>
+        </div>
+      </section>
+      <section class="steps">
+        <div class="steps__wrapper">
+          <h2 class="steps__title">Добавить план:</h2>
+          <section class="steps-1">
+            <h3 class="steps-1__title">Шаг 1. <span><br></span> Даты пребывания</h3>
+            <p class="steps-1__text">Укажите предпочтительное количество попутчиков, которых<br> вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
+            <h4 class="steps-1__title-input">ищу попутчиков: <span class="steps-1__reduction">Чел.</span></h4>
+            <label class="steps-1__input-label">
+              <input class="steps-1__input" type="text" name="people" placeholder="2">
+            </label>
+            <h4 class="steps-1__title-input">длительность:<span class="steps-1__reduction">дн.</span></h4>
+            <label class="steps-1__input-label">
+              <input class="steps-1__input" type="text" name="people" placeholder="2">
+            </label>
+            <label class="steps-1__label">Можно с детьми
+              <input class="steps-1__input-child" type="checkbox" name="child" checked>
+              <span tabindex="0" class="checkmark"></span>
+            </label>
+            <div class="steps-1__calendare-date">Март 2019</div>
+            <div class="steps-1__week">
+              <div class="steps-1__week-day">Пн</div>
+              <div class="steps-1__week-day">Вт</div>
+              <div class="steps-1__week-day">Ср</div>
+              <div class="steps-1__week-day">Чт</div>
+              <div class="steps-1__week-day">Пт</div>
+              <div class="steps-1__week-day steps-1__week-weekend">Сб</div>
+              <div class="steps-1__week-day steps-1__week-weekend">Вс</div>
+            </div>
+            <table class="steps-1__calendare calendare">
+              <tr class="calendare__row">
+                <td class="calendare__cell">23</td>
+                <td class="calendare__cell">24</td>
+                <td class="calendare__cell">25</td>
+                <td class="calendare__cell">26</td>
+                <td class="calendare__cell">27</td>
+                <td class="calendare__cell">28</td>
+                <td class="calendare__cell">1</td>
+              </tr>
+              <tr class="calendare__row">
+                <td class="calendare__cell">2</td>
+                <td class="calendare__cell">3</td>
+                <td class="calendare__cell">4</td>
+                <td class="calendare__cell">5</td>
+                <td class="calendare__cell">6</td>
+                <td class="calendare__cell">7</td>
+                <td class="calendare__cell">8</td>
+              </tr>
+              <tr class="calendare__row">
+                <td class="calendare__cell">9</td>
+                <td class="calendare__cell">10</td>
+                <td class="calendare__cell">11</td>
+                <td class="calendare__cell">12</td>
+                <td class="calendare__cell">13</td>
+                <td class="calendare__cell">14</td>
+                <td class="calendare__cell">15</td>
+              </tr>
+              <tr class="calendare__row">
+                <td class="calendare__cell">16</td>
+                <td class="calendare__cell">17</td>
+                <td class="calendare__cell">18</td>
+                <td class="calendare__cell">19</td>
+                <td class="calendare__cell">20</td>
+                <td class="calendare__cell">21</td>
+                <td class="calendare__cell">22</td>
+              </tr>
+              <tr class="calendare__row">
+                <td class="calendare__cell">23</td>
+                <td class="calendare__cell">24</td>
+                <td class="calendare__cell">25</td>
+                <td class="calendare__cell">26</td>
+                <td class="calendare__cell">27</td>
+                <td class="calendare__cell">28</td>
+                <td class="calendare__cell calendare__cell-next-month">29</td>
+              </tr>
+              <tr class="calendare__row">
+                <td class="calendare__cell calendare__cell-next-month">30</td>
+                <td class="calendare__cell calendare__cell-next-month">31</td>
+                <td class="calendare__cell calendare__cell-next-month">1</td>
+                <td class="calendare__cell calendare__cell-next-month">2</td>
+                <td class="calendare__cell calendare__cell-next-month">3</td>
+                <td class="calendare__cell calendare__cell-next-month">4</td>
+                <td class="calendare__cell calendare__cell-next-month">5</td>
+              </tr>
+            </table>
+            <button class="steps-1__button">Следующий шаг</button>
+          </section>
+          <section class="steps-2">
+            <h3 class="steps-2__title">Шаг 2.<br> Маршрут</h3>
+            <p class="steps-2__text">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
+            <label class="steps-2__label">
+              <select class="steps-2__select">
+                <option>Босния и герцеговина</option>
+              </select>
+              <img class="steps-2__flag" src="img/Bosnia-and-Herzegovina.png" width="35" height="24" alt="Флаг страны">
+            </label>
+            <label class="steps-2__label">
+              <select class="steps-2__select">
+                <option>Чехословакия</option>
+              </select>
+              <img class="steps-2__flag" src="img/Czech-Republic.png" width="35" height="24" alt="Флаг страны">
+            </label>
+            <label class="steps-2__label">
+              <select class="steps-2__select steps-2__select-no-img">
+                <option>Выберите страну</option>
+              </select>
+            </label>
+            <div class="steps-2__button-add">Добавить страну</div>
+            <button class="steps-2__button-next" type="button">Следующий шаг</button>
+            <a class="steps-2__button-back">На шаг назад</a>
+          </section>
+          <section class="steps-3">
+            <h3 class="steps-3__title">Шаг 3.<br> Развлечения</h3>
+            <p class="steps-3__text">Наконец, расскажите о своих планах времяпровождения.
+            Можно писать в свободной форме и ставить тэги.</p>
+            <div class="steps-3__wraper-from">
+              <h3 class="steps-3-country-name">Босния и герцеговина</h3>
+              <img class="steps-3__flag" src="img/Bosnia-and-Herzegovina.png" width="35" height="24" alt="Флаг страны"></div>
+              <textarea class="steps-3__texarea" placeholder="План действий"></textarea>
+              <div class="steps-3__wraper-to">
+                <h3 class="steps-3-country-name">Чехословакия</h3>
+                <img class="steps-3__flag" src="img/Czech-Republic.png" width="35" height="24" alt="Флаг страны"></div>
+                <textarea class="steps-3__texarea" placeholder="План действий">Пить пиво и лазить по старым замкам, наслаждаться аритектурой и вот это все.
+                </textarea>
+                <button class="steps-3__button-submit" type="submit">Отправить</button>
+                <a class="steps-3__button-back" href="#">На шаг назад</a>
+              </section>
+            </div>
+          </section>
 
-      </main>
-      <footer class="footer">
-        <div class="footer__wrapper">
-         <a href="index.html">
-          <picture>
-            <source media="(min-width: 1200px)" srcset="img/logo-desktop-blue@1x.webp 1x, img/logo-desktop-blue@2x.webp 2x" type="image/webp">
-              <source media="(min-width: 796px)" srcset="img/logo-tablet-blue@1x.webp 1x, img/logo-tablet-blue@2x.webp 2x" type="image/webp">
-                <source srcset="img/logo-mobile-blue@1x.webp 1x, img/logo-mobile-blue@2x.webp 2x" type="image/webp">
-                  <source media="(min-width: 1200px)" srcset="img/logo-desktop-blue@1x.png 1x, img/logo-desktop-blue@2x.png 2x">
-                    <source media="(min-width: 796px)" srcset="img/logo-tablet-blue@1x.png 1x, img/logo-tablet-blue@2x.png 2x">
-                      <img class="footer__logo" src="img/logo-mobile-blue@1x.png" srcset="img/logo-mobile-blue@2x.png 2x" alt="Логотип компании «Погнали?»">
-                    </picture>
-                    <ul class="footer__social">
-                      <li class="footer__social-item">
-                        <a class="footer__social-facebook" href=""></a>
-                      </li>          <li class="footer__social-item">
-                        <a class="footer__social-vk" href=""></a>
-                      </li>
-                      <li class="footer__social-item">
-                        <a href="" class="footer__social-instagram" href=""></a>
-                      </li>
-                    </ul>
-                    <a href="#">
-                      <span class="footer__dev">Разработано</span>
-                      <img class="footer__logo-academy" src="img/htmlacademy.svg" width="27" height="34" alt="Academy Logo">
-                    </a>
-                  </div>
-                </footer>
-                <script type="js/main.js"></script>
-              </body>
-              </html>
+        </main>
+        <footer class="footer">
+          <div class="footer__wrapper">
+            <a href="index.html">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/logo-desktop-blue@1x.webp 1x, img/logo-desktop-blue@2x.webp 2x" type="image/webp">
+                  <source media="(min-width: 796px)" srcset="img/logo-tablet-blue@1x.webp 1x, img/logo-tablet-blue@2x.webp 2x" type="image/webp">
+                    <source srcset="img/logo-mobile-blue@1x.webp 1x, img/logo-mobile-blue@2x.webp 2x" type="image/webp">
+                      <source media="(min-width: 1200px)" srcset="img/logo-desktop-blue@1x.png 1x, img/logo-desktop-blue@2x.png 2x">
+                        <source media="(min-width: 796px)" srcset="img/logo-tablet-blue@1x.png 1x, img/logo-tablet-blue@2x.png 2x">
+                          <img class="footer__logo" src="img/logo-mobile-blue@1x.png" srcset="img/logo-mobile-blue@2x.png 2x" alt="Логотип компании «Погнали?»">
+                        </picture>
+                        <ul class="footer__social">
+                          <li class="footer__social-item">
+                            <a class="footer__social-facebook" href=""></a>
+                          </li>          <li class="footer__social-item">
+                            <a class="footer__social-vk" href=""></a>
+                          </li>
+                          <li class="footer__social-item">
+                            <a href="" class="footer__social-instagram" href=""></a>
+                          </li>
+                        </ul>
+                        <a href="#">
+                          <span class="footer__dev">Разработано</span>
+                          <img class="footer__logo-academy" src="img/htmlacademy.svg" width="27" height="34" alt="Academy Logo">
+                        </a>
+                      </div>
+                    </footer>
+                    <script type="js/main.js"></script>
+                  </body>
+                  </html>

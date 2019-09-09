@@ -3,7 +3,8 @@
   background-color: #192144;
   border-radius: 0 0 30px 30px;
   z-index: 2;
-  &__wrapper{
+
+  &__wrapper {
     position: relative;
     padding: 0 25px;
     margin: 0 auto;
@@ -63,7 +64,7 @@
   border: none;
   border-radius: 10px;
   background-color: #ffd74b;
-  background-image: url(../img/triangle-arrow-right.svg);
+  background-image: url("../img/triangle-arrow-right.svg");
   background-repeat: no-repeat;
   background-position: 26px 23px;
   background-size: 11px;
@@ -100,11 +101,10 @@
   height: 45px;
   background-color: #121936;
   border-radius: 50%;
-  background-image: url(../img/contacts-phone.svg);
+  background-image: url("../img/contacts-phone.svg");
   background-repeat: no-repeat;
   background-position: 14px 15px;
   background-size: 18px;
-
 }
 
 .cta__mail {
@@ -119,25 +119,26 @@
 }
 
 .cta__mail::before {
- content: "";
- position: absolute;
- top: -13px;
- left: -63px;
- width: 45px;
- height: 45px;
- background-color: #121936;
- border-radius: 50%;
- background-image: url("../img/contacts-mail.svg");
- background-repeat: no-repeat;
- background-position: 14px 15px;
- background-size: 18px;
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: -63px;
+  width: 45px;
+  height: 45px;
+  background-color: #121936;
+  border-radius: 50%;
+  background-image: url("../img/contacts-mail.svg");
+  background-repeat: no-repeat;
+  background-position: 14px 15px;
+  background-size: 18px;
 }
 
 
 @media (min-width: $tablet-width) {
   .cta {
     border-radius: 0 0 60px 60px;
-    &__wrapper{
+
+    &__wrapper {
       width: 768px;
       padding: 0 40px;
       margin-top: -64px;
@@ -191,6 +192,7 @@
   .cta-form-submit span {
     display: none;
   }
+
   .cta__text {
     margin-top: 64px;
     margin-left: 1px;
@@ -202,51 +204,53 @@
   }
 
   .cta__tel {
-   margin-left: 125px;
-   margin-top: 16px;
-   font-size: 28px;
-   font-weight: 700;
-   line-height: 28px;
- }
+    margin-left: 125px;
+    margin-top: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+  }
 
- .cta__tel::before {
-  top: -22px;
-  left: -91px;
-  width: 68px;
-  height: 68px;
-  background-position: 20px 19px;
-  background-size: 28px;
-}
+  .cta__tel::before {
+    top: -22px;
+    left: -91px;
+    width: 68px;
+    height: 68px;
+    background-position: 20px 19px;
+    background-size: 28px;
+  }
 
-.cta__mail {
-  margin-left: 126px;
-  margin-top: 38px;
-  margin-bottom: 80px;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 28px;
-}
+  .cta__mail {
+    margin-left: 126px;
+    margin-top: 38px;
+    margin-bottom: 80px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+  }
 
-.cta__mail::before {
- top: -20px;
- left: -92px;
- width: 68px;
- height: 68px;
- background-position: 20px 25px;
- background-size: 28px;
-}
+  .cta__mail::before {
+    top: -20px;
+    left: -92px;
+    width: 68px;
+    height: 68px;
+    background-position: 20px 25px;
+    background-size: 28px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .cta {
     border-radius: 0 0 60px 60px;
-    &__wrapper{
+
+    &__wrapper {
       position: relative;
       width: 1320px;
       margin-top: -55px;
       padding: 0 60px;
     }
   }
+
   .cta__title {
     margin-top: 158px;
     margin-left: -1px;
@@ -292,47 +296,47 @@
   }
 
   .cta-form-submit span {
-   display: block;
-   font-family: $ff;
-   margin-top: 1px;
-   margin-right: 114px;
-   color: #1d2e5b;
-   font-size: 24px;
-   font-weight: 700;
-   line-height: 24px;
- }
+    display: block;
+    font-family: $ff;
+    margin-top: 1px;
+    margin-right: 114px;
+    color: #1d2e5b;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+  }
 
- .cta__text {
-   margin-top: 71px;
-   margin-left: -2px;
- }
+  .cta__text {
+    margin-top: 71px;
+    margin-left: -2px;
+  }
 
- .cta__tel {
-  margin-left: 283px;
-  margin-top: 54px;
-}
+  .cta__tel {
+    margin-left: 283px;
+    margin-top: 54px;
+  }
 
-.cta__tel::before {
-  top: -32px;
-  left: -122px;
-  width: 90px;
-  height: 90px;
-  background-position: 26px 26px;
-  background-size: 40px;
-}
+  .cta__tel::before {
+    top: -32px;
+    left: -122px;
+    width: 90px;
+    height: 90px;
+    background-position: 26px 26px;
+    background-size: 40px;
+  }
 
-.cta__mail {
-  margin-left: 723px;
-  margin-top: -28px;
-  margin-bottom: 134px;
-}
+  .cta__mail {
+    margin-left: 723px;
+    margin-top: -28px;
+    margin-bottom: 134px;
+  }
 
-.cta__mail::before {
-  top: -32px;
-  left: -122px;
-  width: 90px;
-  height: 90px;
-  background-position: 26px 32px;
-  background-size: 38px;
-}
+  .cta__mail::before {
+    top: -32px;
+    left: -122px;
+    width: 90px;
+    height: 90px;
+    background-position: 26px 32px;
+    background-size: 38px;
+  }
 }

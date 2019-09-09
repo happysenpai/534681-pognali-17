@@ -1,13 +1,13 @@
 .user-info {
   background-color: #edeff6;
-   &__wrapper{
+
+  &__wrapper {
     padding: 0 25px;
     padding-bottom: 18px;
     margin: 0 auto;
     width: 320px;
     display: flex;
     flex-direction: column;
-
   }
 }
 
@@ -151,7 +151,7 @@
 
 @media (min-width: $tablet-width) {
   .user-info {
-    &__wrapper{
+    &__wrapper {
       display: flex;
       width: 768px;
       padding: 0 40px;
@@ -286,12 +286,13 @@
 
 @media (min-width: $desktop-width) {
   .user-info {
-    &__wrapper{
+    &__wrapper {
       position: relative;
       width: 1320px;
       padding: 0 60px;
     }
   }
+
   .user-info__levelup {
     position: absolute;
     top: -210px;
