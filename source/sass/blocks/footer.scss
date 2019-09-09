@@ -8,38 +8,53 @@
     display: flex;
     flex-direction: column;
     width: 320px;
-    height: 231px;
     margin: 0 auto;
     margin-top: -37px;
-    margin-bottom: 8px;
-    padding: 0 25px;
+    height: 239px;
+    padding: 0 25px
   }
 }
 .footer__logo {
-  position: absolute;
-  top: 38px;
-  left: 110px;
-  width: 200px;
+  position: relative;
+  margin-top: 36px;
+  margin-left: 86px;
+  width: 100px;
   height: 19px;
-  background-image: url("../img/logo-mobile-blue@1x.png");
-  background-repeat: no-repeat;
 }
 
 .footer__social {
+  position: relative;
+  margin-top: 31px;
+  margin-left: 27px;
+}
+
+.footer__social-list {
   display: flex;
+  position: relative;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.footer__social::after {
+  content: "";
+  display: block;
   position: absolute;
-  left: 76px;
-  top: 78px;
+  top: 82px;
+  left: -27px;
+  width: 270px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .footer__social-item {
   display: flex;
-  margin-right: 45px;
-  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 0;
+
 }
 
 .footer__social-facebook {
-  position: absolute;
+  position: relative;
   background-image: url("../img/facebook.svg");
   background-size: 10px;
   background-position: 16px 13px;
@@ -51,7 +66,7 @@
 }
 
 .footer__social-vk {
-  position: absolute;
+  position: relative;
   background-image: url("../img/vk.svg");
   background-size: 25px;
   background-position: 9px 16px;
@@ -63,7 +78,7 @@
 }
 
 .footer__social-instagram {
-  position: absolute;
+  position: relative;
   background-image: url("../img/instagram.svg");
   background-size: 18px;
   background-position: 13px 13px;
@@ -73,38 +88,132 @@
   height: 45px;
   background-color: #ffd74b;
 }
-.footer__dev {
-  position: absolute;
-  top: 196px;
-  left: 26px;
+
+.footer__copyright {
+  position: relative;
+  margin-top: 40px;
 }
 
-.footer__logo-academy {
+.footer__copyright-link {
+  position: relative;
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+.footer__copyright-logo {
   position: absolute;
-  top: 188px;
-  right: 19px;
+  top: -8px;
+  right: -194px;
   width: 40px;
 }
 @media (min-width: $tablet-width) {
   .footer {
     border-radius: 60px 60px 0 0;
-    margin-top: 1px;
     &__wrapper{
       flex-direction: row;
-      width: 688px;
-      height: 147px;
-      margin: 0 40px;
+      justify-content: space-between;
+      width: 768px;
+      height: 154px;
+      margin-top: -53px;
     }
   }
+
+  .footer__logo {
+    margin-top: 54px;
+    margin-left: 16px;
+    width: 164px;
+    height: 42px;
+  }
+
+  .footer__social {
+   margin-top: 46px;
+   margin-left: -52px;
+ }
+
+ .footer__social::after {
+  display: none;
+}
+
+
+.footer__copyright-link {
+  margin-top: 1px;
+  margin-left: 1px;
+  color: #444444;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__social-facebook{
+ width: 60px;
+ height: 60px;
+ background-size: 16px;
+ background-position: 22px 15px
+}
+
+.footer__social-vk {
+ width: 60px;
+ height: 60px;
+ background-size: 32px;
+ background-position: 13px 22px;
+}
+
+.footer__social-instagram {
+  width: 60px;
+  height: 60px;
+  background-size: 24px;
+  background-position: 18px 18px;
+}
+.footer__copyright {
+ margin-top: 62px;
+ margin-right: 65px;;
+}
+.footer__copyright-logo {
+  top: -5px;
+  right: -56px;
+}
+
 }
 @media (min-width: $desktop-width) {
   .footer {
     border-radius: 60px 60px 0 0;
     &__wrapper {
-      flex-direction: row;
-      width:1320px;
-      margin: 0 60px;
+      width: 1440px;
+      padding: 0 60px;
     }
   }
+
+  .footer__logo {
+    margin-top: 51px;
+    margin-left: -1px;
+    width: 198px;
+    height: 52px;
+  }
+
+  .footer__social {
+    margin-top: 0px;
+    margin-left: -84px;
+  }
+
+  .footer__social-list {
+    margin-top: 48px;
+    margin-left: 0px;
+  }
+
+  .footer__copyright {
+   margin-top: 63px;
+   margin-right: 53px;
+ }
+
+ .footer__copyright-link {
+
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.footer__copyright-logo {
+  top: -4px;
+  left: 122px;
+}
 }
 

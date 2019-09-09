@@ -1,64 +1,56 @@
-var maplink          = document.querySelector(".active-map");
-contactlink      = document.querySelector(".active-contact");
-popcontact       = document.querySelector(".popup-write-us");
-popmap           = document.querySelector(".popup-map");
-closemap         = document.querySelector(".button-close-map");
-closeform        = document.querySelector(".button-close-form");
-form             = popcontact.querySelector("form");
-fname             = popcontact.querySelector("#user-name");
-email            = popcontact.querySelector("#user-email");
-textarea         = popcontact.querySelector("#user-msg");
+
+// window.onscroll = function() {scrollFunction()};
+// function scrollFunction() {
+//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//     document.getElementById("scroll-menu").style.display = "flex";
+//   } else {
+//     document.getElementById("scroll-menu").style.display = "none";
+//   }
+// }
 
 
-maplink.addEventListener("click", function (evt) {
+var rateslink     = document.querySelector(".rates__button-show")
+modalrates    = document.querySelector(".rates-modal");
+modalclose    = document.querySelector(".rates-modal__button-close");
+menuclose    = document.querySelector(".menu-modal__list");
+menulink    = document.querySelector(".intro__menu");
+modalmenu    = document.querySelector(".menu-modal");
+
+rateslink.addEventListener("click", function (evt) {
   evt.preventDefault();
-  popmap.classList.add("popup-show");
-  console.log("открыли карту");
+  modalrates.classList.add("modal-show");
 });
 
-contactlink.addEventListener("click", function (evt) {
+modalclose.addEventListener("click", function (evt) {
   evt.preventDefault();
-  popcontact.classList.add("popup-show");
-  console.log("открыли форму");
-});
-
-
-closemap.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  popmap.classList.remove("popup-show");
-  console.log("закрыли карту");
-});
-closeform.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  popcontact.classList.remove("popup-show");
-  popcontact.classList.remove("modal-error");
-  console.log("закрыли форму");
+  modalrates.classList.remove("modal-show");
 });
 
 window.addEventListener("keydown", function (evt) {
   if (evt.keyCode === 27) {
     evt.preventDefault();
-    if (popmap.classList.contains("popup-show")){
-      popmap.classList.remove("popup-show");
-    }
-  }
-});
-window.addEventListener("keydown", function (evt) {
-  if (evt.keyCode === 27) {
-    evt.preventDefault();
-    if (popcontact.classList.contains("popup-show")){
-      popcontact.classList.remove("popup-show");
-      popcontact.classList.remove("modal-error");
+    if (modalrates.classList.contains("modal-show")){
+      modalrates.classList.remove("modal-show");
     }
   }
 });
 
-form.addEventListener("submit", function (evt) {
-  if (!fname.value || !email.value || !textarea.value) {
+/*menulink.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  modalmenu.classList.add("modal-show");
+});
+
+menuclose.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  modalmenu.classList.remove("modal-show");
+});
+
+window.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
     evt.preventDefault();
-    popcontact.classList.remove("modal-error");
-    popcontact.offsetWidth = popcontact.offsetWidth;
-    popcontact.classList.add("modal-error");
-    console.log("Нужно ввести имя, пчтовый адрес и описание");
+    if (modalmenu.classList.contains("modal-show")){
+      modalmenu.classList.remove("modal-show");
     }
-  });
+  }
+});
+*/

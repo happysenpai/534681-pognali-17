@@ -1,7 +1,9 @@
 .header {
+  position: relative;
   background-color: #161c35;
   background-size: 100% auto;
-  margin: 0px -8px;
+  border-radius: 0 0 20px 20px;
+  z-index: 6;
   &__wrapper{
     position: relative;
     padding: 0 25px;
@@ -10,21 +12,20 @@
     width: 320px;
     display: flex;
     flex-direction: column;
-     }
+  }
 }
 
 .header__logo {
-  margin-top: 20px;
-  width: 200px;
+  margin-top: 28px;
+  width: 100px;
   height: 19px;
-  background-image: url("../img/logo-mobile-white@1x.png");
   background-repeat: no-repeat;
 }
 
 .header__menu {
   position: absolute;
   right: 24px;
-  top: 22px;
+  top: 30px;
   width: 26px;
   height: 16px;
   background-image: url("../img/menu.svg");
@@ -42,17 +43,22 @@
 }
 
 .header__title {
-  margin-top: 56px;
+  position: relative;
+  display: block;
+  margin-top: 53px;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
-  margin-bottom: 9px;
+  margin-bottom: 3px;
+  padding-bottom: 9px;
+  border-radius: 2px;
+
 }
 
 @media (min-width: $tablet-width) {
   .header {
     &__wrapper{
-      width: 688px;
+      width: 768px;
       padding: 0 40px;
       margin-bottom: 0;
     }
@@ -60,7 +66,8 @@
   .header__logo {
     margin-top: 45px;
     height: 42px;
-    background-image: url("../img/logo-tablet-white@1x.png");
+    width: 166px;
+    height: 42px;
   }
 
   .header__menu {
@@ -70,8 +77,8 @@
 
   .header__button-back {
     display: block;
-    top: -108px;
-    right: -475px;
+    top: -85px;
+    right: -476px;
     width: 123px;
     position: relative;
     color: #ffffff;
@@ -86,7 +93,7 @@
     content: "";
     position: absolute;
     left: 141px;
-    top: 1px;
+    top: 3px;
     width: 40px;
     height: 40px;
     background-image: url("../img/return.svg");
@@ -106,7 +113,7 @@
     text-transform: uppercase;
     text-decoration: none;
     width: 188px;
-    height: 39px;
+    height: 50px;
     border-radius: 25px;
     background-color: #ffd74b;
     text-align: center;
@@ -118,9 +125,9 @@
   }
 
   .header__title {
-    margin-top: 131px;
+    margin-top: 127px;
     margin-left: 34px;
-    margin-bottom: 64px;
+    margin-bottom: 34px;
     font-size: 60px;
     font-weight: 700;
     line-height: 70px;
@@ -136,8 +143,9 @@
 }
 .header__logo {
   margin-top: 48px;
+  width: 200px;
   height: 52px;
-  background-image: url("../img/logo-desktop-white@1x.png");
+
 }
 
 .header__menu {

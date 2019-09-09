@@ -1,6 +1,8 @@
 .pagination {
+  position: relative;
   background-color: #edeff6;
-  &__wrapper{
+  padding-top: 1px;
+   &__wrapper{
     padding: 0 25px;
     margin: 0 auto;
     padding-top: 25px;
@@ -18,7 +20,7 @@
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 94px;
-  margin-top: -14px;
+  margin-top: -16px;
 }
 
 .pagination__more::before {
@@ -35,7 +37,7 @@
   position: relative;
   background-color: #ffffff;
   margin-top: 18px;
-  margin-bottom: 97px;
+  margin-bottom: 135px;
 }
 
 .pages {
@@ -74,16 +76,17 @@
   .pagination {
     &__wrapper{
       position: relative;
-      width: 688px;
+      width: 768px;
       padding: 0 40px;
     }
   }
   .pagination__more {
     font-size: 21px;
     font-weight: 800;
-    margin-left: 296px;
-    margin-top: 7px;
+    margin-left: 297px;
+    margin-top: 4px;
     z-index: 1;
+    letter-spacing: -0.4px;
   }
 
   .pagination__more::before {
@@ -137,7 +140,7 @@
     width: 688px;
     height: 100px;
     border-radius: 20px;
-    margin-top: 47px;
+    margin-top: 48px;
     margin-bottom: 62px;
   }
 
@@ -167,6 +170,7 @@
 
 @media (min-width: $desktop-width) {
   .pagination {
+        padding-bottom: 46px;
     &__wrapper{
       width: 1320px;
       padding: 0 60px;
